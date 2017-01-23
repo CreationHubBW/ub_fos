@@ -1,0 +1,84 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+
+<div class="container mtb">
+
+	<div class="row space-top space-below">
+		<!-- CAROUSEL -->
+		{% include home_page_carousel.html %}
+	</div>
+	
+	<div class="row space-top space-below">
+		
+		<!-- NEWS COLUMN -->
+		<div class="col-lg-6 col-md-6">
+			<div class="panel panel-news-events">
+				<div class="panel-heading">
+					<h3 class="panel-title">LATEST NEWS</h3>
+				</div>
+				<div class="panel-body">
+					{% for post in site.categories['blog'] limit:5 %} 
+						<p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+					{% endfor %}
+					<button type="button" class="btn btn-default btn-sm" style="float:right;">All News</button>
+				</div>
+			</div>
+		</div> <!-- /col-lg-5 -->
+		
+		<!-- EVENTS COLUMN -->
+		<div class="col-lg-6 col-md-6">
+			<div class="panel panel-news-events">
+				<div class="panel-heading">
+					<h3 class="panel-title">UPCOMING EVENTS</h3>
+				</div>
+				<div class="panel-body">
+					{% for post in site.categories['question'] %} 
+						<p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+					{% endfor %}
+					<button type="button" class="btn btn-default btn-sm" style="float:right;"><a href="#">All Events</a></button>
+				</div>
+			</div>
+        </div> <!-- /col-lg-5 -->
+
+    </div><!--/row -->
+	
+	<!-- QUICK LINKS -->
+	<!-- Departments, People, Research, Vacancies -->
+	<div class="row space-top space-below">
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">	 
+				<span class="title">DEPARTMENTS</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">PEOPLE</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">RESEARCH</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+		<div class="quick-link-block col-md-3 col-sm-6 col-xs-12">
+			<a href="/departments">
+				<span class="title">VACANCIES</span>
+				<div class="hline"></div>
+				<span class="image" style="background-image: url(/assets/img/dna_img.jpg)"></span>
+			</a>
+		</div> <!-- /col-md-3 col-sm-6 col-xs-12 -->
+	</div>
+
+</div><!--/container -->
+
+
+<!--DEPARTMENT SECTOR-->

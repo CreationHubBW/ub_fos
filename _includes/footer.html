@@ -1,0 +1,37 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4 class="centre">About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-4">
+                <h4 class="centre">Contacts And Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+                <p>
+                   <a href="mailto:{{ site.email}}">{{ site.email}}</a> 
+                </p>
+                <p>
+                     <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
+                </p>
+                   
+                
+            </div>
+            <div class="col-lg-4">
+                <h4 class="centre">Locate The University</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><!--row -->
+    </div><!--container -->
+</div><!--footerwrap -->

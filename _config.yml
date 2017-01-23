@@ -1,0 +1,127 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: UB F.O.S
+description: "University of Botswana's Faculty of Science"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+url: https://creationhubbw.github.io/ub_fos/
+permalink: ':title/'
+
+markdown: kramdown
+baseurl: ""
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#6666ff" #"#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: facebook
+    url: https://www.facebook.com/pages/University-of-Botswana/106350239395508
+  - title: youtube
+    url:
+  - title: google-plus
+    url:
+  - title: linkedin
+    url:
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+#address:
+#   - lines: 
+#     - Some Ave, 987,
+#     - 23890, New York,
+#     - United States.
+# email: hello@solidtheme.com
+# tel: +34 8493-4893
+address:
+  - lines:
+    - 4775 Notwane Rd.
+    - Gaborone, Botswana
+    - Private Bag 0022
+email: someemail@mail.com
+tel: +267 355-0000
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Prof Prof J. R. Atlhopheng
+    position: Dean, Faculty of Science
+    text: BSc (East Anglia,UK), M.S. (London Kings College, UK), PhD (Wollongwong, Australia)
+    img: user.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:Deanscience@mopipi.ub.bw
+      - title: user
+        url: http://www.ub.bw/content/id/2559/pid/2082/ac/1/fac/1/dep/79/Prof-M.P-Modisi/
+  - name: Prof.B.Moseki
+    position: Deputy Dean, Faculty of Science
+    text: BSc (UB), M.Phil (Aberdeen), PhD (Essex)
+    img: user.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:mosekib@mopipi.ub.bw
+      - title: user
+        url: creationhub.github.io
+  - name: L.M. Paledi
+    position: Faculty Administrator
+    text: BA, MPA (UB)
+    img: Paledi.jpg
+    social:
+      - title: envelope #use for email address
+        url:  paledi@mopipi.ub.bw
+      - title: user
+        url: creationhub.github.io
+  - name: Moeng Segaetsho
+    position: Manager, Human Resources
+    text: BA Public Administration and Political Science (UB), MSc Human Resources Management (Salford University, UK)
+    img: user.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:Segaetshom@UB.AC.BW
+      - title: user
+        url: creationhub.github.io
+    
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "© 2016 University of Botswana"
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Welcome to the website of the Faculty of Science, University of Botswana, where current and future students as well as other visitors can find essential information about our activities.
+The Faculty of Science is dedicated to the following:<br>
+
+•	To promote excellence in teaching, research and service<br>
+•	To develop the critical abilities of students through the study of Science<br>
+•	To help students become responsible members of society through their education and proficiency in the various branches of Science.<br>
+•	To cooperate with other Faculties in the training of various professionals, e.g. BES Science and BED secondary.<br>
+•	To provide a firm Year 1 foundation in the Basic Sciences for those students who transfer to other faculties.<br>
+•	To provide a firm intellectual base for those students who are designated for transfer to other institutions to take programmes which are not offered in this university e.g. aeronautical engineering, medicine, veterinary science, pharmacy.
+•	To prepare its graduates for further study and post-graduate work in various fields of Science, especially as they relate to Botswana<br>
+•	To conduct research in various fields of Science, especially as they relate to Botswana.<br>
+Today, more than ever before, Science has become central, even intertwined with economic development of countries and their citizens. This means that science has to keep evolving to keep up with changing national and world needs. This requires experts equipped with enough competencies and intelligence, to be able to steer the development of science and expertise, and help influence the opinion of professionals home and abroad. We hope that through our work, we will continue to contribute positively to advancement of this noble field.
+We offer various programmes and continue to introduce new and revised ones, to ensure that those who choose to study with us, get maximum benefit and value for money.
+Come and visit us, broaden your knowledge, give us your opinion or maybe just help us in creating and developing our programmes.<br>\nThere's always room for new ideas.
+"
+    author: Prof Julius Atlhopheng
+    position: Dean, Faculty of Science
