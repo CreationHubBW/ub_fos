@@ -28,14 +28,21 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Comic Sans', sans-serif;
 	font-weight: 400;
 	color: #384452;
 	}
 
+.section {
+	position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+    color: #a30000;
 }
 
 p { 
@@ -121,11 +128,11 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #6666ff;
+	color: #7bebef;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #6666ff;
+	color: #7bebef;
 	background-color: transparent;
 }
 
@@ -156,8 +163,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #6666ff;
-  border-color: #6666ff;
+  background-color: #7bebef;
+  border-color: #7bebef;
 }
 
 .dmbutton:hover,
@@ -217,11 +224,8 @@ a:focus {
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
-/*ATTEMPTED BACKGROUND CHANGES HERE*/
 #headerwrap {
-	background-color: #6666ff;
-	/*background-image: url('/assets/img/home-page-logo.png') no-repeat center top;*/
-	min-height: 0px;
+	background-color: #7bebef;
 	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
@@ -229,18 +233,52 @@ a:focus {
 
 #headerwrap h3,
 #headerwrap h5 {
-	color: white;
+	color: #a30000;
 	font-weight: 400;
+    font-size: 2.5em;
+    text-align: left;
+    font-family: Papyrus, fantasy;
 }
 
 #headerwrap h1 {
 	color: white;
 	margin-bottom: 25px;
+    font-size: 4em;
+    text-align: left;
 }
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
 }
+
+
+/**********************************************************************
+* Presentation + Dean's Welcome Section
+***********************************************************************/
+#owl-presentation .item img{
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+.dean-section {
+    background: #384452;
+	width: auto;
+	height: 350px;
+	margin-left: -30px;
+    margin-right: -30px;
+}
+
+.dean-section p {
+    color: #ffffff;
+    float: left;
+}
+
+.dean-section img {
+    height: 100%;
+    float: left;
+}
+
 
 /* Services Wrap */
 #service {
@@ -249,7 +287,7 @@ a:focus {
 }
 
 #service i {
-	color: #6666ff;
+	color: #7bebef;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -296,14 +334,14 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#6666ff;
+	background-color:#7bebef;
 	background-color:rgba(0,179,254,.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: #6666ff;
+    background-color: #7bebef;
     background-color:rgba(0,179,254,.8);
     position: absolute;
     top: 0;
@@ -380,7 +418,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: #6666ff
+	color: #7bebef
 }
 
 /*	################################################################
@@ -389,7 +427,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #6666ff;
+	background: #7bebef;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
@@ -424,7 +462,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #6666ff;
+	color: #7bebef;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -440,7 +478,7 @@ csmall {
 }
 
 .badge-theme {
-	background: #6666ff;
+	background: #7bebef;
 }
 
 /* Contact Page */
