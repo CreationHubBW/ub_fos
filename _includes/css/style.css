@@ -25,12 +25,13 @@
 	width: 300px;
 }
 body { 
-	background: #ffffff; 
+	background: {{ site.colors.secondary }}; 
 	margin: 0; 
 	height: 100%; 
 	font-family: 'Comic Sans', sans-serif;
 	font-weight: 400;
-	color: {{ site.colors.secondary }};
+/*	color: {{ site.colors.secondary }};*/
+    color: #000000;
 	}
 
 .section {
@@ -42,7 +43,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-    color: #a30000;
+    color: #ffffff;
 }
 
 p { 
@@ -103,54 +104,6 @@ a:focus {
 	text-align: center
 }
 
-/*	################################################################
-	BOOTSTRAP MODIFICATIONS & TWEAKS
-################################################################# */
-.navbar {
-	min-height: 70px;
-	padding-top: 10px;
-	margin-bottom: 0px;
-}
-
-.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
-}
-
-.navbar-header .navbar-brand {
-	color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
-	background-color: transparent;
-}
-
-.navbar-default {
-	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
-}
-
-.dropdown-menu {
-	background: {{ site.colors.secondary }};
-}
-
-.dropdown-menu > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
-
 .btn-theme {
   color: #fff;
   background-color: {{ site.colors.secondary }};
@@ -201,8 +154,12 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
-	margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px 15px;
+    background: rgba(255, 255, 255, 0.75);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 
 .mb {
@@ -221,13 +178,14 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
-/*	################################################################
-	SITE WRAPS
-################################################################# */
+
+/**********************************************************************
+*	Header & Menus
+******************************************************************* */
 #headerwrap {
 	background-color: {{ site.colors.primary }};
-	padding-top: 100px;
-	padding-bottom: 50px;
+    margin-top: 50px;
+	padding: 100px 0; 
 	text-align: center;
 }
 
@@ -251,6 +209,62 @@ a:focus {
 	margin: 0 auto;
 }
 
+.navbar {
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.navbar-header .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: {{ site.colors.primary }};
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: {{ site.colors.primary }};
+	background-color: transparent;
+}
+
+.navbar-default {
+	background-color: {{ site.colors.secondary }};
+	border-color: transparent;
+}
+
+.dropdown-menu {
+	background: {{ site.colors.secondary }};
+}
+
+.dropdown-menu > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.social {
+  /*background: red; */
+    color: #1e90ff;
+    margin: 0 15px 0 15px;
+}
+
+.social:hover {
+    animation: wiggle 2.0s infinite;
+    animation-delay: -19s;
+}
+
+
 
 /**********************************************************************
 * Presentation + Dean's Welcome Section
@@ -265,19 +279,40 @@ a:focus {
     background: {{ site.colors.secondary }};
 	width: auto;
 	height: 350px;
-	margin-left: -30px;
-    margin-right: -30px;
+    margin: 0;
 }
 
 .dean-section p {
     color: #ffffff;
-    float: left;
 }
 
 .dean-section img {
     height: 100%;
     float: left;
 }
+
+#w_message {
+	text-align: center;
+	height: 200px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#w_message_wrapper {
+	-webkit-animation: autoscroll 50s linear infinite;
+}
+#w_message_wrapper:hover {
+	-webkit-animation-play-state:paused;
+}
+
+
+/**********************************************************************
+* Departments, Research & News Section
+***********************************************************************/
+#drn {
+    margin: 0;
+}
+
 
 
 /* Services Wrap */
@@ -654,3 +689,26 @@ a.anchor{
 .space-below {
     margin-top: 20px;
 }
+
+
+
+
+
+/*************************************************************************************************
+* The Animations
+*************************************************************************************************/
+@keyframes autoscroll {
+  from { 
+    transform: translate3d(0,0,0);
+  }
+  to {
+    transform: translate3d(0,-90%,0);
+  }
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(45deg); }
+   95% { transform: rotate(-45deg); }
+  100% { transform: rotate(0deg); }
