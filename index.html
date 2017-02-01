@@ -17,158 +17,165 @@ permalink: /
 </div>
     
 <div class="hline"></div>
-    
-<div class="container mtb">
-        <!-- Departments , Research & News -->
-        <div class="row space-top space-below" id="drn">
-            
-            <!-- Departments SECTION-->
-            <div class="col-lg-4">
-                <div class="departments-section">
-                    
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">RESEARCH</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="department" id="bio_dep_home">
-                                <p>BIOLOGICAL SCIENCE</p>
-                            </div>
-                            <div class="department" id="chem_dep_home">
-                                <p>CHEMISTRY DEPARTMENT</p>
-                            </div>
-                            <div class="department" id="phy_dep_home">
-                                <p>PHYSICS</p>
-                            </div>
-                            <div class="department" id="geo_dep_home">
-                                <p>GEOLOGY</p>
-                            </div>
-                            <div class="department" id="cs_dep_home">
-                                <p>COMPUTER SCIENCE</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- /Departments SECTION -->
-            
-            
-            <!-- Research SECTION -->
-            <div class="col-lg-4">
-                <div class="research-section">
-                
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">RESEARCH</h3>
-                            <a href="#" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">More Info</strong>
-                        </a>
-                        </div>
-                        <div class="panel-body">
-                            {% for post in site.categories['blog'] limit:5 %}
-                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-                            {% endfor %}
-                        </div>  
-                    </div>
-                    
-                    
-                </div>
-                
-            </div>
-            <!-- /Research SECTION -->
-            
-            
-            <!-- News SECTION -->
-            <div class="col-lg-4">
-                <div class="news-section">
-<!--
-                    <div class="section" id="customer-review">
-                        <h3>LATEST NEWS</h3>
-                        <div class="hline-w"></div>
-                        <div id="owl-reviews" class="owl-carousel owl-theme">
-							<div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-							<div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-                            <div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-						</div>
-                    </div>
--->
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">LATEST NEWS</h3>
-                            <a href="contact.html" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">More Info</strong>
-                        </a>
-                        </div>
-                        <div class="panel-body">
-                            {% for post in site.categories['blog'] limit:5 %} 
-                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div class="news-section">
-<!--
-                    <div class="section" id="customer-review">
-                        <h3>LATEST EVENTS</h3>
-                        <div class="hline-w"></div>
-                        <div id="owl-reviews" class="owl-carousel owl-theme">
-							<div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-							<div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-                            <div class="item">
-                                <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                                <div class="hline-w"></div>
-                                <h5>John</h5>
-                            </div>
-						</div>
-                    </div>
--->
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">UPCOMING EVENTS</h3>
-                            <a href="contact.html" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">More Info</strong>
-                        </a>
-                        </div>
-                        <div class="panel-body">
-                            {% for post in site.categories['question'] %} 
-                                <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- /News SECTION -->
-            
-        </div>
-        <!-- Departments , Research & News -->
-	
-	
+ 
 
-</div><!--/container -->
+
+<!-- Departments , Research & News -->
+<div class="container mtb">
+    
+    <div class="row space-top space-below" id="drn">
+
+        <!-- Departments SECTION-->
+        <div class="col-lg-4">
+            <div class="departments-section">
+
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">RESEARCH</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="department" id="bio_dep_home">
+                            <p>BIOLOGICAL SCIENCE</p>
+                        </div>
+                        <div class="department" id="chem_dep_home">
+                            <p>CHEMISTRY DEPARTMENT</p>
+                        </div>
+                        <div class="department" id="cs_dep_home">
+                            <p>COMPUTER SCIENCE</p>
+                        </div>
+                        <div class="department" id="phy_dep_home">
+                            <p>ENVIRONMENTAL SCIENCE</p>
+                        </div>
+                        <div class="department" id="geo_dep_home">
+                            <p>GEOLOGY</p>
+                        </div>
+                        <div class="department" id="geo_dep_home">
+                            <p>MATHEMATICS</p>
+                        </div>
+                        <div class="department" id="phy_dep_home">
+                            <p>PHYSICS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /Departments SECTION -->
+
+
+        <!-- Research SECTION -->
+        <div class="col-lg-4">
+            <div class="research-section">
+
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">RESEARCH</h3>
+                        <a href="#" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        {% for post in site.categories['blog'] limit:5 %}
+                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                        {% endfor %}
+                    </div>  
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- /Research SECTION -->
+
+
+        <!-- News SECTION -->
+        <div class="col-lg-4">
+            <div class="news-section">
+<!--
+                <div class="section" id="customer-review">
+                    <h3>LATEST NEWS</h3>
+                    <div class="hline-w"></div>
+                    <div id="owl-reviews" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                    </div>
+                </div>
+-->
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">LATEST NEWS</h3>
+                        <a href="contact.html" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        {% for post in site.categories['blog'] limit:5 %} 
+                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="news-section">
+<!--
+                <div class="section" id="customer-review">
+                    <h3>LATEST EVENTS</h3>
+                    <div class="hline-w"></div>
+                    <div id="owl-reviews" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                        <div class="item">
+                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
+                            <div class="hline-w"></div>
+                            <h5>John</h5>
+                        </div>
+                    </div>
+                </div>
+-->
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">UPCOMING EVENTS</h3>
+                        <a href="contact.html" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        {% for post in site.categories['question'] %} 
+                            <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /News SECTION -->
+
+    </div>
+
+</div>
+<!-- /Departments , Research & News -->
                 
 <style>
     $("#owl-reviews").owlCarousel({

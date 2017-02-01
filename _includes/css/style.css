@@ -183,8 +183,7 @@ a:focus {
 *	Header & Menus
 ******************************************************************* */
 #headerwrap {
-/*	background-color: {{ site.colors.primary }};
-    */
+	background-color: {{ site.colors.primary }};
     margin-top: 50px;
 	padding: 100px 0; 
 	text-align: center;
