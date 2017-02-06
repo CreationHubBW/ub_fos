@@ -256,7 +256,7 @@ a:focus {
 .social {
   /*background: red; */
     color: #1e90ff;
-    margin: 0 0 0 8px;
+    margin: 0 15px 0 15px;
 }
 
 .social:hover {
@@ -324,20 +324,16 @@ a:focus {
 /*    margin: 0 -15px;*/
 }
 
-#bio_dep_home {background-color:#29293d;}
-#bio_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#chem_dep_home {background-color:#3d3d5c;}
-#chem_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
-#cs_dep_home {background-color:#52527a;}
+#cs_dep_home {background-color:#737373;}
 #cs_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#env_dep_home {background-color:#666699;}
-#env_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
-#geo_dep_home {background-color:#8585ad;}
-#geo_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#mat_dep_home {background-color:#a3a3c2;}
-#mat_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#phy_dep_home {background-color:#c2c2d6;}
+#bio_dep_home {background-color:#8c8c8c;}
+#bio_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
+#chem_dep_home {background-color:#a6a6a6;}
+#chem_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
+#phy_dep_home {background-color:#bfbfbf;}
 #phy_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
+#geo_dep_home {background-color:#d9d9d9;}
+#geo_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
 
 .department:hover {
     animation: bounce-up 2s infinite;
