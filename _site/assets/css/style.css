@@ -183,7 +183,7 @@ a:focus {
 *	Header & Menus
 ******************************************************************* */
 #headerwrap {
-	background-color: #00b3fe;
+	background-color: #1e90ff;
     margin-top: 50px;
 	padding: 100px 0; 
 	text-align: center;
@@ -194,7 +194,6 @@ a:focus {
 	color: #a30000;
 	font-weight: 400;
     font-size: 2.5em;
-    text-align: left;
     font-family: Papyrus, fantasy;
 }
 
@@ -202,7 +201,6 @@ a:focus {
 	color: white;
 	margin-bottom: 25px;
     font-size: 4em;
-    text-align: left;
 }
 
 #headerwrap .img-responsive {
@@ -256,7 +254,7 @@ a:focus {
 .social {
   /*background: red; */
     color: #1e90ff;
-    margin: 0 0 0 8px;
+    margin: 0 15px 0 15px;
 }
 
 .social:hover {
@@ -269,6 +267,10 @@ a:focus {
 /**********************************************************************
 * Presentation + Dean's Welcome Section
 ***********************************************************************/
+#presentation {
+    padding: 0 16px;
+}
+
 #owl-presentation .item img{
     display: block;
     width: 100%;
@@ -276,7 +278,7 @@ a:focus {
 }
 
 .dean-section {
-    background: #384452;
+    background: #1e90ff;
 	width: auto;
 	height: 350px;
     margin: 0;
@@ -480,6 +482,7 @@ a:focus {
 }
 
 #cwrap h3 {
+    color: #000000;
 	margin-bottom: 60px;
 }
 
@@ -489,8 +492,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-    background-color: #000000;
-/*	background: #384452;*/
+	background: #384452;
 }
 
 #footerwrap p {

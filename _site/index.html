@@ -39,7 +39,7 @@
 
     <body>
         <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -57,7 +57,7 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="/departments/">
           DEPARTMENTS<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/cs">COMPUTER SCIENCE</a></li>
+              <li><a href="/cs/">COMPUTER SCIENCE</a></li>
               <li class="divider"></li>
               <li><a href="#">BIOLOGY</a></li>
               <li class="divider"></li>
@@ -95,13 +95,9 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 himg">
                 <img src="/assets/img/UB-logo.png" class="img-responsive">
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
                 <h1>FACULTY OF SCIENCE</h1><br />
                 <h5>Welcome To All Things Science In UB.</h5>
-            </div>
             <!--<div class="col-lg-8 col-lg-offset-2 himg">-->
             <!--    <img src="/assets/img/home-page-logo.png" class="img-responsive">-->
             <!--</div>-->
@@ -110,13 +106,13 @@
 </div><!-- /headerwrap -->
 
 
-      <div class="container mtb">
+      <!-- Presentation SECTION -->
+<div class="container mtb" id="presentation">
     
     <!-- Presentaiton SECTION -->
-    <div class="section">
-        <div class="row presentation">
-            <!-- CAROUSEL -->
-            <!-- Presentation SECTION -->
+    <div class="row">
+        <!-- CAROUSEL -->
+        <!-- Presentation SECTION -->
 <div class="section">
     <div class="presentation">
         <!-- Carousel -->
@@ -132,7 +128,7 @@
     
     <div class="dean-section">
         <div class="col-lg-5 col-md-5">
-            <img src="/assets/img/members/DEAN.jpg" alt="dean"/>
+            <img src="/assets/img/members/DEAN.jpg"alt="dean"/>
         </div>
         <div class="col-lg-7 col-md-7">
             <h3>Dean's Welcome</h3>
@@ -175,16 +171,13 @@
     });
 
 </script>
-        </div>
+
     </div>
     
 </div>
-    
-<div class="hline"></div>
- 
+<!-- /Presentation SECTION -->
 
-
-<!-- Departments , Research & News -->
+<!-- Students , Vacancies & Partners -->
 <div class="container mtb">
     
     <div class="row space-top space-below" id="drn">
@@ -227,8 +220,26 @@
         <!-- /Departments SECTION -->
 
 
-        <!-- Research SECTION -->
+        <!-- Research & People SECTION -->
         <div class="col-lg-4">
+            
+            <div class="people-section">
+
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">STAFF</h3>
+                        <a href="#" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        
+                    </div>  
+                </div>
+
+
+            </div>
+            
             <div class="research-section">
 
                 <div class="panel panel-news-events">
@@ -253,29 +264,6 @@
         <!-- News SECTION -->
         <div class="col-lg-4">
             <div class="news-section">
-<!--
-                <div class="section" id="customer-review">
-                    <h3>LATEST NEWS</h3>
-                    <div class="hline-w"></div>
-                    <div id="owl-reviews" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                    </div>
-                </div>
--->
                 <div class="panel panel-news-events">
                     <div class="panel-heading">
                         <h3 class="panel-title">LATEST NEWS</h3>
@@ -291,29 +279,6 @@
 
 
             <div class="news-section">
-<!--
-                <div class="section" id="customer-review">
-                    <h3>LATEST EVENTS</h3>
-                    <div class="hline-w"></div>
-                    <div id="owl-reviews" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                        <div class="item">
-                            <p><i class="fa fa-quote-left fa-2x"></i> I really enjoyed my stay here. Great atmosphere and views.<i class="fa fa-quote-right fa-2x"></i> </p>
-                            <div class="hline-w"></div>
-                            <h5>John</h5>
-                        </div>
-                    </div>
-                </div>
--->
                 <div class="panel panel-news-events">
                     <div class="panel-heading">
                         <h3 class="panel-title">UPCOMING EVENTS</h3>
@@ -333,9 +298,92 @@
     </div>
 
 </div>
+<!-- /Students , Vacancies & Partners -->
+
+
+<!-- Departments , Research & News -->
+<div class="container mtb">
+    
+    <div class="row space-top space-below" id="drn">
+
+        <!-- Students SECTION -->
+        <div class="col-lg-8">
+            
+            <div class="students-section">
+
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">FOR STUDENTS</h3>
+                        <a href="#" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        
+                    </div>  
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- /Students SECTION -->
+
+
+        <!-- Vacancies SECTION -->
+        <div class="col-lg-4">
+            <div class="news-section">
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">VACANCIES &amp; JOB POSTS</h3>
+                        <a href="contact.html" class="ribbon non-semantic-protector">
+                        <strong class="ribbon-content">More Info</strong>
+                    </a>
+                    </div>
+                    <div class="panel-body">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /Vacancies SECTION -->
+
+    </div>
+
+</div>
 <!-- /Departments , Research & News -->
-                
-<style>
+
+
+<!-- Clients SECTION -->
+<div id="cwrap">
+    <div class="container">
+        <div class="row centered">
+            <h3>OUR PARTNERS</h3>
+            
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="/assets/img/clients/client01.png" class="img-responsive">
+                </div>
+            
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="/assets/img/clients/client02.png" class="img-responsive">
+                </div>
+            
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="/assets/img/clients/client03.png" class="img-responsive">
+                </div>
+            
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="/assets/img/clients/client04.png" class="img-responsive">
+                </div>
+            
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/cwrap -->
+<!-- /Clients SECTION -->
+
+
+<script>
     $("#owl-reviews").owlCarousel({
 
       autoPlay: 3000,
@@ -343,9 +391,19 @@
       slideSpeed : 500,
       singleItem: true,
       pagination: true
-
     });
-</style>
+    
+    $(document).ready(function(){
+      $(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 500) { // check if user scrolled more than 50 from top of the browser window
+          $(".navbar-fixed-top").css("background-color", "#000000"); // if yes, then change the color of class "navbar-fixed-top" to white (#f7f7f7)
+          $(".nav li").css("font-color", "red");
+        } else {
+          $(".navbar-fixed-top").css("background-color", "#384452"); // if not, change it back to transparent
+        }
+      });
+    });
+</script>
 
         <div id="footerwrap">
     <div class="container">

@@ -183,7 +183,7 @@ a:focus {
 *	Header & Menus
 ******************************************************************* */
 #headerwrap {
-	background-color: #00b3fe;
+	background-color: #1e90ff;
     margin-top: 50px;
 	padding: 100px 0; 
 	text-align: center;
@@ -194,7 +194,6 @@ a:focus {
 	color: #a30000;
 	font-weight: 400;
     font-size: 2.5em;
-    text-align: left;
     font-family: Papyrus, fantasy;
 }
 
@@ -202,7 +201,6 @@ a:focus {
 	color: white;
 	margin-bottom: 25px;
     font-size: 4em;
-    text-align: left;
 }
 
 #headerwrap .img-responsive {
@@ -269,6 +267,10 @@ a:focus {
 /**********************************************************************
 * Presentation + Dean's Welcome Section
 ***********************************************************************/
+#presentation {
+    padding: 0 16px;
+}
+
 #owl-presentation .item img{
     display: block;
     width: 100%;
@@ -276,7 +278,7 @@ a:focus {
 }
 
 .dean-section {
-    background: #384452;
+    background: #1e90ff;
 	width: auto;
 	height: 350px;
     margin: 0;
@@ -324,16 +326,20 @@ a:focus {
 /*    margin: 0 -15px;*/
 }
 
-#cs_dep_home {background-color:#737373;}
-#cs_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#bio_dep_home {background-color:#8c8c8c;}
+#bio_dep_home {background-color:#29293d;}
 #bio_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#chem_dep_home {background-color:#a6a6a6;}
+#chem_dep_home {background-color:#3d3d5c;}
 #chem_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
-#phy_dep_home {background-color:#bfbfbf;}
-#phy_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#geo_dep_home {background-color:#d9d9d9;}
+#cs_dep_home {background-color:#52527a;}
+#cs_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
+#env_dep_home {background-color:#666699;}
+#env_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
+#geo_dep_home {background-color:#8585ad;}
 #geo_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
+#mat_dep_home {background-color:#a3a3c2;}
+#mat_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
+#phy_dep_home {background-color:#c2c2d6;}
+#phy_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
 
 .department:hover {
     animation: bounce-up 2s infinite;
@@ -476,6 +482,7 @@ a:focus {
 }
 
 #cwrap h3 {
+    color: #000000;
 	margin-bottom: 60px;
 }
 
@@ -485,8 +492,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-    background-color: #000000;
-/*	background: #384452;*/
+	background: #384452;
 }
 
 #footerwrap p {
