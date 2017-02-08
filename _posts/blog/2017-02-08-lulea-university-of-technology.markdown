@@ -5,7 +5,6 @@ date:   2017-02-07 11:00:01
 author: Admin
 categories:
 - blog
-- Update
 img: post04.jpg
 thumb: thumb05.jpg
 ---
