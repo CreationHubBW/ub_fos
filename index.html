@@ -16,7 +16,7 @@ permalink: /
 </div>
 <!-- /Presentation SECTION -->
 
-<!-- Students , Vacancies & Partners -->
+<!-- Departments , Research & News -->
 <div class="container mtb">
     
     <div class="row space-top space-below" id="drn">
@@ -128,12 +128,20 @@ permalink: /
                     <div class="panel-heading">
                         <h3 class="panel-title">UPCOMING EVENTS</h3>
                         <a href="contact.html" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
+                        <strong class="ribbon-content">All Events</strong>
                     </a>
                     </div>
                     <div class="panel-body">
-                        {% for post in site.categories['question'] %} 
-                            <p style="text-align:right"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                        {% for post in site.categories['events'] %}
+                            <div class="event">
+                                <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
+                                    <span class="day">{{ post.day }}</span>
+                                    <span class="month">{{ post.month }}</span>
+                                </a>
+                                <div class="event-description">
+                                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                                </div>
+                            </div>
                         {% endfor %}
                     </div>
                 </div>
@@ -145,10 +153,9 @@ permalink: /
     </div>
 
 </div>
-<!-- /Students , Vacancies & Partners -->
+<!-- /Departments , Research & News -->
 
-
-<!-- Departments , Research & News -->
+<!-- Students , Vacancies & Partners -->
 <div class="container mtb">
     
     <div class="row space-top space-below" id="drn">
@@ -203,7 +210,7 @@ permalink: /
     </div>
 
 </div>
-<!-- /Departments , Research & News -->
+<!-- /Students , Vacancies & Partners -->
 
 
 <!-- Clients SECTION -->

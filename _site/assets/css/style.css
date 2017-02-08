@@ -740,7 +740,10 @@ a.anchor{
     overflow: hidden;
 }
 
-/* #Custom Panel - News & Events */
+
+/*************************************************************************************************
+* Custom Panels - Landing Page
+*************************************************************************************************/
 .panel-news-events {
   border-color: #384452;
 }
@@ -749,6 +752,38 @@ a.anchor{
   background-color: #384452;
   border-color: #384452;
 }
+
+.event .event-date {
+    background: #384452;
+    padding: 0.5em;
+    text-align: center;
+    width: 50px;
+    display: table-cell;
+}
+.event {
+    margin: 0 0 1em 0;
+}
+.event .event-date .day {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.event .event-date .month {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.event .event-description {
+    height: auto;
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
 
 /* So as to prevent using 'br' tags */
 @media (min-width: 950px)
