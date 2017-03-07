@@ -10,25 +10,23 @@
 ################################################################# */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+/*
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+*/
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-	* {
-		margin: 0;
-		padding: 0px;
-	}
-.staff_img{
-	height: 300px;
-	width: 300px;
+* {
+    margin: 0;
+    padding: 0px;
 }
 body {
 	background: #384452;
 	margin: 0;
 	height: 100%;
-	font-family: 'Comic Sans', sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 /*	color: #384452;*/
     color: #000000;
@@ -179,67 +177,76 @@ a:focus {
 	margin-bottom: 25px;
 }
 
-/**********************************************************************
-*	Header & Menus
-******************************************************************* */
-#headerwrap {
-	background-color: #1e90ff;
-    margin-top: 50px;
-	padding: 100px 0;
-	text-align: center;
+
+
+
+/*************************************************************************************************
+* Menu
+*************************************************************************************************/
+.navbar-default {
+    padding: 13px;
+    border: 0;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
-#headerwrap h3,
-#headerwrap h5 {
-	color: #a30000;
-	font-weight: 400;
-    font-size: 2.5em;
-    font-family: Roboto, sans-serif;
+.navbar-default .navbar-toggle {
+    background-color: #222;
+    color: #fff;
+    border-color: #fff;
+    transition: .2s;
 }
 
-#headerwrap h1 {
-	color: white;
-	margin-bottom: 25px;
-    font-size: 4em;
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #222;
+    color: #ffa500;
+    transition: .2s;
 }
 
-#headerwrap .img-responsive {
-	margin: 0 auto;
+.navbar-default .navbar-brand {
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    font-weight: 800;
+    font-size: 2em;
+    color: #1e90ff;
+    transition: .2s;
 }
 
-.navbar {
-	padding-top: 10px;
-	margin-bottom: 0px;
-}
-
-.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
-}
-
-.navbar-header .navbar-brand {
-	color: white;
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffa500;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
+    font-size: 1em;
+    border-radius: 32px;
+	color: #fff;
+    padding: 1em 1em;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #00b3fe;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 2px solid #00b3fe;
+    color: #fff;
+    -webkit-transition: border-bottom .1s;
+    -moz-transition: border-bottom .1s;
+    transition: border-bottom .1s;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #00b3fe;
-	background-color: transparent;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #1e90ff;
+    color: #000;
+    border-bottom: 2px solid #fff;
 }
 
-.navbar-default {
-	background-color: #384452;
-	border-color: transparent;
-}
+
+.navbar-fixed-top .navbar-collapse {
+    height: auto;
+  }
 
 .dropdown-menu {
 	background: #384452;
@@ -251,9 +258,77 @@ a:focus {
 	font-size: 12px;
 }
 
+
+/* Responsive Feature - When To Collapse Collapsable */
+@media (max-width: 1200px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      padding: 0;
+      border-width: 0 0 1px;
+      transition: 0.3s;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+      padding: 1em;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+/* Responsive Feature - Nav Links */
+@media (max-width: 1200px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 1.5em;
+        color: #000;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #fff;
+        -webkit-transition: color 1s;
+        -moz-transition: color 1s;
+        transition: color 1s;
+    }
+    
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        background-color: #222;
+        color: #fff;
+        border-radius: 32px;
+    }
+}
+
+
+
 .social {
   /*background: red; */
-    color: #1e90ff;
+    color: #ffffff;
     margin: 0 15px 0 15px;
 }
 
@@ -261,6 +336,56 @@ a:focus {
     animation: wiggle 2.0s infinite;
     animation-delay: -19s;
 }
+
+
+
+
+
+/**********************************************************************
+*	Header
+******************************************************************* */
+#headerwrap {
+	background-color: #1e90ff;
+/*
+    background: url('../img/h-back.jpg') no-repeat;
+	background-position:center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+*/
+    margin-top: 50px;
+	padding: 100px 0;
+	text-align: center;
+}
+
+#headerwrap h1 {
+	color: #fff;
+	margin-bottom: 25px;
+    font-size: 4em;
+}
+
+#headerwrap .img-responsive {
+	margin: 0 auto;
+}
+
+#headerwrap .header-welcome-block {
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(1, 1, 1, 0.85);
+	border-radius: 10px;
+	box-shadow: 0 1px 5px rgba(1, 0, 0, 0.95);
+}
+
+#headerwrap .header-welcome-block p {
+    color: #fff;
+}
+
+.text-icon {
+    color: #222;
+}
+
+
 
 
 
@@ -278,9 +403,9 @@ a:focus {
 }
 
 .dean-section {
-    background: #1e90ff;
-	width: auto;
-	height: 350px;
+    background-color: #1e90ff;
+	position: relative;
+    overflow: hidden;
     margin: 0;
 }
 
@@ -290,14 +415,18 @@ a:focus {
 
 .dean-section img {
     height: 100%;
-    float: left;
 }
 
 #w_message {
 	text-align: center;
 	height: 200px;
+    padding: 0 5em;
 	overflow-y: hidden;
 	overflow-x: hidden;
+    
+    background: rgba(1, 1, 1, 0.75);
+	border-radius: 10px;
+	box-shadow: 0 1px 5px rgba(1, 0, 0, 0.85);
 }
 
 #w_message_wrapper {
@@ -346,134 +475,21 @@ a:focus {
     border-radius: 20px;
     background-color: black;
     color: #ffffff;
+    transition: .4s;
+}
+
+
+/**********************************************************************
+* Students, Vacancies & Partners Section
+***********************************************************************/
+#sva {
+    margin: 0;
 }
 
 
 
-#customer-review {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    background: #1C3F95;
-    border: 2px;
-    font-weight: 600;
-    border-radius: 13px;
-}
 
-#owl-reviews .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
-
-/* Services Wrap */
-#service {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-#service i {
-	color: #00b3fe;
-	font-size: 60px;
-	padding: 15px;
-}
-
-/* Portfolio Wrap */
-#portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
-	display: block;
-	text-align: center
-}
-
-#portfoliowrap h3 {
-	margin-bottom: 25px;
-}
-
-.portfolio {
-	padding:0 !important;
-	margin:0 !important;
-	display:block;
-}
-
-
-.portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
-
-.tpl6 h3
-{
-	color:#fff;
-	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
-	text-transform:uppercase;
-}
-.tpl6 .dmbutton
-{
-	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
-}
-.tpl6 .bg
-{
-	height:100%;
-	width:100%;
-	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
-	text-align:center;
-}
-
-/* Testimonials Wrap */
-#twrapback {
-    background-color: #00b3fe;
-    background-color:rgba(0,179,254,.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
-    position: relative;
-    margin-top: 0px;
-	padding-top:60px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
-	width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#twrap i {
-	font-size: 50px;
-	color: white;
-	margin-bottom: 25px;
-}
-
-#twrap p {
-	color: white;
-	font-size: 15px;
-	line-height: 30px;
-}
-
-/* clients logo */
+/* Partners logo */
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
@@ -486,13 +502,15 @@ a:focus {
 	margin-bottom: 60px;
 }
 
+
+
 /*************************************************************************************************
 * Footer
 *************************************************************************************************/
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: #222;
 }
 
 #footerwrap p {
@@ -539,6 +557,8 @@ a:focus {
     border-width: 1em 1em 0 0;
 }
 .non-semantic-protector { position: relative; z-index: 1; }
+
+
 
 /*	################################################################
 	PAGE CONFIGURATIONS
@@ -714,32 +734,6 @@ a.anchor{
     background-color: #6666ff;
 }
 
-/* Styling of Quick Links on the home page */
-.quick-link-block {
-	background:#e0ded9;
-}
-
-.quick-link-block .title {
-	display: block;
-    font-size: 24px;
-    font-weight: bold;
-    left: 0;
-    line-height: 1.1;
-    min-height: 70px;
-	background:#000000;
-    padding: 16px 10px 12px 10px;
-    text-align: center;
-}
-
-.quick-link-block .image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 180px;
-    overflow: hidden;
-}
-
 
 /*************************************************************************************************
 * Custom Panels - Landing Page
@@ -785,31 +779,6 @@ a.anchor{
 }
 
 
-/* So as to prevent using 'br' tags */
-@media (min-width: 950px)
-.space-below {
-    margin-bottom: 50px;
-}
-@media (min-width: 950px)
-.space-top {
-    margin-top: 50px;
-}
-@media (min-width: 700px)
-.space-below {
-    margin-bottom: 30px;
-}
-@media (min-width: 700px)
-.space-top {
-    margin-top: 30px;
-}
-.space-below {
-    margin-bottom: 20px;
-}
-.space-below {
-    margin-top: 20px;
-}
-
-
 
 
 
@@ -843,3 +812,17 @@ a.anchor{
    85% { transform: rotate(45deg); }
    95% { transform: rotate(-45deg); }
   100% { transform: rotate(0deg); }
+}
+    
+    
+
+/*************************************************************************************************
+* Error Page
+*************************************************************************************************/
+#error-page {
+    background-color: lightseagreen;
+    text-align: center;
+    margin-top: -65px;
+    padding: 10% 0;
+    height: 100%;
+}

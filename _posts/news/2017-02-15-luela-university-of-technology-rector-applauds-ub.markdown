@@ -4,7 +4,7 @@ title:  "Lulea University of Technology Rector applauds UB"
 date:   2017-02-14 11:00:01
 author: Admin
 categories:
-- blog
+- news
 img: post05.jpg
 thumb: thumb06.jpg
 ---

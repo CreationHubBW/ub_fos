@@ -4,7 +4,7 @@ title:  "UB keen to collaborate with Lulea University of Technology"
 date:   2017-02-07 11:00:01
 author: Admin
 categories:
-- blog
+- news
 img: post04.jpg
 thumb: thumb05.jpg
 ---

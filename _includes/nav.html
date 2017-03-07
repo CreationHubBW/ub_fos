@@ -1,51 +1,66 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
-  <div class="container">
+<div class="navbar navbar-default navbar-fixed-top centered" role="navigation" id="navbar">
+    
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
       <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
     </div>
+    
     <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li {% if page.title == "Home" %}class="active dropdown"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/departments/" | prepend: site.baseurl }}">
-          DEPARTMENTS<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="{{"/cs/" | prepend: site.baseurl }}">COMPUTER SCIENCE</a></li>
-              <li class="divider"></li>
-              <li><a href="#">BIOLOGY</a></li>
-              <li class="divider"></li>
-              <li><a href="#">MATHEMATICS</a></li>
-            </ul>
-          </li>
-        <li {% if page.title == "News and Announcements" %}class="active dropdown"{% endif %}><a href="{{"/news/" | prepend: site.baseurl }}">NEWS	&#38; ANNOUNCEMENTS</a></li>
-        <li {% if page.title == "People" %}class="active dropdown"{% endif %}><a href="{{"/people/" | prepend: site.baseurl }}">PEOPLE</a></li>
-        <li {% if page.title == "Portfolio" %}class="active dropdown"{% endif %}><a href="{{"/portfolio/" | prepend: site.baseurl }}">GALLERY</a></li>
-        <li {% if page.title == "About" %}class="active dropdown"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
-        <li {% if page.title == "Contact" %}class="active dropdown"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
-        <li>
-        <div class="social">
-            <i class="fa fa-facebook-square fa-3x"></i>
-        </div>
-        </li>
-        <li>
-        <div class="social">
-            <i class="fa fa-linkedin-square fa-3x"></i>
-        </div>
-        </li>
-          <li>
-        <div class="social">
-            <i class="fa fa-google-plus-square fa-3x"></i>
-        </div>
-        </li>
-
-      </ul>
+        <ul class="nav navbar-nav">
+            <li {% if page.title == "Home" %}class="active dropdown"{% endif %}>
+                <a href="{{"/" | prepend: site.baseurl }}">HOME</a>
+            </li>
+            <li {% if page.title == "Departments" %}class="active dropdown"{% endif %} class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/departments/" | prepend: site.baseurl }}">
+                    DEPARTMENTS<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{"/cs/" | prepend: site.baseurl }}">COMPUTER SCIENCE</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">BIOLOGY</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">CHEMISTRY</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">ENVIRONMENTAL SCIENCE</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">GEOLOGY</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">MATHEMATICS</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{"/error/" | prepend: site.baseurl }}">PHYSICS</a></li>
+                </ul>
+            </li>
+            <li {% if page.title == "News and Announcements" %}class="active dropdown"{% endif %}>
+                <a href="{{"/news/" | prepend: site.baseurl }}">NEWS &amp; ANNOUNCEMENTS</a>
+            </li>
+            <li {% if page.title == "People" %}class="active dropdown"{% endif %}>
+                <a href="{{"/error/" | prepend: site.baseurl }}">PEOPLE</a>
+            </li>
+            <li {% if page.title == "About" %}class="active dropdown"{% endif %}>
+                <a href="{{"/error/" | prepend: site.baseurl }}">ABOUT</a>
+            </li>
+            <li {% if page.title == "Contact" %}class="active dropdown"{% endif %}>
+                <a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a>
+            </li>
+            <li>
+                <div class="social">
+                    <i class="fa fa-facebook-square fa-3x"></i>
+                </div>
+            </li>
+            <li>
+                <div class="social">
+                    <i class="fa fa-linkedin-square fa-3x"></i>
+                </div>
+            </li>
+            <li>
+                <div class="social">
+                    <i class="fa fa-google-plus-square fa-3x"></i>
+                </div>
+            </li>
+        </ul>
     </div><!--/.nav-collapse -->
-  </div>
 </div>
