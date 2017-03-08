@@ -10,84 +10,124 @@ permalink: /cs/
     }
 </style>
 
-    <div class="container mtb">
-        
-        <div class="row centered">
+<div class="container mtb">
+
+    <div class="row centered">
+
+        <div class="col-lg-8 col-md-8">
+
+            <!--WELCOME MESSAGE-->
+            <div class="row">
+                <h1>WELCOME TO COMPUTER SCIENCE</h1>
+                <h4>System.out.print("Hello World!")</h4>
+            </div>
+
+            <div class="spacing"></div>
+
+            <div class="row">
+                <!--IMAGES AND/OR CAROUSEL-->
+                <!--<img src="/assets/img/departments/compsciImg.jpg">-->
+                {% include cs_carousel.html %}
+            </div>
+
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+
+            <style>
+                .card {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    border-radius: 8px;
+                    padding: 34px;
+                }
+/*
+                .statements-container {
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-flex-wrap: wrap;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                }
+*/
+                .statements {
+                    height: 300px;
+                }
+            </style>
+
+            <div class="row card" style="margin-bottom: 64px;">
+                <div class="col-md-4">
+                    <img src="../cs/img/staff/csteam_am.png">
+                </div>
+                <div class="col-md-8">
+                    <h4>Head of Department Remarks</h4>
+                    <p class="text-left">
+                        We welcome you on behalf of the faculty, staff, and students of the Department of Computer Science at the University of Botswana. These are exciting times for computer scientists as the discipline is now widely recognized as an essential source of tools and techniques for advancements in nearly all spheres of human endeavor. -<a href="#"> Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 card statements">
+                    <i class="fa fa-star fa-3x"></i>
+                    <h4>Vision </h4>
+                    <p>To be a leading Department of the University of Botswana and academic Center of Excellence in Africa and the region through 
+                        advancement and promotion of scholarship, research and innovation
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5 card statements">
+                    <i class="fa fa-location-arrow fa-3x"></i>
+                    <h4>Mission</h4>
+                    <p>To advance the intellectual capacity of the nation and the international community by offering quality 
+                        academic programmes that are bench-marked against international standards.</p>
+                </div>
+            </div>
+
+            <div class="spacing"></div>
+            <hr>
             
-            <div class="col-lg-8 col-md-8">
-			
-				<!--WELCOME MESSAGE-->
-				<div class="row">
-					<h1>WELCOME TO COMPUTER SCIENCE</h1>
-					<h4>System.out.print("Hello World!")</h4>
-				</div>
-                
-                <div class="spacing"></div>
-            
-				<div class="row">
-					<!--IMAGES AND/OR CAROUSEL-->
-					<!--<img src="/assets/img/departments/compsciImg.jpg">-->
-					{% include cs_carousel.html %}
-				</div>
-            
-                <div class="spacing"></div>
-                <div class="spacing"></div>
-            
-				<div class="row">
-					<div class="col-md-6">
-						<i class="fa fa-star fa-3x"></i>
-						<h4>Vision </h4>
-						<p>To be a leading Department of the University of Botswana and academic Center of Excellence in Africa and the region through 
-						advancement and promotion of scholarship, research and innovation
-						</p>
-					</div>
-				
-					<div class="col-md-6">
-						<i class="fa fa-location-arrow fa-3x"></i>
-						<h4>Mission</h4>
-						<p>To advance the intellectual capacity of the nation and the international community by offering quality 
-						academic programmes that are bench-marked against international standards.</p>
-					</div>
-				</div>
-                
-                <div class="spacing"></div>
-				<hr>
-                
-                <!--QUICK LINKS TO FACULTY SUB PAGES-->
-				<div class="row">
-					<i class="fa fa-link fa-3x"></i>
-					<h4>Quick Links</h4>
-				</div> <!-- /Row -->
-				
-				<div class="spacing"></div>
-				
-				<div class="row">
-					<div class="col-md-3 col-sm-3">
-						<a href="/cs/programmes.html/"><i class="fa fa-laptop fa-3x"></i></a>
-						<h4>Study With Us</h4>
-					</div>
-					
-					<div class="col-md-3 col-sm-3">
-						<a href="/cs/about_cs.html/"><i class="fa fa-map-marker fa-3x"></i></a>
-						<h4>Find Us Here</h4>
-					</div>
-					
-					<div class="col-md-3 col-sm-3">
-						<a href="/cs/staff.html/"><i class="fa fa-users fa-3x"></i></a>
-						<h4>Meet Our People</h4>
-					</div>
-					
-					<div class="col-md-3 col-sm-3">
-						<a href="/cs/cs_communities.html/"><i class="fa fa-globe fa-3x"></i></a>
-						<h4>Join Our Communities</h4>
-					</div>
-				</div> <!-- /Row : Quick Links -->
-                
-            </div><!--col-lg-8-->
-            
-			<!-- CS DEP SIDEBAR -->
-			{% include cs_dep_sidebar.html %}
-            
-        </div><!--row-->
-        
-    </div><!--/container -->
+            <style>
+                .links {
+                    padding: 34px;
+                }
+            </style>
+
+            <!--QUICK LINKS TO FACULTY SUB PAGES-->
+            <div class="row">
+                <i class="fa fa-link fa-3x"></i>
+                <h4>Quick Links</h4>
+            </div> <!-- /Row -->
+
+            <div class="spacing"></div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 links">
+                    <a href="/cs/programmes.html/"><i class="fa fa-laptop fa-3x"></i></a>
+                    <h4>Study With Us</h4>
+                </div>
+
+                <div class="col-md-6 col-sm-6 links">
+                    <a href="/cs/about_cs.html/"><i class="fa fa-map-marker fa-3x"></i></a>
+                    <h4>Find Us Here</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 links">
+                    <a href="/cs/staff.html/"><i class="fa fa-users fa-3x"></i></a>
+                    <h4>Meet Our People</h4>
+                </div>
+
+                <div class="col-md-6 col-sm-6 links">
+                    <a href="/cs/cs_communities.html/"><i class="fa fa-globe fa-3x"></i></a>
+                    <h4>Join Our Communities</h4>
+                </div>
+            </div> <!-- /Row : Quick Links -->
+
+        </div><!--col-lg-8-->
+
+        <!-- CS DEP SIDEBAR -->
+        {% include cs_dep_sidebar.html %}
+
+    </div><!--row-->
+
+</div><!--/container -->
