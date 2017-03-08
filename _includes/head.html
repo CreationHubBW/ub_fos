@@ -3,33 +3,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>  
+    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Sansita" rel="stylesheet">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href={{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}>
-	
+
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
-	
+	<link rel="stylesheet" href={{ "/assets/css/font-awesome.css" | prepend: site.baseurl }}>
+
 	 <!-- Custom Style Sheet -->
 	<link rel="stylesheet" href={{ "/assets/css/style.css" | prepend: site.baseurl }}>
-	
+
 	<!-- Important Owl stylesheet -->
 	<link rel="stylesheet" href={{ "/assets/css/owl.carousel.css" | prepend: site.baseurl }}>
-	 
+
 	<!-- Default Theme -->
 	<link rel="stylesheet" href={{ "/assets/css/owl.theme.css" | prepend: site.baseurl }}>
-	
-	
+
+
 	<!-- JQuery version 2.2.2 -->
 	<script src={{ "/assets/js/jquery.js" | prepend: site.baseurl }}></script>
-	
+
 	<!-- Include js plugin -->
 	<script src={{ "/assets/js/owl.carousel.js" | prepend: site.baseurl }}></script>
-	
+
 	<!-- Bootstrap JS -->
 	<script src={{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}></script>
 </head>
