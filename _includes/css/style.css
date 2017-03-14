@@ -261,7 +261,7 @@ SITE WRAPS
     height: 350px;
 }
 
-.dean-section {
+.welcome-remarks-section {
     background: {{ site.colors.secondary }};
     width: auto;
     height: 350px;
@@ -269,12 +269,12 @@ SITE WRAPS
     margin-right: -30px;
 }
 
-.dean-section p {
+.welcome-remarks-section p {
     color: #ffffff;
     float: left;
 }
 
-.dean-section img {
+.welcome-remarks-section img {
     height: 100%;
     float: left;
 }
