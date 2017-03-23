@@ -36,9 +36,11 @@ permalink: /
                         <div class="department" id="chem_dep_home">
                             <p>CHEMISTRY DEPARTMENT</p>
                         </div>
-                        <div class="department" id="cs_dep_home">
-                            <p>COMPUTER SCIENCE</p>
-                        </div>
+                        <a href="{{ "cs/"  | prepend: site.baseurl }}">
+                            <div class="department" id="cs_dep_home">
+                                <p>COMPUTER SCIENCE</p>
+                            </div>
+                        </a>
                         <div class="department" id="env_dep_home">
                             <p>ENVIRONMENTAL SCIENCE</p>
                         </div>
@@ -227,9 +229,4 @@ permalink: /
       singleItem: true,
       pagination: true
     });
-    
-    /* affix the navbar after scroll below header */
-    $(window).off('.affix')
-    $('#navbar').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
-    $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
 </script>

@@ -41,26 +41,26 @@
                 <a href="{{"/error/" | prepend: site.baseurl }}">PEOPLE</a>
             </li>
             <li {% if page.title == "About" %}class="active dropdown"{% endif %}>
-                <a href="{{"/error/" | prepend: site.baseurl }}">ABOUT</a>
+                <a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a>
             </li>
             <li {% if page.title == "Contact" %}class="active dropdown"{% endif %}>
                 <a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a>
             </li>
-            <li>
-                <div class="social">
-                    <i class="fa fa-facebook-square fa-3x"></i>
-                </div>
-            </li>
-            <li>
-                <div class="social">
-                    <i class="fa fa-linkedin-square fa-3x"></i>
-                </div>
-            </li>
-            <li>
-                <div class="social">
-                    <i class="fa fa-google-plus-square fa-3x"></i>
-                </div>
-            </li>
         </ul>
     </div><!--/.nav-collapse -->
 </nav>
+
+<script>
+    window.onload = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
+    }
+    window.onresize = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
+    }
+</script>
