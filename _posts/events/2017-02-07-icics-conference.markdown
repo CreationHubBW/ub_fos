@@ -1,30 +1,31 @@
 ---
 layout: post
-title: "Computer Science ICICS Conference - May 2017"
+title: "Computer Science ICICS Conference - July 2017"
 date: 2017-02-07 18:59:00
-day: ??
-month: may
+day: 31
+month: jul
 author: Admin
 categories:
 - events
 img: post03.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+The University of Johannesburg (UJ), South Africa and the University Of Botswana (UB) are hosting the Second International Conference on the Internet, Cyber Security and Information Systems.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+###Objectives###
+This will be the second of the first ever successful conference, held in Gaborone Botswana in 2016.  The conference aims at continuing to share challenges and solutions to the continuing problems posed by Internet Based information Systems (especially Cyber Security issues); to share experiences and best practices
 
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+- On policy, strategy and regulatory framework addressing cyber-crime; to share experiences;
+- On areas such as critical infrastructure - including the backbone, services and protection structures such as CERTs;
+- On deployment of cyber-infrastructures and open data sharing for research and innovation.
+- And to address cybersecurity capacity building and to stimulate discussions and interactions regionally and internationally around these areas.
+- On the impact of cyber security on Organizational Information Systems
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
 
-[hampden]: https://github.com/jekyll/jekyll
+The conference will do this by bringing together stakeholders and delegates in workshops. The common running thread for the workshops' interactions and deliberations and outputs will also help feed into the development of a Model National Cybersecurity Strategy that could be used as a template by countries most of which will be represented from the region and the continent to build on.
+
+[Find Out More][link-to-event]
+
+
+[hampden]: https://www.uj.ac.za/faculties/management/Applied-Information-Systems/ICICIS-2017/Pages/default.aspx

@@ -23,7 +23,8 @@
     padding: 0px;
 }
 body {
-	background: #384452;
+/*	background: #384452;*/
+    background-color: #677f98;
 	margin: 0;
 	height: 100%;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -192,7 +193,7 @@ a:focus {
 *************************************************************************************************/
 /* The side navigation menu */
 .sidenav {
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 375px; /* 0 width - change this with JavaScript */
     position: absolute;
     z-index: 99;
     opacity: 0.95;
@@ -479,6 +480,37 @@ a:focus {
     height: 350px;
 }
 
+
+
+
+#owl-staff {
+    text-align: center;
+}
+
+#owl-staff button {
+    display: inherit;
+}
+
+#owl-staff .item {
+    padding: 0 2em;
+}
+
+#owl-staff .item img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#staff-profile-details h3,
+#staff-profile-details h5 {
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+
 .welcome-remarks-section {
     background-color: #1e90ff;
 	position: relative;
@@ -530,8 +562,8 @@ a:focus {
 /**********************************************************************
 * Departments, Research & News Section
 ***********************************************************************/
-#drn {
-    margin: 0;
+#dens {
+    margin: 15px;
 }
 
 .departments-section {

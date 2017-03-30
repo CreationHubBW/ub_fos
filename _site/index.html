@@ -20,17 +20,17 @@
 	<link rel="stylesheet" href=/assets/css/style.css>
 
 	<!-- Important Owl stylesheet -->
-	<link rel="stylesheet" href=/assets/css/owl.carousel.css>
+	<link rel="stylesheet" href=/assets/css/owl.carousel.min.css>
 
 	<!-- Default Theme -->
-	<link rel="stylesheet" href=/assets/css/owl.theme.css>
+	<link rel="stylesheet" href=/assets/css/owl.theme.default.min.css>
 
 
 	<!-- JQuery version 2.2.2 -->
 	<script src=/assets/js/jquery.js></script>
 
 	<!-- Include js plugin -->
-	<script src=/assets/js/owl.carousel.js></script>
+	<script src=/assets/js/owl.carousel.min.js></script>
 
 	<!-- Bootstrap JS -->
 	<script src=/assets/js/bootstrap.min.js></script>
@@ -121,7 +121,10 @@
                 <a href="/news/">NEWS &amp; ANNOUNCEMENTS</a>
             </li>
             <li >
-                <a href="/error/">PEOPLE</a>
+                <a href="/error/">RESEARCH</a>
+            </li>
+            <li >
+                <a href="/error/">STAFF</a>
             </li>
             <li >
                 <a href="/about/">ABOUT</a>
@@ -172,6 +175,9 @@
     <div class="welcome-remarks-section">
         <div class="col-sm-5">
             <img src="/assets/img/members/DEAN.jpg" alt="dean"/>
+            <div>
+            <button class="btn btn-primary" role="button">View Profile</button>
+            </div>
         </div>
         <div class="col-sm-7">
             <h3>Dean's Welcome</h3>
@@ -180,12 +186,11 @@
                 <div id="w_message_wrapper">
                 <p>Welcome to the website of the Faculty of Science, University of Botswana, where current and future students as well as other visitors can find essential information about our activities.<br><br>
                 The Faculty of Science is dedicated to promoting excellence in teaching, research and service.<br>
-                Developing the critical abilities of students through the study of Science in order to help students become responsible members of society through their education and proficiency in the various branches of Science...</p>
+                Developing the critical abilities of students through the study of Science in order to helpsstudents become responsible members of society through their education and proficiency in the various branches of Science...</p>
                 </div>
             </div>
             
             <h3>Prof. Julius Atlhopeng</h3>
-            <button class="btn btn-primary" role="button">Read More</button>
         </div>
     </div>
     
@@ -195,12 +200,12 @@
 
 <script>
     $("#owl-presentation").owlCarousel({
-
-      autoPlay: 3000,
-      stopOnHover: false,
-      slideSpeed : 500,
-      singleItem: true,
-      pagination: false
+        autoplay: true,
+        loop:true,
+        items: 1,
+        dots: false,
+        nav: false,
+        animateIn: true
 
     });
 
@@ -211,205 +216,242 @@
 </div>
 <!-- /Presentation SECTION -->
 
-<!-- Departments , Research & News -->
+<!-- Departments, Events, News & Staff -->
 <div class="container mtb">
     
-    <div class="row" id="drn">
+    <div id="dens">
 
-        <!-- Departments SECTION-->
-        <div class="col-lg-4">
-            <div class="departments-section">
+        
+        <!-- top most SECTION - Depts + Events + People-->
+        <div class="row">
+        
+            <!-- Departments SECTION-->
+            <div class="col-md-4">
+                <div class="departments-section">
 
-                <div class="panel panel-news-events">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">DEPARTMENTS</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="department" id="bio_dep_home">
-                            <p>BIOLOGICAL SCIENCE</p>
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">DEPARTMENTS</h3>
                         </div>
-                        <div class="department" id="chem_dep_home">
-                            <p>CHEMISTRY DEPARTMENT</p>
-                        </div>
-                        <a href="cs/">
-                            <div class="department" id="cs_dep_home">
-                                <p>COMPUTER SCIENCE</p>
+                        <div class="panel-body">
+                            <div class="department" id="bio_dep_home">
+                                <p>BIOLOGICAL SCIENCES</p>
                             </div>
+                            <div class="department" id="chem_dep_home">
+                                <p>CHEMISTRY</p>
+                            </div>
+                            <a href="cs/">
+                                <div class="department" id="cs_dep_home">
+                                    <p>COMPUTER SCIENCE</p>
+                                </div>
+                            </a>
+                            <div class="department" id="env_dep_home">
+                                <p>ENVIRONMENTAL SCIENCE</p>
+                            </div>
+                            <div class="department" id="geo_dep_home">
+                                <p>GEOLOGY</p>
+                            </div>
+                            <div class="department" id="mat_dep_home">
+                                <p>MATHEMATICS</p>
+                            </div>
+                            <div class="department" id="phy_dep_home">
+                                <p>PHYSICS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /Departments SECTION -->
+            
+            
+            <!-- Events SECTION -->
+            <div class="col-md-4">
+                <div class="events-section">
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">UPCOMING EVENTS</h3>
+                            <a href="contact.html" class="ribbon non-semantic-protector">
+                            <strong class="ribbon-content">All Events</strong>
                         </a>
-                        <div class="department" id="env_dep_home">
-                            <p>ENVIRONMENTAL SCIENCE</p>
                         </div>
-                        <div class="department" id="geo_dep_home">
-                            <p>GEOLOGY</p>
-                        </div>
-                        <div class="department" id="mat_dep_home">
-                            <p>MATHEMATICS</p>
-                        </div>
-                        <div class="department" id="phy_dep_home">
-                            <p>PHYSICS</p>
+                        <div class="panel-body">
+                            
+                                <div class="event">
+                                    <a href="/soltrain-project-third-training/" class="event-date">
+                                        <span class="day">7</span>
+                                        <span class="month">mar</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="/soltrain-project-third-training/">Soltrain Project Third Training Of Trainers Course</a></p>
+                                    </div>
+                                </div>
+                            
+                                <div class="event">
+                                    <a href="/eeep-knowledge-sharing-workshop/" class="event-date">
+                                        <span class="day">10</span>
+                                        <span class="month">mar</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="/eeep-knowledge-sharing-workshop/">Enhancing Engineering Education Programme (EEEP) Knowledge Sharing Workshop</a></p>
+                                    </div>
+                                </div>
+                            
+                                <div class="event">
+                                    <a href="/dlis-international-conference/" class="event-date">
+                                        <span class="day">15</span>
+                                        <span class="month">mar</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="/dlis-international-conference/">2017 DLIS International Conference on Information and Knowledge for Competitiveness</a></p>
+                                    </div>
+                                </div>
+                            
+                                <div class="event">
+                                    <a href="/icics-conference/" class="event-date">
+                                        <span class="day">31</span>
+                                        <span class="month">jul</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="/icics-conference/">Computer Science ICICS Conference - July 2017</a></p>
+                                    </div>
+                                </div>
+                            
+                                <div class="event">
+                                    <a href="/computer-science-cisco-conference/" class="event-date">
+                                        <span class="day">??</span>
+                                        <span class="month">jun</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="/computer-science-cisco-conference/">Computer Science CISCO Conference 2017</a></p>
+                                    </div>
+                                </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- /Events Section -->
+        
+        
 
-        </div>
-        <!-- /Departments SECTION -->
+            <!-- News & Research SECTION -->
+            <div class="col-md-4">
 
+                <!-- News SECTION -->
+                <div class="news-section">
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">LATEST NEWS</h3>
+                            <a href="contact.html" class="ribbon non-semantic-protector">
+                            <strong class="ribbon-content">More Info</strong>
+                        </a>
+                        </div>
+                        <div class="panel-body">
+                             
+                                <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
+                             
+                                <p><a href="/lulea-university-of-technology/">UB keen to collaborate with Lulea University of Technology.</a></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- /News SECTION -->                
 
-        <!-- Research & People SECTION -->
-        <div class="col-lg-4">
+            </div>
+            <!-- /News SECTION -->
             
+        </div>
+        <!-- /top most SECTION -->
+        
+        
+        <!-- bottom most SECTION - Staff -->
+        <div class="row">
+            
+        <!-- Staff SECTION -->
+        <div class="col-md-12">
             <div class="people-section">
 
                 <div class="panel panel-news-events">
                     <div class="panel-heading">
                         <h3 class="panel-title">STAFF</h3>
                         <a href="#" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
+                        <strong class="ribbon-content">More Staff</strong>
                     </a>
                     </div>
                     <div class="panel-body">
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_3/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/lulea-university-of-technology_2/">UB keen to collaborate with Lulea University of Technology.</a></p>
-                        
-                    </div>  
-                </div>
+
+                        <div class="row">
+                            <!-- Staff Carousel -->
+                            <div id="owl-staff" class="owl-carousel owl-theme">
 
 
-            </div>
-            
-            <div class="research-section">
+                                
+                                <div class="item">
+                                    <img class="img-circle" src=/assets/img/members/DEAN.jpg alt="Deputy Dean | Prof B. Moseki">
+                                    <div id="staff-profile-details">
+                                        <h3>Deputy Dean</h3>
+                                        <a href="/people/faculty_level/deputy_dean_moseki/"<h5>Prof. B. Moseki</h5></a>
+                                        <h5>BSc (UB), MPhil (Aberdeen), PhD (Essex)</h5>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <img class="img-circle" src=/assets/img/members/paledi.jpg alt="Faculty Administrator | L.M. Paledi">
+                                    <div id="staff-profile-details">
+                                        <h3>Faculty Administrator</h3>
+                                        <a href="/people/faculty_level/faculty_admin_paledi/"<h5>Mr. L.M. Paledi</h5></a>
+                                        <h5>BA, MPA (UB)</h5>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <img class="img-circle" src=/assets/img/members/DEAN.jpg alt="Manager, H.R | P.G Morapedi">
+                                    <div id="staff-profile-details">
+                                        <h3>Manager, HR</h3>
+                                        <a href="/people/faculty_level/hr_manager_morapedi/"<h5>Mr. P.G Morapedi</h5></a>
+                                        <h5>BA + PGDE (UB), MSc</h5>
+                                    </div>
+                                </div>
+                                
 
-                <div class="panel panel-news-events">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">RESEARCH</h3>
-                        <a href="#" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
-                    </a>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="panel-body">
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_3/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/lulea-university-of-technology_2/">UB keen to collaborate with Lulea University of Technology.</a></p>
-                        
-                    </div>  
+                    <script>
+                        $("#owl-staff").owlCarousel({
+                            autoplay: true,
+                            loop:true,
+                            animateIn: true,
+                            animateOut: true,
+                            responsiveClass:true,
+                            responsive:{
+                                0:{
+                                    items:1,
+                                    nav:true
+                                },
+                                600:{
+                                    items:2,
+                                    nav:false
+                                },
+                                1000:{
+                                    items:3,
+                                    nav:true
+                                }
+                            }
+                        });
+                    </script>
                 </div>
 
-
             </div>
-
         </div>
-        <!-- /Research SECTION -->
+        <!-- /Staff SECTION -->
+        
 
+    </div>
+        <!-- /bottom most SECTION -->
 
-        <!-- News SECTION -->
-        <div class="col-lg-4">
-            <div class="news-section">
-                <div class="panel panel-news-events">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">LATEST NEWS</h3>
-                        <a href="contact.html" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
-                    </a>
-                    </div>
-                    <div class="panel-body">
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_3/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/lulea-university-of-technology_2/">UB keen to collaborate with Lulea University of Technology.</a></p>
-                        
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="news-section">
-                <div class="panel panel-news-events">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">UPCOMING EVENTS</h3>
-                        <a href="contact.html" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">All Events</strong>
-                    </a>
-                    </div>
-                    <div class="panel-body">
-                        
-                            <div class="event">
-                                <a href="/soltrain-project-third-training/" class="event-date">
-                                    <span class="day">7</span>
-                                    <span class="month">mar</span>
-                                </a>
-                                <div class="event-description">
-                                    <p><a href="/soltrain-project-third-training/">Soltrain Project Third Training Of Trainers Course</a></p>
-                                </div>
-                            </div>
-                        
-                            <div class="event">
-                                <a href="/eeep-knowledge-sharing-workshop/" class="event-date">
-                                    <span class="day">10</span>
-                                    <span class="month">mar</span>
-                                </a>
-                                <div class="event-description">
-                                    <p><a href="/eeep-knowledge-sharing-workshop/">Enhancing Engineering Education Programme (EEEP) Knowledge Sharing Workshop</a></p>
-                                </div>
-                            </div>
-                        
-                            <div class="event">
-                                <a href="/dlis-international-conference/" class="event-date">
-                                    <span class="day">15</span>
-                                    <span class="month">mar</span>
-                                </a>
-                                <div class="event-description">
-                                    <p><a href="/dlis-international-conference/">2017 DLIS International Conference on Information and Knowledge for Competitiveness</a></p>
-                                </div>
-                            </div>
-                        
-                            <div class="event">
-                                <a href="/icics-conference/" class="event-date">
-                                    <span class="day">??</span>
-                                    <span class="month">may</span>
-                                </a>
-                                <div class="event-description">
-                                    <p><a href="/icics-conference/">Computer Science ICICS Conference - May 2017</a></p>
-                                </div>
-                            </div>
-                        
-                            <div class="event">
-                                <a href="/computer-science-cisco-conference/" class="event-date">
-                                    <span class="day">??</span>
-                                    <span class="month">jun</span>
-                                </a>
-                                <div class="event-description">
-                                    <p><a href="/computer-science-cisco-conference/">Computer Science CISCO Conference 2017</a></p>
-                                </div>
-                            </div>
-                        
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /News SECTION -->
 
     </div>
 
@@ -422,7 +464,7 @@
     <div class="row" id="sva">
 
         <!-- Students SECTION -->
-        <div class="col-lg-8">
+        <div class="col-md-8">
             
             <div class="students-section">
 
@@ -435,15 +477,9 @@
                     </div>
                     <div class="panel-body">
                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_3/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                        
                             <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
                         
-                            <p><a href="/lulea-university-of-technology_2/">UB keen to collaborate with Lulea University of Technology.</a></p>
+                            <p><a href="/lulea-university-of-technology/">UB keen to collaborate with Lulea University of Technology.</a></p>
                         
                     </div>  
                 </div>
@@ -456,7 +492,7 @@
 
 
         <!-- Vacancies SECTION -->
-        <div class="col-lg-4">
+        <div class="col-md-4">
             <div class="news-section">
                 <div class="panel panel-news-events">
                     <div class="panel-heading">
@@ -467,15 +503,9 @@
                     </div>
                     <div class="panel-body">
                          
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_3/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
-                            <p><a href="/luela-university-of-technology-rector-applauds-ub_2/">Lulea University of Technology Rector applauds UB.</a></p>
-                         
                             <p><a href="/luela-university-of-technology-rector-applauds-ub/">Lulea University of Technology Rector applauds UB.</a></p>
                          
-                            <p><a href="/lulea-university-of-technology_2/">UB keen to collaborate with Lulea University of Technology.</a></p>
+                            <p><a href="/lulea-university-of-technology/">UB keen to collaborate with Lulea University of Technology.</a></p>
                         
                     </div>
                 </div>
@@ -517,18 +547,6 @@
     </div><! --/container -->
 </div><! --/cwrap -->
 <!-- /Clients SECTION -->
-
-
-<script>
-    $("#owl-reviews").owlCarousel({
-
-      autoPlay: 3000,
-      stopOnHover: true,
-      slideSpeed : 500,
-      singleItem: true,
-      pagination: true
-    });
-</script>
 
         <div id="footerwrap">
     <div class="container">

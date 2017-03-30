@@ -15,6 +15,9 @@
     <div class="welcome-remarks-section">
         <div class="col-sm-5">
             <img src="{{ "/assets/img/members/DEAN.jpg" | prepend: site.baseurl }}" alt="dean"/>
+            <div>
+            <button class="btn btn-primary" role="button">View Profile</button>
+            </div>
         </div>
         <div class="col-sm-7">
             <h3>Dean's Welcome</h3>
@@ -23,12 +26,11 @@
                 <div id="w_message_wrapper">
                 <p>Welcome to the website of the Faculty of Science, University of Botswana, where current and future students as well as other visitors can find essential information about our activities.<br><br>
                 The Faculty of Science is dedicated to promoting excellence in teaching, research and service.<br>
-                Developing the critical abilities of students through the study of Science in order to help students become responsible members of society through their education and proficiency in the various branches of Science...</p>
+                Developing the critical abilities of students through the study of Science in order to helpsstudents become responsible members of society through their education and proficiency in the various branches of Science...</p>
                 </div>
             </div>
             
             <h3>Prof. Julius Atlhopeng</h3>
-            <button class="btn btn-primary" role="button">Read More</button>
         </div>
     </div>
     
@@ -38,12 +40,12 @@
 
 <script>
     $("#owl-presentation").owlCarousel({
-
-      autoPlay: 3000,
-      stopOnHover: false,
-      slideSpeed : 500,
-      singleItem: true,
-      pagination: false
+        autoplay: true,
+        loop:true,
+        items: 1,
+        dots: false,
+        nav: false,
+        animateIn: true
 
     });
 

@@ -108,4 +108,6 @@ about: "© 2016 University of Botswana"
 
 # Collection Data
 collections:
+  people:
+    output: true
 
