@@ -34,29 +34,41 @@ permalink: /
                             <h3 class="panel-title">DEPARTMENTS</h3>
                         </div>
                         <div class="panel-body">
-                            <div class="department" id="bio_dep_home">
-                                <p>BIOLOGICAL SCIENCES</p>
-                            </div>
-                            <div class="department" id="chem_dep_home">
-                                <p>CHEMISTRY</p>
-                            </div>
+                            <a href="{{ "bio/"  | prepend: site.baseurl }}">
+                                <div class="department" id="bio_dep_home">
+                                    <p>BIOLOGICAL SCIENCES</p>
+                                </div>
+                            </a>
+                            <a href="{{ "chem/"  | prepend: site.baseurl }}">
+                                <div class="department" id="chem_dep_home">
+                                    <p>CHEMISTRY</p>
+                                </div>
+                            </a>
                             <a href="{{ "cs/"  | prepend: site.baseurl }}">
                                 <div class="department" id="cs_dep_home">
                                     <p>COMPUTER SCIENCE</p>
                                 </div>
                             </a>
-                            <div class="department" id="env_dep_home">
-                                <p>ENVIRONMENTAL SCIENCE</p>
-                            </div>
-                            <div class="department" id="geo_dep_home">
-                                <p>GEOLOGY</p>
-                            </div>
-                            <div class="department" id="mat_dep_home">
-                                <p>MATHEMATICS</p>
-                            </div>
-                            <div class="department" id="phy_dep_home">
-                                <p>PHYSICS</p>
-                            </div>
+                            <a href="{{ "env_sci/"  | prepend: site.baseurl }}">
+                                <div class="department" id="env_dep_home">
+                                    <p>ENVIRONMENTAL SCIENCE</p>
+                                </div>
+                            </a>
+                            <a href="{{ "geo/"  | prepend: site.baseurl }}">
+                                <div class="department" id="geo_dep_home">
+                                    <p>GEOLOGY</p>
+                                </div>
+                            </a>
+                            <a href="{{ "math/"  | prepend: site.baseurl }}">
+                                <div class="department" id="mat_dep_home">
+                                    <p>MATHEMATICS</p>
+                                </div>
+                            </a>
+                            <a href="{{ "phys/"  | prepend: site.baseurl }}">
+                                <div class="department" id="phy_dep_home">
+                                    <p>PHYSICS</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
