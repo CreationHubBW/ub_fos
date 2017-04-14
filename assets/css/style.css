@@ -645,6 +645,11 @@ a:focus {
     padding: 0;
 }
 
+.quick-link-type-a img,
+.quick-link-type-b img {
+    width: 100%;   
+}
+
 .quick-link-type-a .quick-link-header {
     background-color: #384452;
 }
@@ -769,7 +774,6 @@ a:focus {
 /* General Tweaks */
 #wrap {
 	background: #00b3fe;
-	margin-bottom: 60px;
 }
 
 #wrap h3 {
