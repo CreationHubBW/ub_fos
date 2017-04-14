@@ -1,0 +1,162 @@
+---
+layout: departments/layout-compsci
+title: Chemistry Home 
+permalink: /chem/
+---
+
+
+<!-- ================================================================== CAROUSEL SECTION -->
+<div class="container mtb" id="presentation">
+    <div class="row">
+        {% include departments/compsci/cs_carousel.html %}
+    </div>
+</div>
+<!-- ================================================================== /CAROUSEL SECTION -->
+
+
+<!-- ================================================================== EVERYTHING ELSE SECTION -->
+
+
+<div class="container mtb">
+
+    <!-- ================================================================== QUICK LINKS SECTION -->
+    <div class="row" id="quick-links">
+        <div class="col-md-3 col-sm-6">
+        <a href="{{"/cs/programmes.html/" | prepend: site.baseurl }}">
+            <div class="quick-link-type-a">
+                <div class="quick-link-header">
+                    <p>STUDY PROGRAMMES</p>
+                </div>
+                <div class="quick-link-body">
+                    <img src="{{"img/home/home_admissions.png" | prepend: site.baseurl }}"/> 
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        <a href="{{"/cs/research.html" | prepend: site.baseurl }}">
+            <div class="quick-link-type-b">
+                <div class="quick-link-header">
+                    <p>RESEARCH</p>
+                </div>
+                <div class="quick-link-body">
+                    <img src="{{"img/home/home_people.png" | prepend: site.baseurl }}"/> 
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        <a href="{{"/cs/staff-cs.html" | prepend: site.baseurl }}">
+            <div class="quick-link-type-a">
+                <div class="quick-link-header">
+                    <p>PEOPLE</p>
+                </div>
+                <div class="quick-link-body">
+                    <img src="{{"img/home/home_research.png" | prepend: site.baseurl }}"/> 
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+        <a href="{{"/cs/communities-cs.html" | prepend: site.baseurl }}">
+            <div class="quick-link-type-b">
+                <div class="quick-link-header">
+                    <p>STUDENTS</p>
+                </div>
+                <div class="quick-link-body">
+                    <img src="{{"img/home/home_students.png" | prepend: site.baseurl }}"/> 
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>
+    <!-- ================================================================== /QUICK LINKS SECTION -->    
+    
+</div>
+
+<div class="container mtb">
+
+    <!-- ================================================================== NEWS SECTION -->
+    <div class="col-md-12">
+            
+            <!-- Events -->
+            <div class="col-md-6">
+                <div class="news-section">
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">UPCOMING EVENTS</h3>
+                            <a href="contact.html" class="ribbon non-semantic-protector">
+                            <strong class="ribbon-content">All Events</strong>
+                        </a>
+                        </div>
+                        <div class="panel-body">
+                            {% for post in site.categories['events'] limit: 3 %}
+                                <div class="event">
+                                    <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
+                                        <span class="day">{{ post.day }}</span>
+                                        <span class="month">{{ post.month }}</span>
+                                    </a>
+                                    <div class="event-description">
+                                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- News -->
+            <div class="col-md-6">
+                <div class="news-section">
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">LATEST NEWS</h3>
+                            <a href="contact.html" class="ribbon non-semantic-protector">
+                            <strong class="ribbon-content">More Info</strong>
+                        </a>
+                        </div>
+                        <div class="panel-body">
+                            {% for post in site.categories['news'] limit:5 %} 
+                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    <!-- ================================================================== /NEWS SECTION -->
+
+</div>
+
+
+
+
+<div class="container mtb">
+    
+    <!-- ================================================================== VACANCIES SECTION -->
+    <div class="col-md-12">
+        <div class="news-section">
+            <div class="panel panel-news-events">
+                <div class="panel-heading">
+                    <h3 class="panel-title">VACANCIES &amp; JOB POSTS</h3>
+                    <a href="contact.html" class="ribbon non-semantic-protector">
+                    <strong class="ribbon-content">VIEW ALL VACANCIES</strong>
+                </a>
+                </div>
+                <div class="panel-body">
+                    {% for post in site.categories['news'] limit:5 %} 
+                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ================================================================== /VACANCIES SECTION -->
+
+</div>
+
+<!-- ================================================================== /EVERYTHING ELSE SECTION -->
