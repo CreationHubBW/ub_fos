@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: UB F.O.S
+title: UB FACULTY OF SCIENCE
 description: "University of Botswana's Faculty of Science"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 url: https://creationhubbw.github.io/ub_fos/
@@ -104,21 +104,19 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "© 2016 University of Botswana"
+about: "© 2017 University of Botswana"
 
 # Collection Data
 collections:
   people:
     output: true
- #Kess: Will unComment it when I'm done   
-#page_gen-dirs: true # uncomment, if you prefer to generate named folders
-#page_gen:
-  #- data: 'cs_staff'
- #   template: 'profile'
- #   name: 'full_name'
- #   dir: 'people'
- # - data: 'cs_astaff'
- #   template: 'profile'
- #   name: 'full_name'
-#    dir: 'people'
+ 
+#Kess: Will unComment it when I'm done
+# uncomment, if you prefer to generate named folders
+page_gen-dirs: true
+page_gen:
+  - data: 'cs_staff'
+    template: 'profile'
+    name: 'full_name'
+    dir: 'people'
 

@@ -1,0 +1,202 @@
+{
+    senior:
+    {full_name: V. L. Narasimhan
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio: Prof. Lakshmi Narasimhan is presently a full professor of Computer Science at the University of Botswana. He has published over 380 papers in the areas of Software Engineering, Sensor Networks, Cloud Computing and Information Engineering and on related case studies extensively.  In particular, his research interests are in IoT, parallel and distributed computing, software testing, data mining, Software process, asset management systems and Standards, sensor networks, Big data, Cloud computing and information management & fusion and their extensive case studies and performance evaluations.  His papers have appeared in such archival journals as the various IEEE Transactions and IEE Proceedings. He has also been the technical chair of six international conferences and has been on the technical panel of over 80 leading International Conferences.  Lakshmi has won competitive research funding to the tune of US$8 million. He has consulted to a number of industries and educational institutions on various IT and Software Engineering projects, including Boeing Aerospace and DoD of Australia and USA. Prof. Narasimhan is a Senior Member of the IEEE & ACM, Fellow of ACS, IEAust (Australia) and IEE (UK). He is a Technical Member of various Standards bodies such as, ISO, ANSI and IEEE. Prof. Narasimhan is an IEEE Distinguished Visitor and an ACM Distinguished Speaker.
+      areas:
+       - Software Development Methodology
+       - Software engineering principles and practice
+       - Embedded Systems Engineering
+       - Research Methodology
+       - Ethical Issues in Computing and Software Engineering
+       - Project Management
+       - Distributed object computing
+       -  operating systems
+       - Software Metrics and Quality Assurance
+
+      research:
+        - Wireless sensor networks
+        - Cloud computing
+        - Big data 
+        - Enterprise architectures
+        - Software Test Data Generation
+        -  Metrics, Software Comprehension and CBSE
+        - Genderization Issues in Computing and Software Engineering
+        - Petri net Theory and Modelling of Systems 
+        - Timeout Batching Arbitration Techniques
+        - Medical Gaming Technologies
+        - Performance Meta Modeling of Algorithms and Parallel Computer Architectures
+        - Research on Dynamic Load Balancing using Interval Arithmetic
+        - Research on Scheduling using Artificial Neural Networks
+        - Parallel and distributed scheduling
+        - Information Management and Exploitation for Intelligence Applications
+        - Multimedia and Geospatial Information Systems
+        - Event algebra system
+
+      publications:
+        - N.Comino and V.Lakshmi Narasimhan, “A Novel Data Distribution Technique for Host-Client Type Parallel Applications”, IEEE Trans. on Parallel and Distributed Systems, vol.13, no.2, Feb. 2002, pp.97-110.
+        - R.S.Tan and V.Lakshmi Narasimhan,  “Mapping of Finite Element Grids Over Parallel Computers Using Neural Networks”, IEE Proc. on Computers and Digital Techniques, vol.145, no.3, May 1997, pp.211-214.
+        - M.Gallagher and V.Lakshmi Narasimhan, "ADTEST - A Test Data Generation Suite for Ada Software Systems", IEEE Trans. on Software Engg., vol.23, no.8, pp.473-484, 1997.
+        - A.Symons and V.Lakshmi Narasimhan, "The Design and Application of PARSIM - A message Passing computeR SIMulator", IEE Proc. on Computers and Digital Techniques, 1997, vol.144, no.6, June 1997, pp.7-14.
+        - A.Symons and V.Lakshmi Narasimhan, "Development of A Method of Optimising Data Distribution on a Loosely Coupled Multiprocessor System", IEE Proc. on Computers and Digital Techniques, vol.143, no.4, July 1996, pp.239-245.
+        - "N. Gupta, A. Rawal,  V. Lakshmi Narasimhan and S. Shiwani, “Accuracy, sensitivity and specificity measurement of various classification techniques on healthcare data”,  IOSR Journal of Computer Engineering (IOSR-JCE), e-ISSN: 2278-0661, p- ISSN: 2278-8727, Volume 11, Issue 5 (May. - Jun. 2013), PP 70-73, http://www.iosrjournals.org/iosr-jce/pages/v11i5.html."
+        - " L. Rajesh, V. Shanthi and V. Lakshmi Narasimhan, “An M/M/1 Based Modeling Approach for the Web Crawled Data”, Indian Journal of Science and Technology, Vol. 9 (35), DOI: 10.17485/ijst/2016/v9i35/101809, September 2016."
+
+      professional: 
+            - "Conference Chair for the International Conference on Advances in Computing, Communication and Information Science (ACCIS-14), Cochin,India, 26-28, June 2014."
+        - "Editor-in-Chief, International Journal of Advances In Engineering and Applied Science, 2014-current "
+        - Fellow Grade Evaluation Panel Member IEE/IET (UK), 2014-.
+        - Member, IEEE MGA (Member and Geographic Activities) Information Technology and Oversight Committee, 2014+.
+        - Panelist, NSF Graduate Research Fellowship Program (GRFP) and other Programs, National Science Foundation (NSF), USA, 2014+.
+        - Distinguished Speaker of ACM (Association for Computing Machinery).
+        - Distinguished Visitor of IEEE (Institute of Electrical and Electronics Engineering), USA.
+        - Scientific Chair of COINFO – 25-27 October 2013, Wuhan, China, http://coinfo.istic.ac.cn
+        - Australian Research Council – Internal Referee and later Distinguished External Referee for the following panels (from 1991- current)- Discovery Grant Program, Industry Linkage Grant Program, Australian Research Fellow Grant Program and Cooperative Research Centre Program (under the Prime Minister’s Office)
+        - Technical Chair and Editor of the Proceedings of the IEEE First ICA3PP (International Conference on Algorithms and Architectures for Parallel Processing) Conference held in Brisbane from 19th to 21st April, 1995.
+        - Technical Chair of ANZIIS 96 - Fourth IEEE Australia and New Zealand Conference on Intelligent Information Systems, Australia, 1996.
+        - Expert Technical Panel Member on ISO Standards Committees TC108/SC 5 and Expert Panel Member of Working Groups- TC108/SC 5/WG6 and TC108/SC 5/WG7, on IT Aspects of Asset Management and Systems Interoperability Issues respectively, USA, 2004-current.
+        - Expert Technical Panel Member of Institution of Electronic and Electrical Engineers, USA (IEEE). (P730 Software Quality Assurance Standards Working Group (WG), Committee/Standard for Systems and software engineering - Life cycle processes - Requirements engineering, ISO/IEC JTC1/SC7, and other Working Groups; and, WG21 Software Asset Management) and IEEE Indic Virtual Keyboards Working Group (P1908.1).
+        - Technical Program Vice-Chair of 2005 International Conference on Computer Design (CDES-05), Monte Carlo Resort, Las Vegas, Nevada, USA, June 27-30, 2005. Co-Editor of CDESD-05 Conference Proceedings.
+        - Session Chair at over 150 sessions in many National and International conferences.
+        - Technical Panel Member of over 80 International Conferences
+        - Co-Convener, “Future Challenges for Informatics in Geophysical Sciences”, American Geophysical Union (www.agu.org) Fall meeting, 14-18 December, San Francisco, CA, USA, 2009.
+        - Conference Chair for the International Conference on Advances in Computing, Communication and Information Science (ACCIS-14), Cochin, India, 26-28, June 2014
+
+        community:
+            - Executive committee member of 4EB Radio Broadcasting Station for Tamil Language Programming, 1991-95.
+            - Technical member and assessor of the ESRL/DSTO Research & Technology Awards Committee, 1998-2000.
+            - Member of the DSTO-ADF Strategic Planning and Policy Committee on Technology, 1999-2000.
+            - Chair and Member of various Selection Panels for Research Scientists and Senior Research Scientists, 1995-2000.
+            -  Chair and Member of various Promotion Panels Senior Research Scientists, Research Scientists and Various cadres of Professional Officers, 1995-2000.
+            - Member Australian Defense-DSTO Futures Technology Forum, 1998-2000.
+            - Consultant through the World Bank to Bundung Institute of Technology (ITB), Indonesia, 2004 – Educational Programs in Computer Science and Software Engineering.
+            - Executive Committee Member, IEEE NSW Section, Australia, 2004 - current.
+            - ABET and SACS Program Accreditation Committee Chair, 2008-2009.
+            - Program Evaluator for Computer Science, ABET (Accreditation Board for Engineering and Technology), USA, 2008-current.
+            - Director (non-remunerating), Asthagiri Herbal Research Foundation, Chennai-96, India.
+
+    }
+        
+    
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+      
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+    
+    - full_name: S. D. Asare
+      prefix: Mr.
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office: Block 232, Office 218
+      email: asared@mopipi.ub.bw
+      phone: 355-2868
+      img: csteam_sda.png
+      bio:
+      areas: I have been teaching a number of courses in the department for the last decade or so. These include Data Structures, Structured Programming, Multimedia Computing and Computer Graphics. My interests are in teaching Java, Computer Graphics under the umbrella of Scientific Computing
+      research: My research areas at the moment centers around security within B2B e-commerce in developing African countries, Big Data and Data Analytics has also been areas I have been researching on
+      publications:
+            -title: S. D. Asare, “Factors affecting the adoption of Big Data analysis and Cloud Computing by SMEs in Developing African Countries – Case Study of Ghana”, International Journal of Artificial Intelligence and Knowledge Discovery, e-ISSN: 2231-0312, Vol. 6, No(2), pp 7 – 12, 2016
+            title: Zablon Akoko Mbero, Sampson Dankyi Asare, “Bridging the Digital Divide: A Myth or Reality. COMPUSOFT, International Journal of Advanced Computing Technology, Vol. 2, No. 6, pp 159 – 163 June 2013 
+            title: Sampson D. Asare, B. Gopolang, O. Mogotlhwane, “Challenges facing SMEs in the adoption of ICT in B2B and B2C E-Commerce: a comparative case study of Botswana and Ghana”, International Journal of Commerce and Management, Vol. 22, No. 4, pp 272 – 285, ISSN 1056-9219, 2012 
+            title: Sampson D. Asare, B. Gopolang, O. Mogotlhwane, “Challenges facing SMEs in the adoption of ICT in B2B and B2C E-Commerce: a comparative case study of Botswana and Ghana”, International Journal of Commerce and Management, Vol. 22, No. 4, pp 272 – 285, ISSN 1056-9219, 2012 
+            title: Sampson D. Asare, “Experiences in andragogical programming to first year students who are also full time workers in an African tertiary institution. Journal of Institute of Maths & Computer Sciences( Comp. Science Series), Vol. 22, No.2(2011), pp. 103- – 107, August. 2011 
+            title: Sampson D. Asare, B. Gopolang, O. Mogotlhwane, “B2B and B2C e-commerce security concerns for SMEs : a case study of two African countries”., International Journal of Knowledge and Research in Management & E-Commerce, Vol. 1(2), pp. 8 – 14, April, 2011 
+            title: Sampson D. Asare, “Grid computing in developing African countries– a myth or a reality”, Journal of Institute of Maths & Computer Sciences( Comp. Sc. Ser), Vol. 21, No.3(2010), pp. 349 – 356, Dec. 2010
+            title: Sampson D. Asare, & E. B. Awuah, “Informatics Applications in Sub-Saharan Africa: Challenges and Opportunities for the Education and HealthCare Sectors” Journal of Institute of Maths & Computer Sciences (Comp. Sc. Ser.) Vol. 19 (1), pp. 11 – 19, June 2008
+            title: Sampson D. Asare, & E. B. Awuah, “A Comparison of three Approaches to teaching a First Course in Object-Oriented System Development Using UML” Journal of Institute of Maths & Computer Sciences (Comp. Sc. Ser.) Vol. 19 (1), pp. 93 –99, December 2008
+            title: Sampson D. Asare, Petros M. Mashwama & Steve Cunningham, “Building Computer Graphics Education in Developing African Countries” Computer & Graphics, Vol (27) 3, pp 369 – 372, June 2003. 
+            title: Asare S.D., Ogwu, F. J. & Mokgweetsi K. “AMASDL -Autonomous Marker Agent System for Distance Learning “, Botswana Journal of Technology Vol. 10 (2), pp. 49 – 60, October 2001
+            title: Ogwu, F. J, Asare S. D, & Gandhi V., An Object-Oriented Knowledge-based Traffic Light Simulator in Botswana, Botswana Journal of Technology, Vol. 10 (2), pp. 1 – 7, October 2001
+            title: Asare, S.D.& Billy Hamathi, GASA – Genetic-Algorithm-based Stock Analyzer, Botswana Journal of Technology, Vol. 9, No. 2, pp 52 – 59, October, 2000. 
+            title: Asare, SD, ‘A Comparison of Analytical and Experimental results of algorithms on Sequences’, Botswana Journal of Technology, Vol. 8 (2), pp 1-6, October, 1999 
+    
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+      
+    - full_name: Y. Ayalew
+      prefix: Prof
+      department: Computer Science
+      position: Senior Lecturer
+      qualification: BSc, MSc (Oslo)
+      office:
+      email:
+      phone:
+      img: male.jpg
+      bio:
+      areas:
+      research:
+      publications:
+- lecturers:
+    
+- technical: 
+- on_study: 
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Website:
 -add department color (yellow) to the website banner
 
@@ -18,4 +19,26 @@ Staff:
 -remove the categorizing of lecturers as senior or lecturers, possibly add it next to name or full profile
 -staff profile should have basic information, and has a link that points to page where the lecturer has freedom to put anything they want
 -reduce prominence of "contact me" under the lecturer image
+=======
+Website:
+-add department color (yellow) to the website banner
+
+Home Page:
+-get dean profile picture
+-add "political sciences"???
+-add institutes that are under faculty offices
+
+Dept:
+-color combinations for the menu bar "UB F.O.S"
+-reduce carousel changing speed
+-basic programme details on the site and have links to the university calendar
+-place programmes in separate sections
+-color combo on pages needs to be fixed
+-stakeholder/facilities section
+
+Staff:
+-remove the categorizing of lecturers as senior or lecturers, possibly add it next to name or full profile
+-staff profile should have basic information, and has a link that points to page where the lecturer has freedom to put anything they want
+-reduce prominence of "contact me" under the lecturer image
+>>>>>>> 9c6b44ea98fd0f56294acf1389b8cac23eed87eb
 -highlight courses that lecturer teaches to allow students to choose lecturer

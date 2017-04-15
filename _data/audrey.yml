@@ -1,0 +1,33 @@
+- full_name: A. Masizana
+  prefix: Dr
+  department: Computer Science     
+  position: Head Of Department
+  qualification: BSc (Kingston Uni), DCP, Msc (Oxford Brookes Uni),PhD UMIST(Uni of Manchester Institute of Science and Tech.)
+  office: Block 232, Office 218 
+  email: masizana@mopipi.ub.bw
+  phone: 355-2130
+  img: csteam_am.png
+  bio: "Dr Audrey Naledi Masizana is a Senior Lecturer and Head of Department of Computer Science. She holds BSc Mathematics Modelling and Computing, DCP (Post Graduate Diploma in Advanced Computing, 1996) and MSc in Computer Science (1997) both from Oxford Brookes University and PhD in Computer Science from UMIST from UK. She has played a great role in the growth of the computer science department. Prior to being head she had a role of Departmental Consultancy Coordinator, liaising the department with other academies such as CISCO, Oracle, Industrial Attachment Coordinator, Advisory Board Chair, a member of Curriculum Development Committee (2007– 2010) where she played a major role in the re-alignment of the department’s curriculum. She has published in several international journals and presented at high reputable conferences such as IASTED, IADIS, ICT4D, IAENG and CIRN platforms. She provides service in international and national committees on behalf of the university. This includes organizing and chairing conferences such as the African International Association of Science and Technology for Development (IASTED) in 2014 and 2016, ICICIS Cyber-security Conference 2016, She is the founding chair of Computer Society of Botswana (2010), re-elected in 2015 and continues to passionately drive its mandate."
+   
+  areas: "Dr Audrey Masizana has great experience and interest in the following teaching areas; Decision and Intelligent Support Systems, Expert Systems. She is recently focusing teaching on Business Intelligence of Data ware housing and Data Mining. "
+          
+  research: "She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology."
+
+  publications: 
+            -George Anderson, Audrey Masizana, Dimane Mpoeleng, Working with Data - Important Cleaning Procedures, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), Vol. 6 No. 10, October 2016 pp. 35-42.
+            - George Anderson, Audrey Masizana, Dimane Mpoeleng, Optimal Resource Planning Based on Data Matching Performance and Monetary Cost, International Journal of Advanced Research in Computer Science and Software Engineering Volume 5- Issue 12, December 2015, Edition - ISSN 2277-129X page 65-70
+            
+            - "Audrey Masizana, Gobusamang Oscar, Harriet Okatch, Barbara N. Ngwenya, Keitseng N. Monyatsi, Mbaki Muzila, Kerstin Andrae-Marobela, A Data Mining Process In An Indigenous Knowledge Ethno Medicinal Database, International Journal of Scientific & Technology ResearchVolume 3- Issue 3, March 2014, Edition - ISSN 2277-8616 page 113-121
+            
+            - George Anderson, Audrey Masizana, Dimane Mpoeleng, An Exact and Inexact Data Matching Approach for Saving Time and Preventing Errors in Processing of Student Exam Results at the University of Botswana , International Journal on Information Technology (IREIT), May 2013 (Vol. 1 N. 3)
+            
+            - George Anderson, Audrey N. Masizana-Katongo & Dimane Mpoeleng (2013) Understanding the Potential of Data Mining in Botswana, African  Journal of  Computing & ICTs. Vol 6, No. 1. pp 33-42.
+            
+            - Ngwenya B, Marobela Kirsten, Masizana-Katongo A.N, Okatch, Monyatsi K, Muzila Mbaki,  A globalized context of traditional healing practices in Botswana, Community views from Botswana, International Journal of Food, Nutrition and Public Health (IJFNPH), Vol. 5 No. 4, 2012, pp 307, 320.
+
+            
+
+  professional: ""
+            
+  community: 
+  projects: "Matwetwe Project: Building Expert System for  Indigenous Knowledge Herbal medicine"
