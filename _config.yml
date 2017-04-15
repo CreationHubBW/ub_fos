@@ -111,14 +111,14 @@ collections:
   people:
     output: true
     
-page_gen-dirs: true # uncomment, if you prefer to generate named folders
+#page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
   - data: 'cs_staff'
     template: 'profile'
     name: 'full_name'
     dir: 'people'
-  - data: 'cs_astaff'
-    template: 'profile'
-    name: 'full_name'
-    dir: 'people'
+  #- data: 'cs_staff_na'
+   # template: 'profile'
+    #name: 'full_name'
+    #dir: 'people'
 
