@@ -582,14 +582,12 @@ a:focus {
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
+
 .quick-link-type-a img,
 .quick-link-type-b img {
     width: 100%;
 }
 
->>>>>>> a89d8b727c412bb6f7d7bf956eb8fc54badb9242
 .quick-link-type-a .quick-link-header {
     background-color: #384452;
 }
@@ -713,13 +711,8 @@ a:focus {
 ################################################################# */
 /* General Tweaks */
 #wrap {
-<<<<<<< HEAD
 /*	background: #00b3fe;*/
-	background: #222;
-=======
-	background: #00b3fe;
-	margin-bottom: 60px;
->>>>>>> 86a202d1a96024c2bf0c747a6ed6146edc688cef
+	background: #333333;
 }
 
 #wrap h3 {
