@@ -110,6 +110,7 @@ about: "© 2017 University of Botswana"
 collections:
   people:
     output: true
+<<<<<<< HEAD
  
 #Kess: Will unComment it when I'm done
 # uncomment, if you prefer to generate named folders
@@ -123,4 +124,16 @@ page_gen:
 #    template: 'profile'
 #    name: 'full_name'
 #    dir: 'people'
+=======
+<<<<<<< HEAD
+    
+#page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'cs_staff'
+    template: 'profile'
+    name: 'full_name'
+    dir: 'people'
+
+>>>>>>> a89d8b727c412bb6f7d7bf956eb8fc54badb9242
+>>>>>>> 86a202d1a96024c2bf0c747a6ed6146edc688cef
 

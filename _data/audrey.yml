@@ -14,7 +14,11 @@
   research: "She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology."
 
   publications: 
+<<<<<<< HEAD
             -George Anderson, Audrey Masizana, Dimane Mpoeleng, Working with Data - Important Cleaning Procedures, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), Vol. 6 No. 10, October 2016 pp. 35-42.
+=======
+            - George Anderson, Audrey Masizana, Dimane Mpoeleng, Working with Data - Important Cleaning Procedures, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), Vol. 6 No. 10, October 2016 pp. 35-42.
+>>>>>>> 86a202d1a96024c2bf0c747a6ed6146edc688cef
             - George Anderson, Audrey Masizana, Dimane Mpoeleng, Optimal Resource Planning Based on Data Matching Performance and Monetary Cost, International Journal of Advanced Research in Computer Science and Software Engineering Volume 5- Issue 12, December 2015, Edition - ISSN 2277-129X page 65-70
             
             - "Audrey Masizana, Gobusamang Oscar, Harriet Okatch, Barbara N. Ngwenya, Keitseng N. Monyatsi, Mbaki Muzila, Kerstin Andrae-Marobela, A Data Mining Process In An Indigenous Knowledge Ethno Medicinal Database, International Journal of Scientific & Technology ResearchVolume 3- Issue 3, March 2014, Edition - ISSN 2277-8616 page 113-121
