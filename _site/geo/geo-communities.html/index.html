@@ -38,49 +38,6 @@
 
 
     <body>
-        
-<div id="headerwrap">
-    <div class="container">
-        <div class="header-welcome-block">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src="/assets/img/UB-logo.png" class="img-responsive">
-                </div>
-                <div class="col-sm-6">
-                    <h1>FACULTY OF SCIENCE</h1><br />
-                </div>
-                <div class="col-sm-3">
-                    <div class="row" id="social-row">
-                        <div class="col-xs-4">
-                            <div class="social">
-                                <i class="fa fa-facebook-square fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="social">
-                                <i class="fa fa-linkedin-square fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="social">
-                                <i class="fa fa-google-plus-square fa-3x"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <form>
-                            <div class="form-group">
-                                <input type="search" class="form-control" id="searchbar" placeholder="Search Site">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div><!-- /headerwrap -->
-
         <!-- Fixed navbar -->
 <nav class="navbar navbar-default" role="navigation" id="navbar">
     
@@ -136,6 +93,7 @@
     </div><!--/.nav-collapse -->
 </nav>
 
+<!--
 <script>
     window.onload = function() {
         /* affix the navbar after scroll below header */
@@ -150,10 +108,55 @@
         $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
     }
 </script>
+-->
+
+        
+<div id="headerwrap">
+    <div class="container">
+        <div class="header-welcome-block">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="/assets/img/UB-logo.png" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                    <h1>FACULTY OF SCIENCE</h1><br />
+                </div>
+                <div class="col-sm-3">
+                    <div class="row" id="social-row">
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-facebook-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-linkedin-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-google-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form>
+                            <div class="form-group">
+                                <input type="search" class="form-control" id="searchbar" placeholder="Search Site">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
 
 
             <div id="wrap">
     <div class="row">
+<<<<<<< HEAD
         <div class="col-lg-2">
         <a class="sidenav-open" onclick="openNav()">
             <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
@@ -210,6 +213,77 @@
 
 <!-- Sidenav JS -->
 <script src=/assets/js/sidenav.js></script>
+=======
+        <div class="col-lg-12">
+        <h3>Geology - Communities</h3>
+        </div>
+    </div><!-- /row -->
+</div><!-- /blue -->
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+    
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="/">NAVIGATION</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li ><a href="/cs/">Home</a></li>
+                <li >
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
+                        **Programmes of Study**<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/cs/cs-programmes.html/">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/cs/cs-programmes.html/#ugp">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/cs/cs-programmes.html/#cmp">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/cs/cs-programmes.html/#mos">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/cs/cs-programmes.html/#mop">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/cs/cs-partnerships.html">Partnerships</a></li>
+                <li ><a href="/cs/staff.html">Staff</a></li>
+                <li ><a href="/cs/research.html">Research</a></li>
+                <li ><a href="/cs/cs-communities.html">Communities</a></li>
+                <li ><a href="/cs/cs-gallery.html">*Gallery*</a></li>
+                <li ><a href="/cs/cs-about.html">About</a></li>
+                <li ><a href="#">Contact</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+    
+    </div>
+
+</nav>
+
+
+<!--
+<script>
+    window.onload = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+    }
+    window.onresize = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+    }
+</script>-->
+
+>>>>>>> a89d8b727c412bb6f7d7bf956eb8fc54badb9242
 <div id="dep-main">
     <div class="container mtb">
     

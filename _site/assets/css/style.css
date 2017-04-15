@@ -191,76 +191,6 @@ a:focus {
 /*************************************************************************************************
 * Menu
 *************************************************************************************************/
-/* The side navigation menu */
-.sidenav {
-    width: 375px; /* 0 width - change this with JavaScript */
-    position: absolute;
-    z-index: 99;
-    opacity: 0.95;
-    left: 0;
-    margin-top: -60px;
-    background-color: #222; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s;
-    text-align: left;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 15px;
-    font-family: Open Sans, sans-serif;
-}
-
-
-.sidenav h4 {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 20px;
-    font-family: Open Sans, sans-serif;
-}
-
-.sidenav a:hover{
-    color: #f1f1f1;
-}
-
-.sidenav-open {
-    background-color: #222;
-    padding: 1em 1em;
-    margin: 15px 0;
-    cursor: pointer;
-    float: left;
-    left: 25px;
-    position: relative;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 50px;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    cursor: pointer;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-
 
 .navbar {
     margin: 0;
@@ -268,7 +198,7 @@ a:focus {
 }
 
 .navbar-default {
-    padding: 13px;
+    padding: 5px 13px;
     border: 0;
     background-color: #222;
     -webkit-transition: all .3s;
@@ -457,11 +387,18 @@ a:focus {
     color: #222;
 }
 
-/* Note: Try to remove the following lines to see the effect of CSS positioning */
+/* Note: The following lines help with the effect of CSS positioning */
 #navbar.affix {
   top: 0;
   width: 100%;
   z-index: 100;
+  transition: 3s;
+}
+
+#navbar-departments.affix {
+  top: 0;
+  width: 100%;
+  z-index: 900;
   transition: 3s;
 }
 
@@ -645,6 +582,14 @@ a:focus {
     padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+.quick-link-type-a img,
+.quick-link-type-b img {
+    width: 100%;
+}
+
+>>>>>>> a89d8b727c412bb6f7d7bf956eb8fc54badb9242
 .quick-link-type-a .quick-link-header {
     background-color: #384452;
 }
@@ -773,10 +718,11 @@ a:focus {
 }
 
 #wrap h3 {
-	color: white;
+	color: #fff;
 	margin-left: 25px;
-    padding: 20px 0;
-    float: left;
+    padding: 5px 0;
+/*    float: left;*/
+    text-align: center;
 }
 
 
