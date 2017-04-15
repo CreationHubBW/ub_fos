@@ -154,53 +154,62 @@
 
             <div id="wrap">
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-2">
+        <a class="sidenav-open" onclick="openNav()">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </a>
+        </div>
+        <div class="col-lg-10">
         <h3 style>Computer Science - Staff</h3>
         </div>
     </div><!-- /row -->
 </div><!-- /blue -->
-<nav class="navbar navbar-default" role="navigation" id="navbar">
+<!-- ================================================================== SIDE NAVIGATION MENU -->
+<div id="menuSideNav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"><h3>COMPUTER SCIENCE</h3></a>
+    <div class="hline-w"></div>
+    <h4>NAVIGATION</h4>
+    <div class="hline-w"></div>
+    <div class="line-w"></div>
+    <p ><a href="/cs/">HOME</a></p>
+    <p >
+        <a data-toggle="collapse" data-target="#collapseCategories_sideNav" aria-expanded="false" aria-controls="collapseCategories">Programmes of Study</a>
+        <div class="collapse" id="collapseCategories_sideNav">
+            <div class="well">
+                <a href="/cs/programmes.html/">See All Programmes</a>
+                <a href="/cs/programmes.html/#ugp">Undergraduate Programmes</a>
+                <a href="/cs/programmes.html/#cmp">Combined Majors</a>
+                <a href="/cs/programmes.html/#mos">Masters Programmes</a>
+                <a href="/cs/programmes.html/#mop">Masters of Philosopy</a>
+            </div>
+        </div>
+    </p>
+    <p >
+        <a href="/cs/cs-partnerships.html">Partnerships</a>
+    </p>
+    <p class="active">
+        <a href="/cs/cs-staff.html">Staff</a>
+    </p>
+    <p >
+        <a href="/cs/cs-research.html">Research</a>
+    </p>
+    <p >
+         <a href="/cs/cs-communities.html">Communities</a>
+    </p>
+    <p >
+        <a href="/cs/cs-about.html">About</a>
+    </p>
+    <p >
+        <a href="#">Contact</a>
+    </p>
+    
+</div>
 
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
-            <span class="sr-only">Toggle navigation</span>
-            <i class="fa fa-bars fa-2x"></i>
-        </button>
-        <a class="navbar-brand" href="/">NAVIGATION</a>
-    </div>
+<!-- ================================================================== /SIDE NAVIGATION MENU -->
 
-    <div class="navbar-collapse collapse navbar-right" id="nav-department">
-        <ul class="nav navbar-nav">
-
-            <li ><a href="/cs/">Home</a></li>
-            <li >
-                <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
-                    **Programmes of Study**<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="/cs/cs-programmes.html/">See All Programmes</a></li>
-                    <li class="divider"></li>
-                    <li><a href="/cs/cs-programmes.html/#ugp">Undergraduate Programmes</a></li>
-                    <li class="divider"></li>
-                    <li><a href="/cs/cs-programmes.html/#cmp">Combined Majors</a></li>
-                    <li class="divider"></li>
-                    <li><a href="/cs/cs-programmes.html/#mos">Masters Programmes</a></li>
-                    <li class="divider"></li>
-                    <li><a href="/cs/cs-programmes.html/#mop">Masters of Philosopy</a></li>
-                </ul>
-            </li>
-            <li ><a href="/cs/cs-partnerships.html">Partnerships</a></li>
-            <li class="active"><a href="/cs/staff.html">Staff</a></li>
-            <li ><a href="/cs/research.html">Research</a></li>
-            <li ><a href="/cs/cs-communities.html">Communities</a></li>
-            <li ><a href="/cs/cs-gallery.html">*Gallery*</a></li>
-            <li ><a href="/cs/cs-about.html">About</a></li>
-            <li ><a href="#">Contact</a></li>
-        </ul>
-
-    </div><!--/.nav-collapse -->
-
-</nav>
+<!-- Sidenav JS -->
+<script src=/assets/js/sidenav.js></script>
 <div id="dep-main">
     <div class="container mtb">
   
