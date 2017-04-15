@@ -200,7 +200,7 @@ a:focus {
 .navbar-default {
     padding: 5px 13px;
     border: 0;
-    background-color: #222;
+    background-color: #801f0d;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -369,7 +369,7 @@ a:focus {
 *	Header
 ******************************************************************* */
 #headerwrap {
-	background-color: #002147;
+	background-color: #00504d;
 	padding: 30px 0;
 	text-align: center;
 }
@@ -710,7 +710,8 @@ a:focus {
 ################################################################# */
 /* General Tweaks */
 #wrap {
-	background: #00b3fe;
+/*	background: #00b3fe;*/
+	background: #222;
 }
 
 #wrap h3 {
