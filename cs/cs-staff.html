@@ -3,94 +3,36 @@ layout: departments/layout-compsci
 title: Computer Science - Staff
 permalink: /cs/cs-staff.html/
 ---
-<div class="container">
+{% assign cs_staff = site.people | where:"department", "Computer Science" %}
+{% assign curr_letter = " " %}
 
-    <div class="col-md-12">
+<div class="container mtb">
 
-        <div class="panel-group" id="accordian">
+    <div class="col-md-8">
+
+        <h3>THE TEAM BEHIND COMPUTER SCIENCE</h3>
+        
+        
+        
+        {% capture staffmembers %}
+          {% for staffmember in cs_staff %}
+            |{{ staffmember.lname }}#{{ staffmember.fname }}#{{ staffmember.prefix }}#{{ staffmember.position }}#{{ staffmember.url }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedstaff = staffmembers | split: '|' | sort %}
+        
+        <div class="list-group">
+        
+        
+        {% for staff in sortedstaff %}
+            {% assign staffitems = staff | split: '#' %}
             
-            {% for staff in page %}
-                <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a href="#cla1" data-toggle="collapse" data-parent="#accordian">{{staff.full_name}}</a>
-                    </h4>
-                </div>
-                <div class="collapse panel-collapse" id="cla1">
-                    <div class="panel-body">
-                        <a href="#ugp" style="text-align: right">Back To Top! &uarr;</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
+            <a href="{{ staffitems[4] }}" class="list-group-item">{{ staffitems[2] }} {{ staffitems[1] }} {{ staffitems[0] }}
+            <span class="badge">{{ staffitems[3] }}</span></a>
+        {% endfor %}
             
         </div>
-
-    </div>
-
-
-
-
-    <div class="jumbotron">
-        <h1>{{page.prefix}} {{page.full_name}}</h1>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img src="{{"/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}	" alt={{page.full_name}} style="border:1px solid #3FAEDF;padding: 1px;  box-shadow: 3px 3px 4px #474745;" >
-            <h3>CONTACT ME</h3>
-            <h6>E-Mail: {{page.email}}</h6>
-            <h6>Phone: {{page.phone}}</h6>
-            <h6>Office: {{page.office}}</h6>
-        </div>
-    </div> 
-    <hr>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-        {{page.bio}}<br>
-        <br>
-    </div>
-
-
-
-    <hr>
-    <div class="clearfix visible-bg"></div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-
-            <h2><a href="#projectsCol" data-toggle="collapse">Projects</a></h2>
-            {% for project in page.projects %}
-            <div id= "projectsCol" class="collapse">
-                <ul>
-                    <li>{{project}}</li>
-                </ul>
-                {% endfor %}
-            </div>
-
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <h2><a href="#researchCol" data-toggle="collapse">Research and Teaching Areas</a></h2>
-            <hr>
-            <div id= "researchCol" class="collapse">
-                {% for res in page.research %}
-                <ul>
-                    <li>{{res}}</li>
-                </ul>
-                {% endfor %}
-            </div>
-
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <h2><a href="#pubCol" data-toggle="collapse">Publications</a></h2>
-            {% for pub in page.publications %}
-            <div id= "pubCol" class="collapse">
-                <ul>
-                    <li>{{pub}}</li>
-                </ul>
-                {% endfor %}
-                <p><a href="asserts/{{page.name}}.pdf" class="button" download><i class="fa fa-download"></i>View All Publications</a></p>
-            </div>
-
-        </div>
+        
 
     </div>
 

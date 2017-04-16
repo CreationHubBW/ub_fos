@@ -110,6 +110,17 @@ about: "© 2017 University of Botswana"
 collections:
   people:
     output: true
+  programmes:
+    output: true
+    
+
+#Edited by Yak: will remove once tests work
+#defaults:
+#    - scope:
+#        path: "_people/computer_science"
+#      values:
+#        department: "Computer Science"
+#    
  
 #Kess: Will unComment it when I'm done
 # uncomment, if you prefer to generate named folders
