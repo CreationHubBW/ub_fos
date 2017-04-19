@@ -1,0 +1,55 @@
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+
+        <div class="navbar-collapse collapse navbar-left" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li {% if page.title == "Chemistry Home" %}class="active"{% endif %}><a href="/chem/">Chemistry Home</a></li>
+                <li {% if page.title == "Chemistry - Programmes" %}class="active dropdown"{% endif %}>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/chem/programmes.html">
+                       PROGRAMMES<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/chem/chem-programmes.html/">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#ugp">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#cmp">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#mos">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#mop">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="/chem/chem-partnerships.html">PARTNERSHIPS</a></li>
+                <li {% if page.title == "Chemistry - Staff" %}class="active"{% endif %}><a href="/chem/chem-staff.html">STAFF</a></li>
+                <li {% if page.title == "Research" %}class="active"{% endif %}><a href="/chem/chem-research.html">RESEARCH</a></li>
+                <li {% if page.title == "Chemistry Communities" %}class="active"{% endif %}><a href="/chem/chem-communities.html">COMMUNITIES</a></li>
+                <li {% if page.title == " Gallery" %}class="active"{% endif %}><a href="/chem/chem-gallery.html">GALLERY</a></li>
+                <li {% if page.title == "Chemistry - About Us" %}class="active"{% endif %}><a href="/chem/chem-about.html">ABOUT</a></li>
+                <li {% if page.title == "Chemistry - Contact Us" %}class="active"{% endif %}><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+    
+    </div>
+
+</nav>
+
+
+<!--
+<script>
+    window.onload = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+    }
+    window.onresize = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+    }
+</script>-->

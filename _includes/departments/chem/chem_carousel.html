@@ -1,0 +1,54 @@
+<!-- ================================================================== CAROUSEL SECTION -->
+<div class="section">
+
+    <div class="presentation">
+        <!-- Carousel -->
+        <div id="owl-presentation" class="owl-carousel owl-theme">
+
+            <div class="item"><img src="{{ "/cs/img/gallery/cs-image.jpg" | prepend: site.baseurl }}" alt="IMG#1"></div>
+            <div class="item"><img src="{{ "/cs/img/gallery/cs-image.jpg" | prepend: site.baseurl }}" alt="IMG#2"></div>
+
+        </div>
+    </div>
+
+
+    <!-- ================================================================== HOD REMARKS SECTION -->
+    <div class="welcome-remarks-section">
+        <div class="col-sm-5">
+            <img src="{{ "/chem/img/staff/hod.jpg" | prepend: site.baseurl }}" alt="HOD"/>
+        </div>
+        <div class="col-sm-7">
+            <h3>HOD's Welcome</h3>
+            
+            <div id="w_message">
+                <div id= "w_message_wrapper">
+                <p>Chemistry, central to most fields of science, helps us to understand a range of topics including environmental issues, drugs and medicine, production of industrial materials such as plastics and nutrition. In the recent past chemistry has been called to fore in public health where food safety may be compromised. There is a great demand for chemists in many industries and government agencies. In fact, the chemical industry in Botswana is a steadily growing </p>
+                <p>At the University of Botswana (UB), we focus on providing truly excellent undergraduate and graduate programs while carrying out innovative chemical research. The department offers graduate and undergraduate research opportunities in four major thrust areas: Analytical and Environmental Chemistry, Inorganic Chemistry, Organic and Natural Products Chemistry and Physical and Theoretical Chemistry. Our four-year BSc Majors, Minors, and two-year Master’s degrees are recognized regionally as well as globally as many of our students transfer abroad for further studies both at the undergraduate and the graduate levels where they perform exceptionally. PhD graduates of the Department of Chemistry have found employment in academia and industry both locally, regionally and internationally. There is a tremendous sense of excitement in both teaching and research in the Department of Chemistry at UB. </p> 
+
+                <p>The Department of Chemistry has maintained a tradition of excellent quality in its instrument facilities through major investments by the University. Graduate courses, training for researchers in the proper use of the equipment and access to this instrumentation are readily available.  Faculty from other African states come to our department to utilize the range of instrumentation we have. In short, our facilities continue to be amongst the best and most accessible in Africa. The Department hosts a number of local, regional and international research networks. Locally we are hosts to the Centre for Scientific Research Indigenous Knowledge & Innovation (CESRIKI). Regionally UB Chemistry Department is proud to host Southern and Eastern African Network for Analytical Chemists (SEANAC), and Natural Products Research Network for Eastern and Central Africa – Botswana (NAPRECA-B). </p>
+                <p>The department is located in the University of Botswana Main campus in Gaborone Block 237. The Department of Chemistry is a vibrant place to study and do research in the chemical sciences.  The quality of our faculty, the quality of our facilities and the strong links between our department and other departments and programs means that our department is one of the best departments in Africa to do productive research and gain hands-on access to modern instrumentation.  Explore our web site (http://www.ub.bw/chemistry/contents/Index.html) and take the virtual tour of our department.  I strongly suggest that you take the opportunity to visit our department and take a guided tour of our Research and Teaching facilities.</p>
+            </div>
+        </div>
+
+            <h3>Dr R. Mapitse</h3>
+            <button class="btn btn-primary" role="button">Read More</button>
+        </div>
+    </div>
+    <!-- ================================================================== /HOD REMARKS SECTION -->
+
+</div>
+<!-- ================================================================== /CAROUSEL SECTION -->
+
+
+<script>
+    $("#owl-presentation").owlCarousel({
+        autoplay: true,
+        loop:true,
+        items: 1,
+        dots: false,
+        nav: false,
+        animateIn: true
+
+    });
+
+</script>
