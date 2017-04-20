@@ -24,7 +24,7 @@
 }
 body {
 /*	background: #384452;*/
-    background-color: #677f98;
+    background-color: #d8af7a;
 	margin: 0;
 	height: 100%;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -224,7 +224,7 @@ a:focus {
     font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: 800;
     font-size: 2em;
-    color: #1e90ff;
+    color: #fff;
     transition: .2s;
 }
 
@@ -369,7 +369,7 @@ a:focus {
 *	Header
 ******************************************************************* */
 #headerwrap {
-	background-color: #00504d;
+	background-color: #121312;
 	padding: 30px 0;
 	text-align: center;
 }

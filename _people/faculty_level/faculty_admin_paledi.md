@@ -4,6 +4,7 @@ title: "Faculty Administrator | L.M. Paledi"
 role: Faculty Administrator
 name: Mr. L.M. Paledi
 img: paledi.jpg
+department: Faculty Level
 qualifications: BA, MPA (UB)
 tel: 355-2460 | 355-2475
 email: paledi@mopipi.ub.bw

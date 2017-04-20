@@ -6,25 +6,25 @@ permalink: /
 
 <!-- Presentation SECTION -->
 <div class="container mtb" id="presentation">
-    
+
     <!-- Presentaiton SECTION -->
     <div class="row">
         <!-- CAROUSEL -->
         {% include home_page_carousel.html %}
     </div>
-    
+
 </div>
 <!-- /Presentation SECTION -->
 
 <!-- Departments, Events, News & Staff -->
 <div class="container mtb">
-    
+
     <div id="dens">
 
-        
+
         <!-- top most SECTION - Depts + Events + People-->
         <div class="row">
-        
+
             <!-- Departments SECTION-->
             <div class="col-md-4">
                 <div class="departments-section">
@@ -75,8 +75,8 @@ permalink: /
 
             </div>
             <!-- /Departments SECTION -->
-            
-            
+
+
             <!-- Events SECTION -->
             <div class="col-md-4">
                 <div class="events-section">
@@ -84,28 +84,28 @@ permalink: /
                         <div class="panel-heading">
                             <h3 class="panel-title">UPCOMING EVENTS</h3>
                             <a href="contact.html" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">All Events</strong>
-                        </a>
+                                <strong class="ribbon-content">All Events</strong>
+                            </a>
                         </div>
                         <div class="panel-body">
                             {% for post in site.categories['events'] %}
-                                <div class="event">
-                                    <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
-                                        <span class="day">{{ post.day }}</span>
-                                        <span class="month">{{ post.month }}</span>
-                                    </a>
-                                    <div class="event-description">
-                                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                                    </div>
+                            <div class="event">
+                                <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
+                                    <span class="day">{{ post.day }}</span>
+                                    <span class="month">{{ post.month }}</span>
+                                </a>
+                                <div class="event-description">
+                                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                                 </div>
+                            </div>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
             </div>
             <!-- /Events Section -->
-        
-        
+
+
 
             <!-- News & Research SECTION -->
             <div class="col-md-4">
@@ -116,12 +116,12 @@ permalink: /
                         <div class="panel-heading">
                             <h3 class="panel-title">LATEST NEWS</h3>
                             <a href="contact.html" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">More Info</strong>
-                        </a>
+                                <strong class="ribbon-content">More Info</strong>
+                            </a>
                         </div>
                         <div class="panel-body">
                             {% for post in site.categories['news'] limit:5 %} 
-                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
                             {% endfor %}
                         </div>
                     </div>
@@ -130,106 +130,83 @@ permalink: /
 
             </div>
             <!-- /News SECTION -->
-            
+
         </div>
         <!-- /top most SECTION -->
-        
-        
+
+
         <!-- bottom most SECTION - Staff -->
         <div class="row">
-            
-        <!-- Staff SECTION -->
-        <div class="col-md-12">
-            <div class="people-section">
 
-                <div class="panel panel-news-events">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">STAFF</h3>
-                        <a href="#" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Staff</strong>
-                    </a>
-                    </div>
-                    <div class="panel-body">
+            <!-- Staff SECTION -->
+            <div class="col-md-12">
+                <div class="people-section">
 
-                        <div class="row">
-                            <!-- Staff Carousel -->
-                            <div id="owl-staff" class="owl-carousel owl-theme">
-
-
-                                {% for staff in site.people %}
-                                <div class="item">
-                                    <img class="img-circle" src={{ "/assets/img/members/" |  prepend: site.baseurl | append : staff.img }} alt="{{staff.title}}">
-                                    <div id="staff-profile-details">
-                                        <h3>{{staff.role}}</h3>
-                                        <a href="{{ staff.url | prepend: site.baseurl }}"<h5>{{staff.name}}</h5></a>
-                                        <h5>{{staff.qualifications}}</h5>
-                                    </div>
-                                </div>
-                                {% endfor %}
-
-                            </div>
+                    <div class="panel panel-news-events">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">STAFF</h3>
+                            <a href="#" class="ribbon non-semantic-protector">
+                                <strong class="ribbon-content">More Staff</strong>
+                            </a>
                         </div>
+                        <div class="panel-body">
 
+                            <div class="row">
+                                <!-- Staff Carousel -->
+                                <div id="owl-staff" class="owl-carousel owl-theme">
+
+                                    {% assign faculty_staff = site.people | where:"department", "Faculty Level" %}
+                                    {% for staff in faculty_staff  %}
+                                    <div class="item">
+                                        <img class="img-circle" src="{{ "/assets/img/members/" |  prepend: site.baseurl | append : staff.img }}" alt="{{staff.title}}">
+                                        <div id="staff-profile-details">
+                                            <h3>{{staff.role}}</h3>
+                                            <a href="{{ staff.url | prepend: site.baseurl }}"<h5>{{staff.name}}</h5></a>
+                                    <h5>{{staff.qualifications}}</h5>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
                     </div>
-                    <script>
-                        $("#owl-staff").owlCarousel({
-                            autoplay: true,
-                            loop:true,
-                            animateIn: true,
-                            animateOut: true,
-                            responsiveClass:true,
-                            responsive:{
-                                0:{
-                                    items:1,
-                                    nav:true
-                                },
-                                600:{
-                                    items:2,
-                                    nav:false
-                                },
-                                1000:{
-                                    items:3,
-                                    nav:true
-                                }
-                            }
-                        });
-                    </script>
+
                 </div>
-
             </div>
+
         </div>
-        <!-- /Staff SECTION -->
-        
-
     </div>
-        <!-- /bottom most SECTION -->
+    <!-- /Staff SECTION -->
 
 
-    </div>
+</div>
+<!-- /bottom most SECTION -->
+
+
+</div>
 
 </div>
 <!-- /Departments , Research & News -->
 
 <!-- Students , Vacancies -->
 <div class="container mtb">
-    
+
     <div class="row" id="sva">
 
         <!-- Students SECTION -->
         <div class="col-md-8">
-            
+
             <div class="students-section">
 
                 <div class="panel panel-news-events">
                     <div class="panel-heading">
                         <h3 class="panel-title">FOR STUDENTS</h3>
                         <a href="#" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
-                    </a>
+                            <strong class="ribbon-content">More Info</strong>
+                        </a>
                     </div>
                     <div class="panel-body">
                         {% for post in site.categories['news'] limit:5 %}
-                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
                         {% endfor %}
                     </div>  
                 </div>
@@ -248,12 +225,12 @@ permalink: /
                     <div class="panel-heading">
                         <h3 class="panel-title">VACANCIES &amp; JOB POSTS</h3>
                         <a href="contact.html" class="ribbon non-semantic-protector">
-                        <strong class="ribbon-content">More Info</strong>
-                    </a>
+                            <strong class="ribbon-content">More Info</strong>
+                        </a>
                     </div>
                     <div class="panel-body">
                         {% for post in site.categories['news'] limit:5 %} 
-                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
                         {% endfor %}
                     </div>
                 </div>
@@ -271,3 +248,31 @@ permalink: /
 <!-- Clients SECTION -->
 {% include clients.html %}
 <!-- /Clients SECTION -->
+
+
+
+
+
+<script>
+    $("#owl-staff").owlCarousel({
+        autoplay: true,
+        loop:true,
+        animateIn: true,
+        animateOut: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true
+            }
+        }
+    });
+</script>

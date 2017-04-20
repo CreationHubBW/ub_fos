@@ -5,9 +5,9 @@
         <div class="navbar-collapse collapse navbar-left" id="nav-department">
             <ul class="nav navbar-nav">
 
-                <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="/cs/">CS HOME</a></li>
+                <li {% if page.title == "Computer Science Home" %}class="active"{% endif %}><a href="{{"/cs/" | prepend: site.baseurl }}">CS HOME</a></li>
                 <li {% if page.title == "Computer Science - Programmes" %}class="active dropdown"{% endif %}>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/cs/programmes.html" | prepend: site.baseurl }}">
                        PROGRAMMES<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
@@ -22,12 +22,12 @@
                         <li><a href="/cs/cs-programmes.html/#mop">Masters of Philosopy</a></li>
                     </ul>
                 </li>
-                <li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="/cs/cs-partnerships.html">PARTNERSHIPS</a></li>
-                <li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="/cs/cs-staff.html">STAFF</a></li>
-                <li {% if page.title == "Research" %}class="active"{% endif %}><a href="/cs/cs-research.html">RESEARCH</a></li>
-                <li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="/cs/cs-communities.html">COMMUNITIES</a></li>
-                <li {% if page.title == "CS Gallery" %}class="active"{% endif %}><a href="/cs/cs-gallery.html">GALLERY</a></li>
-                <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/cs/cs-about.html">ABOUT</a></li>
+                <li {% if page.title == "Computer Science - Partnerships" %}class="active"{% endif %}><a href="{{"/cs/cs-partnerships.html" | prepend: site.baseurl }}">PARTNERSHIPS</a></li>
+                <li {% if page.title == "Computer Science - Staff" %}class="active"{% endif %}><a href="{{"/cs/cs-staff.html" | prepend: site.baseurl }}">STAFF</a></li>
+                <li {% if page.title == "Research" %}class="active"{% endif %}><a href="{{"/cs/cs-research.html" | prepend: site.baseurl }}">RESEARCH</a></li>
+                <li {% if page.title == "CS Communities" %}class="active"{% endif %}><a href="{{"/cs/cs-communities.html" | prepend: site.baseurl }}">COMMUNITIES</a></li>
+                <li {% if page.title == "CS Gallery" %}class="active"{% endif %}><a href="{{"/cs/cs-gallery.html" | prepend: site.baseurl }}">GALLERY</a></li>
+                <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="{{"/cs/cs-about.html" | prepend: site.baseurl }}">ABOUT</a></li>
                 <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="#">CONTACT</a></li>
             </ul>
 

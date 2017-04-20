@@ -4,6 +4,7 @@ title: "Manager, H.R | P.G Morapedi"
 role: Manager, HR
 name: Mr. P.G Morapedi
 img: DEAN.jpg
+department: Faculty Level
 qualifications: BA + PGDE (UB), MSc
 level: faculty_level
 ---
