@@ -4,7 +4,7 @@ title: "Deputy Dean | Prof B. Moseki"
 role: Deputy Dean
 name: Prof. B. Moseki
 department: Faculty Level
-img: DEAN.jpg
+img: unknown.jpg
 qualifications: BSc (UB), MPhil (Aberdeen), PhD (Essex)
 level: faculty_level
 ---

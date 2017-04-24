@@ -257,8 +257,7 @@ permalink: /
     $("#owl-staff").owlCarousel({
         autoplay: true,
         loop:true,
-        animateIn: true,
-        animateOut: true,
+        margin: 10,
         responsiveClass:true,
         responsive:{
             0:{
@@ -271,7 +270,8 @@ permalink: /
             },
             1000:{
                 items:3,
-                nav:true
+                nav:true,
+                loop:false
             }
         }
     });
