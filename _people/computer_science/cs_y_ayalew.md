@@ -1,9 +1,12 @@
 ---
+layout: profile
 fname: Yirsaw
 lname: Ayalew
 prefix: Prof
+name: Prof. Yirsaw Ayalew
 department: Computer Science 
 position: Associate Professor
+title: Associate Professor - Y. Ayalew
 qualification: 
 office:
 email:

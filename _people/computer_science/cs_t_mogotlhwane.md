@@ -1,5 +1,5 @@
 ---
-
+layout: profile
 fname: Tiroyamodimo
 lname: Mogotlhwane
 prefix: Dr

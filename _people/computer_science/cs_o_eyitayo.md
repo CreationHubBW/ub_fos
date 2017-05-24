@@ -1,5 +1,5 @@
 ---
-
+layout: profile
 fname: Oduronke T.
 lname: Eyitayo
 prefix: Dr

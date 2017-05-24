@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "News 8 - Template News Post"
+date:   2017-05-07 11:00:01
+author: Admin
+categories:
+- news
+img: default-img.png
+thumb: thumb-default-img.jpg
+---
+
+## Basically, Some Dummy Content For News
+
+
+Here we create placeholder text for a news event.
+
+
+Whilst waiting for news to be delivered for upload into the site, we decided to create this news template so you can see how an actual news post would look like.
+
+<!--more-->
+
+
+### What Each News Post Requires
+Essentially, a news post would need to have 5 core things:
+- A title
+- An image
+- A thumb image (smaller version of the image. size 70x70 pixels)
+- A category
+- News content
+
+
+
+
+### The Extras
+Optional news post content consist of but are not limited to:
+- The news authors
+- Links to other resources (e.g websites)
+
+
+
+
+
+### When will news be uploaded?
+When the website is deployed. Kindly compile your news content while you wait.

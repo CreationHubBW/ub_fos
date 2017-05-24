@@ -1,4 +1,5 @@
 ---
+layout: profile
 fname: Gabofetswe
 lname: Malema
 prefix: Dr

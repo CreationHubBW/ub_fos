@@ -120,8 +120,15 @@ permalink: /
                             </a>
                         </div>
                         <div class="panel-body">
-                            {% for post in site.categories['news'] limit:5 %} 
-                            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                            {% for post in site.categories['news'] limit:5 %}
+                            <div class="news">
+                                <a href="{{ post.url | prepend: site.baseurl }}" class="news-thumb">
+                                    <img src="{{ "/assets/img/news/thumbs/" | prepend: site.baseurl }}{{ post.thumb }}" alt={{post.title}}>
+                                </a>
+                                <div class="news-title">
+                                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                                </div>
+                            </div>
                             {% endfor %}
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 ---
-
+layout: profile
 fname: George
 lname: Anderson
 prefix: Dr
