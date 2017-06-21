@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: profile
 fname: Deepti
 lname: Garg
 full_name: Deepti Garg

@@ -1,70 +1,77 @@
 ---
 layout: default
 ---
-{% include header.html %}
-<div class="container">
-    
-        <div class="jumbotron">
-            <h1>{{page.prefix}} {{page.full_name}}</h1>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-             <img src="{{"/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}	" alt={{page.full_name}} style="border:1px solid #3FAEDF;padding: 1px;  box-shadow: 3px 3px 4px #474745;" >
-            <h3>CONTACT ME</h3>
-				<h6>E-Mail: {{page.email}}</h6>
-				<h6>Phone: {{page.phone}}</h6>
-				<h6>Office: {{page.office}}</h6>
+{% include wrap.html %}
+<div class="container mtb">
+
+    <div class="profile-header-block">
+        <div class="row">
+
+            <h3>{{page.name}} {{page.full_name}}</h3>
+            <div class="col-sm-3">
+                {% include departments/profile-img-links.html %}
             </div>
-            </div> 
-            <hr>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            
-            {{page.bio}}<br>
-            <br>
+            <div class="col-sm-9">
+                <h4>BIO</h4>
+                <p>{{ page.bio }}</p>
+
+                <h4>CONTACT ME</h4>
+                <h5>E-Mail: {{page.email}}</h5>
+                <h5>Phone: {{page.tel}}</h5>
+                <h5>Office: {{page.office}}</h5>
+            </div>
         </div>
-       
-          
-          
-        <hr>
-        <div class="clearfix visible-bg"></div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    </div>
+
+
+
+    <div class="profile-proj-res-pub">
         
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            
-            <h2><a href="#projectsCol" data-toggle="collapse">Projects</a></h2>
-            {% for project in page.projects %}
-            <div id= "projectsCol" class="collapse">
-                <ul>
-                    <li>{{project}}</li>
-                </ul>
-             {% endfor %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4">
+
+                    <h3><a href="#projectsCol" data-toggle="collapse">Projects</a></h3>
+                    <hr/>
+                    <div id="projectsCol" class="collapse"> 
+                        {% for project in page.projects %}
+                        <ul>
+                            <li>{{project}}</li>
+                        </ul>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h3><a href="#researchCol" data-toggle="collapse">Research and Teaching Areas</a></h3>
+                    <hr/>
+                    <div id="researchCol" class="collapse">
+                        {% for res in page.research %}
+                        <ul>
+                            <li>{{res}}</li>
+                        </ul>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h3><a href="#pubCol" data-toggle="collapse">Publications</a></h3>
+                    <hr/>
+                    <div id="pubCol" class="collapse">
+                        {% for pub in page.publications %}
+                        <ul>
+                            <li>{{pub}}</li>
+                        </ul>
+                        {% endfor %}
+                        <p><a href="assets/{{page.name}}.pdf" class="button" download><i class="fa fa-download"></i>Download All Publications</a></p>
+                    </div>
+
+                </div>
             </div>
-            
-            </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <h2><a href="#researchCol" data-toggle="collapse">Research and Teaching Areas</a></h2>
-        <hr>
-            <div id= "researchCol" class="collapse">
-            {% for res in page.research %}
-                <ul>
-                    <li>{{res}}</li>
-                </ul>
-            {% endfor %}
-            </div>
-    
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <h2><a href="#pubCol" data-toggle="collapse">Publications</a></h2>
-            {% for pub in page.publications %}
-            <div id= "pubCol" class="collapse">
-                <ul>
-                    <li>{{pub}}</li>
-                </ul>
-             {% endfor %}
-             <p><a href="asserts/{{page.name}}.pdf" class="button" download><i class="fa fa-download"></i>View All Publications</a></p>
-            </div>
-       
         </div>
         
     </div>
-        
+
 </div>

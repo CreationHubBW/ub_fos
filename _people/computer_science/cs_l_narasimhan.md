@@ -1,9 +1,11 @@
 ---
+layout: profile
 fname: V. Lakshmi
 lname: Narasimhan
 prefix: Prof
 department: Computer Science     
 position: Full Professor
+title: Full Professor - V.L. Narasimhan
 qualification: B.Sc., B.E., M.E., Ph.D., GCM, CELD, P.E
 office:
 email:

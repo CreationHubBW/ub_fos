@@ -8,32 +8,38 @@
     
     <title>Computer Science - Staff - UB FACULTY OF SCIENCE</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Sansita" rel="stylesheet">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href=/assets/css/bootstrap.css>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sansita" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=/assets/css/bootstrap.css>
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href=/assets/css/font-awesome.css>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href=/assets/css/font-awesome.css>
 
-	 <!-- Custom Style Sheet -->
-	<link rel="stylesheet" href=/assets/css/style.css>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href=/assets/css/animate.css>
 
-	<!-- Important Owl stylesheet -->
-	<link rel="stylesheet" href=/assets/css/owl.carousel.min.css>
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href=/assets/css/owl.carousel.min.css>
+    
+    <!-- Default Theme -->
+    <link rel="stylesheet" href=/assets/css/owl.theme.default.min.css>
 
-	<!-- Default Theme -->
-	<link rel="stylesheet" href=/assets/css/owl.theme.default.min.css>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href=/assets/css/style.css>
 
 
-	<!-- JQuery version 2.2.2 -->
-	<script src=/assets/js/jquery.js></script>
+    
 
-	<!-- Include js plugin -->
-	<script src=/assets/js/owl.carousel.min.js></script>
 
-	<!-- Bootstrap JS -->
-	<script src=/assets/js/bootstrap.min.js></script>
+    <!-- JQuery version 2.2.2 -->
+    <script src=/assets/js/jquery.js></script>
+
+    <!-- Include js plugin -->
+    <script src=/assets/js/owl.carousel.min.js></script>
+
+    <!-- Bootstrap JS -->
+    <script src=/assets/js/bootstrap.min.js></script>
 </head>
 
 
@@ -77,8 +83,15 @@
             <li >
                 <a href="/news/">NEWS &amp; ANNOUNCEMENTS</a>
             </li>
-            <li >
-                <a href="/error/">RESEARCH</a>
+            <li  class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    RESEARCH<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/research/">RESEARCH INSTITUTES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://ubrisa.ub.bw/handle/10311/16/">RESEARCH REPOSITORY</a></li>
+                </ul>
             </li>
             <li >
                 <a href="/error/">STAFF</a>
@@ -157,7 +170,7 @@
             <div id="wrap">
     <div class="row">
         <div class="col-lg-12">
-        <h3>Computer Science - Staff</h3>
+            <h3><a href="/cs/">Computer Science - Staff</a>&nbsp;-&nbsp;</h3>
         </div>
     </div><!-- /row -->
 </div><!-- /blue -->
@@ -165,13 +178,20 @@
 
     <div class="container">
 
-        <div class="navbar-collapse collapse navbar-left" id="nav-department">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="/cs/">Computer Science - Staff</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
             <ul class="nav navbar-nav">
 
-                <li ><a href="/cs/">CS HOME</a></li>
                 <li >
                     <a class="dropdown-toggle" data-toggle="dropdown" href="/cs/programmes.html">
-                       PROGRAMMES<span class="caret"></span>
+                        PROGRAMMES<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="/cs/cs-programmes.html/">See All Programmes</a></li>
@@ -186,7 +206,7 @@
                     </ul>
                 </li>
                 <li ><a href="/cs/cs-partnerships.html">PARTNERSHIPS</a></li>
-                <li class="active"><a href="/cs/cs-staff.html">STAFF</a></li>
+                <li ><a href="/cs/cs-staff.html">STAFF</a></li>
                 <li ><a href="/cs/cs-research.html">RESEARCH</a></li>
                 <li ><a href="/cs/cs-communities.html">COMMUNITIES</a></li>
                 <li ><a href="/cs/cs-gallery.html">GALLERY</a></li>
@@ -195,7 +215,7 @@
             </ul>
 
         </div><!--/.nav-collapse -->
-    
+
     </div>
 
 </nav>
@@ -203,18 +223,18 @@
 
 <!--
 <script>
-    window.onload = function() {
-        /* affix the navbar after scroll below header */
-        $(window).off('.affix')
-        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
-        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
-    }
-    window.onresize = function() {
-        /* affix the navbar after scroll below header */
-        $(window).off('.affix')
-        $('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
-        $('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
-    }
+window.onload = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
+window.onresize = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
 </script>-->
 
 <div id="dep-main">
@@ -298,10 +318,10 @@
                     
                 </p>
                 <p>
-                   <a href="mailto:someemail@mail.com">someemail@mail.com</a> 
+                   <a href="mailto:"></a> 
                 </p>
                 <p>
-                     <a href="tel:+267 355-0000">+267 355-0000</a>
+                     <a href="tel:+(267) 355-0000">+(267) 355-0000</a>
                 </p>
                    
                 
@@ -310,12 +330,6 @@
                 <h4 class="centre">Locate The University</h4>
                 <div class="hline-w"></div>
                 <p>
-                    
-                        4775 Notwane Rd. <br>
-                    
-                        Gaborone, Botswana <br>
-                    
-                        Private Bag 0022 <br>
                     
                 </p>
             </div>

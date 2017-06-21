@@ -1,4 +1,5 @@
 ---
+layout: profile
 fname: Sampson D.
 lname: Asare
 prefix: Mr
