@@ -10,6 +10,7 @@ office: Block 232, Office 218
 email: asared@mopipi.ub.bw
 phone:
 img: csteam_ga.png
+
 bio: "Dr. G. Anderson has the following qualifications: BSc (UB), MS (Colorado State University, USA), PhD (University of Johannesburg, South Africa). He is a Senior Lecturer in the Department of Computer Science, University of Botswana, and Chair of the Decision and Intelligent Systems research and teaching cluster in the department."
 
 areas: System Software and Artificial Intelligence.

@@ -4,15 +4,17 @@ fname: Yirsaw
 lname: Ayalew
 prefix: Prof
 name: Prof. Yirsaw Ayalew
-department: Computer Science 
+department: Computer Science
+title: Computer Science
 position: Associate Professor
-title: Associate Professor - Y. Ayalew
+subtitle: Y. Ayalew
 qualification: 
-office:
-email:
-phone:
+office: Block 232, Office 222
+email: ayalew@mopipi.ub.bw
+phone: 355-2869
 img: csteam_ya.png
-bio:
+
+bio: This is template bio info for profiles in which; (a) We haven't received any data for or (b) We are still in the process of uploading the data. If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.
 
 areas:
 - Software Development Methodology
@@ -61,3 +63,6 @@ community:
 
 
 ---
+
+
+{% include departments/compsci/secondary-nav-cs.html %}

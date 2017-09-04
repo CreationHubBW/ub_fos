@@ -5,12 +5,12 @@ role: Faculty Dean
 name: Prof. Julius Atlhopeng
 img: DEAN.jpg
 department: Faculty Level
-qualifications: ??, ??
-tel: 355-???? | 355-????
+qualifications: Data Not Provided
+tel: 355-DNP | 355-DNP
 office: 
-email: ???@mopipi.ub.bw
+email: DNP@mopipi.ub.bw
 level: faculty_level
-bio: "This is template bio info for profiles in which:
+bio: "This is template bio info for profiles in which;
     (a) We haven't received any data for or 
     (b) We are still in the process of uploading the data.
     If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.

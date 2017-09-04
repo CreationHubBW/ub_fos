@@ -10,7 +10,7 @@ office: Block 247, Office 289
 email: eyitayoo@mopipi.ub.bw
 phone: 355-4175
 img: csteam_ote.png
-bio: 
+bio: This is template bio info for profiles in which; (a) We haven't received any data for or (b) We are still in the process of uploading the data. If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.
 
 areas:  ""
 

@@ -1,7 +1,9 @@
 ---
 layout: default
+title: Computer Science
+subtitle: Staff
 ---
-{% include wrap.html %}
+{% include departments/compsci/department-wrap-cs.html %}
 <div class="container mtb">
 
     <div class="profile-header-block">
@@ -26,52 +28,61 @@ layout: default
 
 
     <div class="profile-proj-res-pub">
-        
+
         <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-4">
 
-                    <h3><a href="#projectsCol" data-toggle="collapse">Projects</a></h3>
-                    <hr/>
-                    <div id="projectsCol" class="collapse"> 
-                        {% for project in page.projects %}
-                        <ul>
-                            <li>{{project}}</li>
-                        </ul>
-                        {% endfor %}
+            
+
+                <!-- Staff PROJECTS -->
+                <div class="card col-md-4">
+                    <div class='card-body'>
+                        <div class='card-title'>
+                            <h3>Projects</h3>
+                        </div>
+                        <div class='card-text'>
+                            {% for project in page.projects %}
+                            <ul>
+                                <li>{{project}}</li>
+                            </ul>
+                            {% endfor %}
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="col-md-4">
-                    <h3><a href="#researchCol" data-toggle="collapse">Research and Teaching Areas</a></h3>
-                    <hr/>
-                    <div id="researchCol" class="collapse">
-                        {% for res in page.research %}
-                        <ul>
-                            <li>{{res}}</li>
-                        </ul>
-                        {% endfor %}
+                <!-- Staff RESEARCH -->
+                <div class="card col-md-4">
+                    <div class='card-body'>
+                        <div class='card-title'>
+                            <h3>Research</h3>
+                        </div>
+                        <div class='card-text'>
+                            {% for res in page.research %}
+                            <ul>
+                                <li>{{res}}</li>
+                            </ul>
+                            {% endfor %}
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="col-md-4">
-                    <h3><a href="#pubCol" data-toggle="collapse">Publications</a></h3>
-                    <hr/>
-                    <div id="pubCol" class="collapse">
-                        {% for pub in page.publications %}
-                        <ul>
-                            <li>{{pub}}</li>
-                        </ul>
-                        {% endfor %}
-                        <p><a href="assets/{{page.name}}.pdf" class="button" download><i class="fa fa-download"></i>Download All Publications</a></p>
+                <!-- Staff PUBLICATIONS -->
+                <div class="card col-md-4">
+                    <div class='card-body'>
+                        <div class='card-title'>
+                            <h3>Publications</h3>
+                        </div>
+                        <div class='card-text'>
+                            {% for pub in page.publications %}
+                            <ul>
+                                <li>{{pub}}</li>
+                            </ul>
+                            {% endfor %}
+                        </div>
                     </div>
-
                 </div>
-            </div>
+
         </div>
-        
+
     </div>
 
 </div>
