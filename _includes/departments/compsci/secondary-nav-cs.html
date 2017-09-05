@@ -18,15 +18,15 @@
                         PROGRAMMES<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/cs/cs-programmes.html/">See All Programmes</a></li>
+                        <li><a href="{{"/cs/cs-programmes.html/" | prepend: site.baseurl }}">See All Programmes</a></li>
                         <li class="divider"></li>
-                        <li><a href="/cs/cs-programmes.html/#ugp">Undergraduate Programmes</a></li>
+                        <li><a href="{{"/cs/cs-programmes.html/#ugp" | prepend: site.baseurl }}">Undergraduate Programmes</a></li>
                         <li class="divider"></li>
-                        <li><a href="/cs/cs-programmes.html/#cmp">Combined Majors</a></li>
+                        <li><a href="{{"/cs/cs-programmes.html/#cmp" | prepend: site.baseurl }}">Combined Majors</a></li>
                         <li class="divider"></li>
-                        <li><a href="/cs/cs-programmes.html/#mos">Masters Programmes</a></li>
+                        <li><a href="{{"/cs/cs-programmes.html/#mos" | prepend: site.baseurl }}">Masters Programmes</a></li>
                         <li class="divider"></li>
-                        <li><a href="/cs/cs-programmes.html/#mop">Masters of Philosopy</a></li>
+                        <li><a href="{{"/cs/cs-programmes.html/#mop" | prepend: site.baseurl }}">Masters of Philosopy</a></li>
                     </ul>
                 </li>
                 <li {% if page.subtitle == "Partnerships" %}class="active"{% endif %}><a href="{{"/cs/cs-partnerships.html" | prepend: site.baseurl }}">PARTNERSHIPS</a></li>
