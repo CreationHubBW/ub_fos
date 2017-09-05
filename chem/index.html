@@ -1,7 +1,7 @@
 ---
 layout: departments/layout-chem
-title: Chemistry Home 
-subtitle: The name's Bond. Ionic Bond. Taken, not shared.
+title: Chemistry
+subtitle: Home - The name's Bond. Ionic Bond. Taken, not shared.
 tag: chem
 permalink: /chem/
 ---
@@ -19,12 +19,13 @@ permalink: /chem/
 <!-- ================================================================== EVERYTHING ELSE SECTION -->
 
 
-<div class="container mtb">
+<div class="container mt mb">
 
     <!-- ================================================================== QUICK LINKS SECTION -->
     <div class="row" id="quick-links">
         <div class="col-md-3 col-sm-6">
-        <a href="{{"/chem/programmes.html/" | prepend: site.baseurl }}">
+        <a href="{{"/error/" | prepend: site.baseurl }}">
+<!--        <a href="{{"/chem/programmes.html/" | prepend: site.baseurl }}">-->
             <div class="quick-link-type-a">
                 <div class="quick-link-header">
                     <p>STUDY PROGRAMMES</p>
@@ -36,7 +37,8 @@ permalink: /chem/
         </a>
         </div>
         <div class="col-md-3 col-sm-6">
-        <a href="{{"/chem/research.html" | prepend: site.baseurl }}">
+        <a href="{{"/error/" | prepend: site.baseurl }}">
+<!--        <a href="{{"/chem/research.html" | prepend: site.baseurl }}">-->
             <div class="quick-link-type-b">
                 <div class="quick-link-header">
                     <p>RESEARCH</p>
@@ -48,7 +50,8 @@ permalink: /chem/
         </a>
         </div>
         <div class="col-md-3 col-sm-6">
-        <a href="{{"/chem/staff-cs.html" | prepend: site.baseurl }}">
+        <a href="{{"/error/" | prepend: site.baseurl }}">
+<!--        <a href="{{"/chem/staff-cs.html" | prepend: site.baseurl }}">-->
             <div class="quick-link-type-a">
                 <div class="quick-link-header">
                     <p>PEOPLE</p>
@@ -60,7 +63,8 @@ permalink: /chem/
         </a>
         </div>
         <div class="col-md-3 col-sm-6">
-        <a href="{{"/cs/communities-cs.html" | prepend: site.baseurl }}">
+        <a href="{{"/error/" | prepend: site.baseurl }}">
+<!--        <a href="{{"/cs/communities-cs.html" | prepend: site.baseurl }}">-->
             <div class="quick-link-type-b">
                 <div class="quick-link-header">
                     <p>STUDENTS</p>
@@ -80,60 +84,58 @@ permalink: /chem/
 
     <!-- ================================================================== NEWS SECTION -->
     <div class="col-md-12">
-            
-            <!-- Events -->
-            <div class="col-md-6">
-                <div class="news-section">
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">UPCOMING EVENTS</h3>
-                            <a href="contact.html" class="ribbon non-semantic-protector">
+
+        <!-- Events -->
+        <div class="col-md-6">
+            <div class="news-section">
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">UPCOMING EVENTS</h3>
+                        <a href="{{" /category/#events " | preped: site.baseurl }}" class="ribbon non-semantic-protector">
                             <strong class="ribbon-content">All Events</strong>
                         </a>
+                    </div>
+                    <div class="panel-body">
+                        {% for post in site.categories['events'] limit: 3 %}
+                        <div class="event">
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
+                                <span class="day">{{ post.day }}</span>
+                                <span class="month">{{ post.month }}</span>
+                            </a>
+                            <div class="event-description">
+                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                            </div>
                         </div>
-                        <div class="panel-body">
-                            {% for post in site.categories['events'] limit: 3 %}
-                                <div class="event">
-                                    <a href="{{ post.url | prepend: site.baseurl }}" class="event-date">
-                                        <span class="day">{{ post.day }}</span>
-                                        <span class="month">{{ post.month }}</span>
-                                    </a>
-                                    <div class="event-description">
-                                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
-            
-            <!-- News -->
-            <div class="col-md-6">
-                <div class="news-section">
-                    <div class="panel panel-news-events">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">LATEST NEWS</h3>
-                            <a href="contact.html" class="ribbon non-semantic-protector">
-                            <strong class="ribbon-content">More Info</strong>
-                        </a>
-                        </div>
-                        <div class="panel-body">
-                            {% for post in site.categories['news'] limit:5 %} 
-                                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
+
+        <!-- News -->
+        <div class="col-md-6">
+            <div class="news-section">
+                <div class="panel panel-news-events">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">LATEST NEWS</h3>
+                        <a href="{{" /news/ " | preped: site.baseurl }}" class="ribbon non-semantic-protector">
+                            <strong class="ribbon-content">More News</strong>
+                        </a>
+                    </div>
+                    <div class="panel-body">
+                        {% for post in site.categories['news'] limit:5 %} 
+                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
     <!-- ================================================================== /NEWS SECTION -->
 
 </div>
-
-
 
 
 <div class="container mtb">
@@ -144,7 +146,7 @@ permalink: /chem/
             <div class="panel panel-news-events">
                 <div class="panel-heading">
                     <h3 class="panel-title">VACANCIES &amp; JOB POSTS</h3>
-                    <a href="contact.html" class="ribbon non-semantic-protector">
+                    <a href="{{"/error/" | prepend: site.baseurl }}" class="ribbon non-semantic-protector">
                     <strong class="ribbon-content">VIEW ALL VACANCIES</strong>
                 </a>
                 </div>

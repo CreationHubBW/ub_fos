@@ -3,12 +3,15 @@ layout: profile
 fname: George
 lname: Anderson
 prefix: Dr
+name: Dr. G. Anderson
 department: Computer Science     
+title: Computer Science - Staff
 position: Senior Lecturer
+subtitle: G. Anderson
 qualification: Bsc (UB, Botswana), MS (Colorado State University, USA), PhD (University of Johannesburg, South Africa) 
-office: Block 232, Office 218 
-email: asared@mopipi.ub.bw
-phone:
+office: Block 247, Office 279 
+email: andersong@mopipi.ub.bw
+phone: 355-2133
 img: csteam_ga.png
 
 bio: "Dr. G. Anderson has the following qualifications: BSc (UB), MS (Colorado State University, USA), PhD (University of Johannesburg, South Africa). He is a Senior Lecturer in the Department of Computer Science, University of Botswana, and Chair of the Decision and Intelligent Systems research and teaching cluster in the department."

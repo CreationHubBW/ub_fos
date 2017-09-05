@@ -3,13 +3,18 @@ layout: profile
 fname: Tiroyamodimo
 lname: Mogotlhwane
 prefix: Dr
+name: Dr. Tiroyamodimo Mogotlhwane
 department: Computer Science     
+title: Computer Science - Staff
+subtitle: T. Mogotlhwane
 position: Senior Lecturer
 qualification: Bsc(Hon) (University of East London), MSc (University of Salford), PhD (University of Salford) 
 office: Block 247, Office 269 
 email: mogotlhw@mopipi.ub.bw
-phone:
+phone: 355-4975
 img: csteam_tm.png
+
+
 bio: Dr. Tiroyamodimo M. Mogotlhwane is currently a Senior Lecturer in the Department of Computer Science of University of Botswana. He got his Master and Ph.D. degrees from the University of Salford in the UK while working on the factors that limit application of information technology as a part of his doctorate thesis. His research interest also includes derived value from application of information technologies both at business and personal level. He is involved in graduate teaching and thesis supervision.
 
 areas:

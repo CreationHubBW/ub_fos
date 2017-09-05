@@ -3,14 +3,17 @@ layout: profile
 fname: V. Lakshmi
 lname: Narasimhan
 prefix: Prof
-department: Computer Science     
+name: Prof. V. Lakshmi Narasimhan
+department: Computer Science
+title: Computer Science - Staff
 position: Full Professor
-title: Full Professor - V.L. Narasimhan
+subtitle: L. Narasimhan
 qualification: B.Sc., B.E., M.E., Ph.D., GCM, CELD, P.E
-office:
-email:
-phone:
-img: cs_team_lm.png
+office: Block 232, Office XXX
+email: XXXX@mopipi.ub.bw
+phone: 355-XXXX
+img: csteam_ln.png
+
 bio: Prof. Lakshmi Narasimhan is presently a full professor of Computer Science at the University of Botswana. He has published over 380 papers in the areas of Software Engineering, Sensor Networks, Cloud Computing and Information Engineering and on related case studies extensively.  In particular, his research interests are in IoT, parallel and distributed computing, software testing, data mining, Software process, asset management systems and Standards, sensor networks, Big data, Cloud computing and information management & fusion and their extensive case studies and performance evaluations.  His papers have appeared in such archival journals as the various IEEE Transactions and IEE Proceedings. He has also been the technical chair of six international conferences and has been on the technical panel of over 80 leading International Conferences.  Lakshmi has won competitive research funding to the tune of US$8 million. He has consulted to a number of industries and educational institutions on various IT and Software Engineering projects, including Boeing Aerospace and DoD of Australia and USA. Prof. Narasimhan is a Senior Member of the IEEE & ACM, Fellow of ACS, IEAust (Australia) and IEE (UK). He is a Technical Member of various Standards bodies such as, ISO, ANSI and IEEE. Prof. Narasimhan is an IEEE Distinguished Visitor and an ACM Distinguished Speaker.
 
 areas:

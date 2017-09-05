@@ -3,8 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if page.tag == 'chem' %}
-    <link rel="icon" type="image/x-icon" href="/assets/ico/favicon.ico">
+    <link rel="icon" type="image/x-icon" href={{ "/assets/ico/favicon-chem.ico" | prepend: site.baseurl }}>
     {% endif %}
+    {% if page.tag == 'cs' %}
+    <link rel="icon" type="image/x-icon" href={{ "/assets/ico/favicon-cs.ico" | prepend: site.baseurl }}>
+    {% endif %}
+    
     <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">

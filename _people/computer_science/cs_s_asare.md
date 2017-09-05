@@ -3,13 +3,17 @@ layout: profile
 fname: Sampson D.
 lname: Asare
 prefix: Mr
-department: Computer Science     
+name: Mr. Sampson D. Asare
+department: Computer Science
+title: Computer Science - Staff
 position: Senior Lecturer
+subtitle: S. Asare
 qualification: BSc, MSc (Oslo) 
 office: Block 232, Office 218 
 email: asared@mopipi.ub.bw
-phone:
+phone: 355-2868
 img: csteam_sda.png
+
 bio: Sampson D Asare, a Senior Lecturer in the Department of Computer Science.
 
 areas: I have been teaching a number of courses in the department for the last decade or so. These include Data Structures, Structured Programming, Multimedia Computing and Computer Graphics. My interests are in teaching Java, Computer Graphics under the umbrella of Scientific Computing 

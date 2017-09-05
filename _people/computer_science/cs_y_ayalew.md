@@ -5,10 +5,10 @@ lname: Ayalew
 prefix: Prof
 name: Prof. Yirsaw Ayalew
 department: Computer Science
-title: Computer Science
+title: Computer Science - Staff
 position: Associate Professor
 subtitle: Y. Ayalew
-qualification: 
+qualification: BSc , MSc (Addis Ababa Uni), PhD (Uni of Klagenfurt)
 office: Block 232, Office 222
 email: ayalew@mopipi.ub.bw
 phone: 355-2869
@@ -63,6 +63,3 @@ community:
 
 
 ---
-
-
-{% include departments/compsci/secondary-nav-cs.html %}

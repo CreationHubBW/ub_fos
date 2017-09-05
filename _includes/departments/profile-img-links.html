@@ -1,7 +1,7 @@
 {% if page.department == "Computer Science" %}
-    <img src="{{"/cs/img/staff/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
+    <img class="img-responsive" src="{{"/cs/img/staff/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
 {% endif %}
 
 {% if page.department == "Faculty Level" %}
-    <img src="{{"/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
+    <img class="img-responsive" src="{{"/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
 {% endif %}

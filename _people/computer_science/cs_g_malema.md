@@ -3,8 +3,11 @@ layout: profile
 fname: Gabofetswe
 lname: Malema
 prefix: Dr
-department: Computer Science     
+name: Dr. Gabofetswe Malema
+department: Computer Science 
+title: Computer Science - Staff
 position: Senior Lecturer
+subtitle: G. Malema
 qualification: B.S Computer Engineering, M.S Computer Science and Engineering, PhD Computer Engineering 
 office: Block 232, Office 223 
 email: malemag@mopipi.ub.bw

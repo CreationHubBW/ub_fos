@@ -1,0 +1,111 @@
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="{{ "/chem/"  | prepend: site.baseurl }}">{{ page.title }}</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li {% if page.subtitle == "Programmes" %}class="active dropdown"{% endif %}>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/chem/programmes.html" | prepend: site.baseurl }}">
+                        PROGRAMMES<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/error/">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/error/">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/error/">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/error/">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/error/">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li {% if page.subtitle == "Partnerships" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">PARTNERSHIPS</a></li>
+                <li {% if page.subtitle == "Staff" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">STAFF</a></li>
+                <li {% if page.subtitle == "Research" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">RESEARCH</a></li>
+                <li {% if page.subtitle == "Communities" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">COMMUNITIES</a></li>
+                <li {% if page.subtitle == "Gallery" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">GALLERY</a></li>
+                <li {% if page.subtitle == "About Us" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">ABOUT</a></li>
+                <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/error/">CONTACT</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+
+    </div>
+
+</nav>
+
+
+<!--
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="{{ "/chem/"  | prepend: site.baseurl }}">{{ page.title }}</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li {% if page.subtitle == "Programmes" %}class="active dropdown"{% endif %}>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/chem/programmes.html" | prepend: site.baseurl }}">
+                        PROGRAMMES<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/chem/chem-programmes.html">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#ugp">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#cmp">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#mos">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/chem/chem-programmes.html/#mop">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li {% if page.subtitle == "Partnerships" %}class="active"{% endif %}><a href="{{"/chem/chem-partnerships.html" | prepend: site.baseurl }}">PARTNERSHIPS</a></li>
+                <li {% if page.subtitle == "Staff" %}class="active"{% endif %}><a href="{{"/chem/chem-staff.html" | prepend: site.baseurl }}">STAFF</a></li>
+                <li {% if page.subtitle == "Research" %}class="active"{% endif %}><a href="{{"/chem/chem-research.html" | prepend: site.baseurl }}">RESEARCH</a></li>
+                <li {% if page.subtitle == "Communities" %}class="active"{% endif %}><a href="{{"/chem/chem-communities.html" | prepend: site.baseurl }}">COMMUNITIES</a></li>
+                <li {% if page.subtitle == "Gallery" %}class="active"{% endif %}><a href="{{"/chem/chem-gallery.html" | prepend: site.baseurl }}">GALLERY</a></li>
+                <li {% if page.subtitle == "About Us" %}class="active"{% endif %}><a href="{{"/chem/chem-about.html" | prepend: site.baseurl }}">ABOUT</a></li>
+                <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>/.nav-collapse 
+
+    </div>
+
+</nav>
+-->
+
+
+<!--
+<script>
+window.onload = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
+window.onresize = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
+</script>-->

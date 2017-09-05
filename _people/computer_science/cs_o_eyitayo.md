@@ -3,13 +3,18 @@ layout: profile
 fname: Oduronke T.
 lname: Eyitayo
 prefix: Dr
-department: Computer Science     
+name: Dr. Oduronke T. Eyitayo
+department: Computer Science
+title: Computer Science - Staff
 position: Senior Lecturer
+subtitle: O. Eyitayo
 qualification: BSc, M. Info. Sc (Ibadan), PgD (Un. Southern Queensland), PhD (UB) 
 office: Block 247, Office 289 
 email: eyitayoo@mopipi.ub.bw
 phone: 355-4175
 img: csteam_ote.png
+
+
 bio: This is template bio info for profiles in which; (a) We haven't received any data for or (b) We are still in the process of uploading the data. If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.
 
 areas:  ""

@@ -1,88 +1,104 @@
----
-layout: default
-title: Computer Science
-subtitle: Staff
----
-{% include departments/compsci/department-wrap-cs.html %}
-<div class="container mtb">
+<!DOCTYPE html>
+<html>
 
-    <div class="profile-header-block">
-        <div class="row">
+    {% include head.html %}
 
-            <h3>{{page.name}} {{page.full_name}}</h3>
-            <div class="col-sm-3">
-                {% include departments/profile-img-links.html %}
+    <body>
+        {% include nav.html %}
+        {% include header.html %}
+        {% include profile-wrap.html %}
+
+
+        <div class="container mtb">
+
+            <div class="profile-header-block">
+                <div class="row">
+
+                    
+                    <div class="col-sm-3">
+                        {% include departments/profile-img-links.html %}
+                        <h4 id="profile-name">{{page.name}}</h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <h4>BIO</h4>
+                        <p>{{ page.bio }}</p>
+
+                        <h4>CONTACT ME</h4>
+                        <h5>E-Mail: {{page.email}}</h5>
+                        <h5>Phone: {{page.tel}}</h5>
+                        <h5>Office: {{page.office}}</h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-9">
-                <h4>BIO</h4>
-                <p>{{ page.bio }}</p>
 
-                <h4>CONTACT ME</h4>
-                <h5>E-Mail: {{page.email}}</h5>
-                <h5>Phone: {{page.tel}}</h5>
-                <h5>Office: {{page.office}}</h5>
+
+
+            <div class="profile-proj-res-pub">
+
+                <div class="row">
+
+
+
+                    <!-- Staff PROJECTS -->
+                    <div class="card col-md-4">
+                        <div class='card-body'>
+                            <div class='card-title'>
+                                <h3>Areas &amp; Projects</h3>
+                            </div>
+                            <div class='card-text'>
+                                {% for area in page.areas %}
+                                <ul>
+                                    <li>{{area}}</li>
+                                </ul>
+                                {% endfor %}
+                                {% for project in page.projects %}
+                                <ul>
+                                    <li>{{project}}</li>
+                                </ul>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Staff RESEARCH -->
+                    <div class="card col-md-4">
+                        <div class='card-body'>
+                            <div class='card-title'>
+                                <h3>Research</h3>
+                            </div>
+                            <div class='card-text'>
+                                {% for res in page.research %}
+                                <ul>
+                                    <li>{{res}}</li>
+                                </ul>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Staff PUBLICATIONS -->
+                    <div class="card col-md-4">
+                        <div class='card-body'>
+                            <div class='card-title'>
+                                <h3>Publications</h3>
+                            </div>
+                            <div class='card-text'>
+                                {% for pub in page.publications %}
+                                <ul>
+                                    <li>{{pub}}</li>
+                                </ul>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-    </div>
-
-
-
-    <div class="profile-proj-res-pub">
-
-        <div class="row">
-
-            
-
-                <!-- Staff PROJECTS -->
-                <div class="card col-md-4">
-                    <div class='card-body'>
-                        <div class='card-title'>
-                            <h3>Projects</h3>
-                        </div>
-                        <div class='card-text'>
-                            {% for project in page.projects %}
-                            <ul>
-                                <li>{{project}}</li>
-                            </ul>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Staff RESEARCH -->
-                <div class="card col-md-4">
-                    <div class='card-body'>
-                        <div class='card-title'>
-                            <h3>Research</h3>
-                        </div>
-                        <div class='card-text'>
-                            {% for res in page.research %}
-                            <ul>
-                                <li>{{res}}</li>
-                            </ul>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Staff PUBLICATIONS -->
-                <div class="card col-md-4">
-                    <div class='card-body'>
-                        <div class='card-title'>
-                            <h3>Publications</h3>
-                        </div>
-                        <div class='card-text'>
-                            {% for pub in page.publications %}
-                            <ul>
-                                <li>{{pub}}</li>
-                            </ul>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
 
         </div>
 
-    </div>
+        {% include footer.html %}
 
-</div>
+    </body>
+</html>

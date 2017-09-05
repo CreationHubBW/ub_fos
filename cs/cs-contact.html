@@ -1,0 +1,46 @@
+---
+layout: departments/layout-compsci
+title: Computer Science
+subtitle: Contact
+permalink: /cs/cs-contact.html/
+tag: cs
+---
+
+
+<div class="container mtb">
+    
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Get In Touch With CS</h4>
+            <div class="hline"></div>
+            <p>Contact the Department</p>
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="qnc">Questions/Comments:</label>
+                    <textarea class="form-control" id="qnc" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-theme float-right">Submit</button>
+            </form>
+        </div>
+
+        <div class="col-lg-4">
+                <h4>Our Address</h4>
+                <div class="hline"></div>
+                <p>{{ site.address_pysical }}</p>
+                <p>{{ site.address_postal }}</p>
+                <br/><br/>
+                <h4>Contact Details</h4>
+                <div class="hline"></div>
+                <p>{{ site.tel }}</p>
+                <p>{{ site.fax }}</p>
+        </div>
+    </div><!--/row -->
+</div><!--/container -->
