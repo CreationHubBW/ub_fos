@@ -8,6 +8,9 @@
     {% if page.tag == 'cs' %}
     <link rel="icon" type="image/x-icon" href={{ "/assets/ico/favicon-cs.ico" | prepend: site.baseurl }}>
     {% endif %}
+    {% if page.tag == 'fos' %}
+    <link rel="icon" type="image/x-icon" href={{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}>
+    {% endif %}
     
     <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 
