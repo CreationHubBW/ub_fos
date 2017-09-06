@@ -1,12 +1,22 @@
 ---
-layout: post
-title: "Deputy Dean | Prof B. Moseki"
-role: Deputy Dean
-name: Prof. B. Moseki
-department: Faculty Level
-img: unknown.jpg
+layout: profile
+fname: Baleseng
+lname: Moseki
+prefix: Prof
+name: Prof. Baleseng Moseki
+department: Faculty of Science
+title: Faculty of Science - Staff
+position: Deputy Dean
+subtitle: B. Moseki
 qualifications: BSc (UB), MPhil (Aberdeen), PhD (Essex)
-level: faculty_level
----
+office: Block DNP, Office DNP
+email: DNP@mopipi.ub.bw
+phone: 355-DNP
+img: moseki.jpg
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+bio: "This is template bio info for profiles in which;
+    (a) We haven't received any data for or 
+    (b) We are still in the process of uploading the data.
+    If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.
+    "
+---

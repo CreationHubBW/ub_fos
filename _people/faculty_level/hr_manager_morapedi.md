@@ -1,12 +1,23 @@
 ---
-layout: post
-title: "Manager, H.R | P.G Morapedi"
-role: Manager, HR
-name: Mr. P.G Morapedi
-img: unknown.jpg
-department: Faculty Level
-qualifications: BA + PGDE (UB), MSc
-level: faculty_level
----
+layout: profile
+fname: Moeng
+lname: Segaetsho
+prefix: Mr.
+name: Mr. Moeng Segaetsho
+department: Faculty of Science
+title: Faculty of Science - Staff
+position: Manager, HR
+subtitle: M. Segaetsho
+qualifications: BA (UB), MSc HRM (Salford University UK)
+office: Block DNP, Office DNP
+email: DNP@mopipi.ub.bw
+phone: 355-DNP
+img: segaetsho.jpg
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+bio: "This is template bio info for profiles in which;
+    (a) We haven't received any data for or 
+    (b) We are still in the process of uploading the data.
+    If option *A* is the case, kindly send your profile details to our data collectors in the 'Contact Us' link in the menu. Thank you.
+    "
+    
+---

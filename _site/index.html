@@ -47,7 +47,7 @@
 
     <body>
         <!-- Fixed navbar -->
-<nav class="navbar navbar-default" role="navigation" id="navbar">
+<nav id="navbar-main" class="navbar navbar-default" role="navigation" id="navbar">
     
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -206,7 +206,7 @@
             
             <h3>Prof. Julius Atlhopeng</h3>
             <div>
-                <a href="/ub_fos/people/faculty_level/dean_atlhopeng"><button class="btn btn-primary" role="button">View Profile</button></a>
+                <a href="/ub_fos/about/"><button class="btn btn-primary" role="button">Read More</button></a>
             </div>
         </div>
     </div>
@@ -460,38 +460,38 @@
                                     
                                     
                                     <div class="item">
-                                        <img class="img-circle" src="/ub_fos/assets/img/members/DEAN.jpg" alt="Faculty Dean - J. Atlhopeng">
+                                        <img class="img-circle" src="/ub_fos/assets/img/members/DEAN.jpg" alt="Faculty of Science - Staff">
                                         <div id="staff-profile-details">
                                             <h3>Faculty Dean</h3>
                                             <a href="/ub_fos/people/faculty_level/dean_atlhopeng/"<h5>Prof. Julius Atlhopeng</h5></a>
-                                    <h5>Data Not Provided</h5>
+                                    <h5>BSc (East Anglia, UK), MSc (London, Kings College, UK), PhD (Wollongong, Australia)</h5>
                                 </div>
                             </div>
                             
                                     <div class="item">
-                                        <img class="img-circle" src="/ub_fos/assets/img/members/unknown.jpg" alt="Deputy Dean | Prof B. Moseki">
+                                        <img class="img-circle" src="/ub_fos/assets/img/members/moseki.jpg" alt="Faculty of Science - Staff">
                                         <div id="staff-profile-details">
                                             <h3>Deputy Dean</h3>
-                                            <a href="/ub_fos/people/faculty_level/deputy_dean_moseki/"<h5>Prof. B. Moseki</h5></a>
+                                            <a href="/ub_fos/people/faculty_level/deputy_dean_moseki/"<h5>Prof. Baleseng Moseki</h5></a>
                                     <h5>BSc (UB), MPhil (Aberdeen), PhD (Essex)</h5>
                                 </div>
                             </div>
                             
                                     <div class="item">
-                                        <img class="img-circle" src="/ub_fos/assets/img/members/unknown.jpg" alt="Faculty Administrator | L.M. Paledi">
+                                        <img class="img-circle" src="/ub_fos/assets/img/members/paledi.jpg" alt="Faculty of Science - Staff">
                                         <div id="staff-profile-details">
                                             <h3>Faculty Administrator</h3>
-                                            <a href="/ub_fos/people/faculty_level/faculty_admin_paledi/"<h5>Mr. L.M. Paledi</h5></a>
+                                            <a href="/ub_fos/people/faculty_level/faculty_admin_paledi/"<h5>Mr. Letsweletse M. Paledi</h5></a>
                                     <h5>BA, MPA (UB)</h5>
                                 </div>
                             </div>
                             
                                     <div class="item">
-                                        <img class="img-circle" src="/ub_fos/assets/img/members/unknown.jpg" alt="Manager, H.R | P.G Morapedi">
+                                        <img class="img-circle" src="/ub_fos/assets/img/members/segaetsho.jpg" alt="Faculty of Science - Staff">
                                         <div id="staff-profile-details">
                                             <h3>Manager, HR</h3>
-                                            <a href="/ub_fos/people/faculty_level/hr_manager_morapedi/"<h5>Mr. P.G Morapedi</h5></a>
-                                    <h5>BA + PGDE (UB), MSc</h5>
+                                            <a href="/ub_fos/people/faculty_level/hr_manager_morapedi/"<h5>Mr. Moeng Segaetsho</h5></a>
+                                    <h5>BA (UB), MSc HRM (Salford University UK)</h5>
                                 </div>
                             </div>
                             
@@ -639,8 +639,7 @@
             },
             1000:{
                 items:3,
-                nav:true,
-                loop:false
+                nav:true
             }
         }
     });
@@ -688,6 +687,24 @@
     </div><!--container -->
 </div><!--footerwrap -->
 
+        <div id="anchor">
+    <i class="fa fa-angle-double-up fa-3x"></i>
+</div>
+
+<script>
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("anchor").style.display = "block";
+        } else {
+            document.getElementById("anchor").style.display = "none";
+        }
+    };
+
+
+    $("#anchor").on('click', function() {
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    });
+</script>
         
     </body>
 </html>

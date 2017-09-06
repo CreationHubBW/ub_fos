@@ -162,12 +162,12 @@ permalink: /
                                 <!-- Staff Carousel -->
                                 <div id="owl-staff" class="owl-carousel owl-theme">
 
-                                    {% assign faculty_staff = site.people | where:"department", "Faculty Level" %}
+                                    {% assign faculty_staff = site.people | where:"department", "Faculty of Science" %}
                                     {% for staff in faculty_staff  %}
                                     <div class="item">
                                         <img class="img-circle" src="{{ "/assets/img/members/" |  prepend: site.baseurl | append : staff.img }}" alt="{{staff.title}}">
                                         <div id="staff-profile-details">
-                                            <h3>{{staff.role}}</h3>
+                                            <h3>{{staff.position}}</h3>
                                             <a href="{{ staff.url | prepend: site.baseurl }}"<h5>{{staff.name}}</h5></a>
                                     <h5>{{staff.qualifications}}</h5>
                                 </div>
@@ -277,8 +277,7 @@ permalink: /
             },
             1000:{
                 items:3,
-                nav:true,
-                loop:false
+                nav:true
             }
         }
     });

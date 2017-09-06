@@ -1,15 +1,19 @@
 ---
 layout: profile
-title: "Faculty Dean - J. Atlhopeng"
-role: Faculty Dean
+fname: Julius
+lname: Atlhopeng
+prefix: Prof
 name: Prof. Julius Atlhopeng
-img: DEAN.jpg
-department: Faculty Level
-qualifications: Data Not Provided
-tel: 355-DNP | 355-DNP
-office: 
+department: Faculty of Science
+title: Faculty of Science - Staff
+position: Faculty Dean
+subtitle: J. Atlhopeng
+qualifications: BSc (East Anglia, UK), MSc (London, Kings College, UK), PhD (Wollongong, Australia)
+office: Block DNP, Office DNP
 email: DNP@mopipi.ub.bw
-level: faculty_level
+phone: 355-DNP
+img: DEAN.jpg
+
 bio: "This is template bio info for profiles in which;
     (a) We haven't received any data for or 
     (b) We are still in the process of uploading the data.

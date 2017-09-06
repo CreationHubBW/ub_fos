@@ -1,15 +1,20 @@
 ---
 layout: profile
-title: "Faculty Administrator | L.M. Paledi"
-role: Faculty Administrator
-name: Mr. L.M. Paledi
-img: unknown.jpg
-department: Faculty Level
+fname: Letsweletse M
+lname: Paledi
+prefix: Mr.
+name: Mr. Letsweletse M. Paledi
+department: Faculty of Science
+title: Faculty of Science - Staff
+position: Faculty Administrator
+subtitle: L. M. Paledi
 qualifications: BA, MPA (UB)
-tel: 355-2460 | 355-2475
-office: 
+office: Block DNP, Office DNP
 email: paledi@mopipi.ub.bw
-level: faculty_level
+phone: 355-2460 | 355-2475
+img: paledi.jpg
+
+
 bio: "This is template bio info for profiles in which:
     (a) We haven't received any data for or 
     (b) We are still in the process of uploading the data.

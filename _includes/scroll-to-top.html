@@ -1,0 +1,18 @@
+<div id="anchor">
+    <i class="fa fa-angle-double-up fa-3x"></i>
+</div>
+
+<script>
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("anchor").style.display = "block";
+        } else {
+            document.getElementById("anchor").style.display = "none";
+        }
+    };
+
+
+    $("#anchor").on('click', function() {
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    });
+</script>
