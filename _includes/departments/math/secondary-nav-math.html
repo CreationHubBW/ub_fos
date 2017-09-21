@@ -7,14 +7,14 @@
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-bars fa-2x"></i>
             </button>
-            <a class="navbar-brand" href="{{ "/bio/"  | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="navbar-brand" href="{{ "/math/"  | prepend: site.baseurl }}">{{ page.title }}</a>
         </div>
 
         <div class="navbar-collapse collapse navbar-right" id="nav-department">
             <ul class="nav navbar-nav">
 
                 <li {% if page.subtitle == "Programmes" %}class="active dropdown"{% endif %}>
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/bio/programmes.html" | prepend: site.baseurl }}">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{"/bio/programmes/" | prepend: site.baseurl }}">
                         PROGRAMMES<span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
@@ -33,7 +33,7 @@
                 <li {% if page.subtitle == "Staff" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">STAFF</a></li>
                 <li {% if page.subtitle == "Research" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">RESEARCH</a></li>
                 <li {% if page.subtitle == "Communities" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">COMMUNITIES</a></li>
-                <li {% if page.subtitle == "Gallery" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">GALLERY</a></li>
+                <li {% if page.subtitle == "Gallery" %}class="active"{% endif %}><a href="{{"/math/math-gallery/" | prepend: site.baseurl }}">GALLERY</a></li>
                 <li {% if page.subtitle == "About Us" %}class="active"{% endif %}><a href="{{"/error/" | prepend: site.baseurl }}">ABOUT</a></li>
                 <li {% if page.title == "Computer Science - About Us" %}class="active"{% endif %}><a href="/error/">CONTACT</a></li>
             </ul>

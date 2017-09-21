@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+    <link rel="icon" type="image/x-icon" href=/ub_fos/assets/ico/favicon-math.ico>
+    
+    
+    <title>Mathematics - UB FACULTY OF SCIENCE</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sansita" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/bootstrap.css>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/font-awesome.css>
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/animate.css>
+
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/owl.carousel.min.css>
+    
+    <!-- Default Theme -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/owl.theme.default.min.css>
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href=/ub_fos/assets/css/style.css>
+
+
+    
+
+
+    <!-- JQuery version 2.2.2 -->
+    <script src=/ub_fos/assets/js/jquery.js></script>
+
+    <!-- Include js plugin -->
+    <script src=/ub_fos/assets/js/owl.carousel.min.js></script>
+
+    <!-- Bootstrap JS -->
+    <script src=/ub_fos/assets/js/bootstrap.min.js></script>
+</head>
+
+
+    <body>
+        <!-- Fixed navbar -->
+<nav id="navbar-main" class="navbar navbar-default" role="navigation" id="navbar">
+    
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+      <a class="navbar-brand" href="/ub_fos/">UB FACULTY OF SCIENCE</a>
+    </div>
+    
+    <div class="navbar-collapse collapse navbar-right">
+        <ul class="nav navbar-nav">
+            <li >
+                <a href="/ub_fos/">HOME</a>
+            </li>
+            <li  class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="/ub_fos/departments/">
+                    DEPARTMENTS<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/ub_fos/cs/">COMPUTER SCIENCES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/bio/">BIOLOGAL SCIENCES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/chem/">CHEMISTRY</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/env-sci/">ENVIRONMENTAL SCIENCES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/geo/">GEOLOGICAL SCIENCES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/math/">MATHEMATICS</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/ub_fos/phys/">PHYSICS</a></li>
+                </ul>
+            </li>
+            <li >
+                <a href="/ub_fos/news/">NEWS &amp; ANNOUNCEMENTS</a>
+            </li>
+            <li  class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    RESEARCH<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/ub_fos/research/">RESEARCH INSTITUTES</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://ubrisa.ub.bw/handle/10311/16/">RESEARCH REPOSITORY</a></li>
+                </ul>
+            </li>
+            <li >
+                <a href="/ub_fos/error/">STAFF</a>
+            </li>
+            <li >
+                <a href="/ub_fos/about/">ABOUT</a>
+            </li>
+            <li >
+                <a href="/ub_fos/contact/">CONTACT</a>
+            </li>
+        </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+
+<!--
+<script>
+    window.onload = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
+    }
+    window.onresize = function() {
+        /* affix the navbar after scroll below header */
+        $(window).off('.affix')
+        $('#navbar').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+        $('#navbar').affix({ offset: $('#headerwrap').outerHeight()})
+    }
+</script>
+-->
+
+        
+<div id="headerwrap">
+    <div class="container">
+        <div class="header-welcome-block">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="http://www.ub.bw" target="_blank"><img src="/ub_fos/assets/img/UB-logo.png" class="img-responsive"></a>
+                </div>
+                <div class="col-sm-6">
+                    <h1>FACULTY OF SCIENCE</h1><br />
+                </div>
+                <div class="col-sm-3">
+                    <div class="row" id="social-row">
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-facebook-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-linkedin-square fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="social">
+                                <i class="fa fa-google-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form>
+                            <div class="form-group">
+                                <input type="search" class="form-control" id="searchbar" placeholder="Search Site">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
+
+
+            <div id="wrap">
+    <div class="row">
+        <div class="col-lg-12">
+            <h3><a href="/ub_fos/math/">Mathematics</a>&nbsp;-&nbsp;Gallery</h3>
+        </div>
+    </div><!-- /row -->
+</div><!-- /blue -->
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="/ub_fos/math/">Mathematics</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li >
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/ub_fos/bio/programmes/">
+                        PROGRAMMES<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/ub_fos/error/">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/ub_fos/error/">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/ub_fos/error/">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/ub_fos/error/">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/ub_fos/error/">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/ub_fos/error/">PARTNERSHIPS</a></li>
+                <li ><a href="/ub_fos/error/">STAFF</a></li>
+                <li ><a href="/ub_fos/error/">RESEARCH</a></li>
+                <li ><a href="/ub_fos/error/">COMMUNITIES</a></li>
+                <li class="active"><a href="/ub_fos/math/math-gallery/">GALLERY</a></li>
+                <li ><a href="/ub_fos/error/">ABOUT</a></li>
+                <li ><a href="/error/">CONTACT</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+
+    </div>
+
+</nav>
+
+<!--
+<nav class="navbar navbar-default" role="navigation" id="navbar-department">
+
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-department">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="/ub_fos/math/">Mathematics</a>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-right" id="nav-department">
+            <ul class="nav navbar-nav">
+
+                <li >
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/ub_fos/math/programmes.html">
+                        PROGRAMMES<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/math/math-programmes.html/">See All Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/math/math-programmes.html/#ugp">Undergraduate Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/math/math-programmes.html/#cmp">Combined Majors</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/math/math-programmes.html/#mos">Masters Programmes</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/math/math-programmes.html/#mop">Masters of Philosopy</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/ub_fos/math/math-partnerships.html">PARTNERSHIPS</a></li>
+                <li ><a href="/ub_fos/math/math-staff.html">STAFF</a></li>
+                <li ><a href="/ub_fos/math/math-research.html">RESEARCH</a></li>
+                <li ><a href="/ub_fos/math/math-communities.html">COMMUNITIES</a></li>
+                <li class="active"><a href="/ub_fos/math/math-gallery.html">GALLERY</a></li>
+                <li ><a href="/ub_fos/math/math-about.html">ABOUT</a></li>
+                <li ><a href="/ub_fos/math/math-contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>/.nav-collapse 
+
+    </div>
+
+</nav>
+-->
+
+
+<!--
+<script>
+window.onload = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
+window.onresize = function() {
+/* affix the navbar after scroll below header */
+$(window).off('.affix')
+$('#navbar-department').removeData('bs.affix').removeClass('affix affix-top affix-bottom')
+$('#navbar-department').affix({ offset: $('#headerwrap').outerHeight() + $('wrap').outerHeight()})
+}
+</script>-->
+
+<div id="dep-main">
+    <div class="container mtb">
+
+    <div class="row centered">
+
+        <h1>GALLERY</h1>
+
+        <div class="spacing"></div>
+
+        <div class="col-md-6">
+
+            <div class="thumbnail">
+                <img class="img-responsive" src="/ub_fos/math/img/gallery/math-dep.jpg " alt="Mathematics Department" />
+
+                <div class="caption">
+                    <h4>MATH DEPARTMENT</h4>
+                    <h6>The Mathematics department neighbours the Physics Department in Block 238</h6>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4 class="centre">About</h4>
+                <div class="hline-w"></div>
+                <p>© 2017 University of Botswana</p>
+            </div>
+            <div class="col-lg-4">
+                <h4 class="centre">Contacts And Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-google-plus"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-linkedin"></i></a>
+                    
+                </p>
+                <p>
+                   <a href="mailto:"></a> 
+                </p>
+                <p>
+                     <a href="tel:+(267) 355-0000">+(267) 355-0000</a>
+                </p>
+                   
+                
+            </div>
+            <div class="col-lg-4">
+                <h4 class="centre">Locate The University</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                </p>
+            </div>
+        </div><!--row -->
+    </div><!--container -->
+</div><!--footerwrap -->
+
+        <div id="anchor">
+    <i class="fa fa-angle-double-up fa-3x"></i>
+</div>
+
+<script>
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("anchor").style.display = "block";
+        } else {
+            document.getElementById("anchor").style.display = "none";
+        }
+    };
+
+
+    $("#anchor").on('click', function() {
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    });
+</script>
+        
+    </body>
+</html>
