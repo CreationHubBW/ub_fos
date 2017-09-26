@@ -5,19 +5,19 @@ subtitle: Staff
 permalink: /math/math-staff/
 tag: math
 ---
-{% assign cs_staff = site.people | where:"department", "Computer Science" %}
+{% assign math_staff = site.people | where:"department", "Mathematics" %}
 {% assign curr_letter = " " %}
 
 <div class="container mtb">
 
     <div class="col-md-12">
 
-        <h3>THE TEAM BEHIND COMPUTER SCIENCE</h3>
+        <h3>THE TEAM BEHIND THE MATHEMATICS DEPARTMENT</h3>
         
         
         
         {% capture staffmembers %}
-          {% for staffmember in cs_staff %}
+          {% for staffmember in math_staff %}
             |{{ staffmember.lname }}#{{ staffmember.fname }}#{{ staffmember.prefix }}#{{ staffmember.position }}#{{ staffmember.url }}
           {% endfor %}
         {% endcapture %}
@@ -29,7 +29,7 @@ tag: math
         {% for staff in sortedstaff %}
             {% assign staffitems = staff | split: '#' %}
             
-            <a href="{{ staffitems[4] }}" class="list-group-item">{{ staffitems[2] }} {{ staffitems[1] }} {{ staffitems[0] }}
+            <a href="{{ staffitems[4] | prepend: site.baseurl }}" class="list-group-item">{{ staffitems[2] }} {{ staffitems[1] }} {{ staffitems[0] }}
             <span class="badge">{{ staffitems[3] }}</span></a>
         {% endfor %}
             

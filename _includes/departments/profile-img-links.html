@@ -2,6 +2,10 @@
     <img class="img-responsive" src="{{"/cs/img/staff/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
 {% endif %}
 
+{% if page.department == "Mathematics" %}
+    <img class="img-responsive" src="{{"/math/img/staff/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
+{% endif %}
+
 {% if page.department == "Faculty of Science" %}
     <img class="img-responsive" src="{{"/assets/img/members/" | prepend: site.baseurl }}{{ page.img }}" alt={{page.name}}>
 {% endif %}
