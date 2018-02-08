@@ -8,7 +8,10 @@ department: Computer Science
 title: Computer Science - Staff
 position: Senior Lecturer
 subtitle: O. Eyitayo
-qualification: BSc, M. Info. Sc (Ibadan), PgD (Un. Southern Queensland), PhD (UB) 
+qualifications:
+    - BSc, M. Info. Sc (Ibadan).
+    - PgD (Uni Southern Queensland).
+    - PhD (University of Botswana).
 office: Block 247, Office 289 
 email: eyitayoo@mopipi.ub.bw
 phone: 355-4175

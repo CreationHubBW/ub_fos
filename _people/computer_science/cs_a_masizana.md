@@ -8,7 +8,10 @@ department: Computer Science
 title: Computer Science - Staff
 position: Head of Department
 subtitle: A.N Masizana
-qualification: BSc (Kingston Uni), DCP, Msc (Oxford Brookes Uni), PhD, UMIST(Uni of Manchester Institute of Science and Tech.)
+qualifications:
+    - BSc (Kingston Uni).
+    - DCP, Msc (Oxford Brookes Uni).
+    - PhD, UMIST(Uni of Manchester Institute of Science and Tech.)
 office: Block 232, Office 227
 email: masizana@mopipi.ub.bw
 phone: 355-2131

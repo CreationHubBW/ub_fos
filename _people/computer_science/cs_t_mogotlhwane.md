@@ -8,7 +8,10 @@ department: Computer Science
 title: Computer Science - Staff
 subtitle: T. Mogotlhwane
 position: Senior Lecturer
-qualification: Bsc(Hon) (University of East London), MSc (University of Salford), PhD (University of Salford) 
+qualifications:
+    - Bsc(Hon) (University of East London).
+    - MSc (University of Salford)
+    - PhD (University of Salford) 
 office: Block 247, Office 269 
 email: mogotlhw@mopipi.ub.bw
 phone: 355-4975

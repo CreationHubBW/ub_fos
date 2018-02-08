@@ -24,7 +24,8 @@ URL: http://alvarez.is
 }
 body {
     /*	background: #384452;*/
-    background-color: #d8af7a;
+
+    background-color: #eae8e7;
     margin: 0;
     height: 100%;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -49,7 +50,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: #222;
 }
 
 p {
@@ -169,8 +169,19 @@ a:focus {
     padding: 40px 15px;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 3px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.75);
+/*    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.75);*/
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
+
+
+.borderless-mtb {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px 15px;
+}
+
 
 .mb {
     margin-bottom: 60px;
@@ -612,19 +623,19 @@ a:focus {
     /*    margin: 0 -15px;*/
 }
 
-#bio_dep_home {background-color:#4d6f63;}
+#bio_dep_home {background-color:#00b3fe;}
 #bio_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#chem_dep_home {background-color:#d2d450;}
+#chem_dep_home {background-color:#ff8000;}
 #chem_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
-#cs_dep_home {background-color:#d65a5a;}
+#cs_dep_home {background-color:#e2e536;}
 #cs_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#env_dep_home {background-color:#666699;}
+#env_dep_home {background-color:#00ba1d;}
 #env_dep_home p {color:#ffffff;font-weight: 600;font-size: 1.5em;}
 #geo_dep_home {background-color:#8585ad;}
 #geo_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#mat_dep_home {background-color:#67d245;}
+#mat_dep_home {background-color:#660184;}
 #mat_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
-#phy_dep_home {background-color:#bb46a2;}
+#phy_dep_home {background-color:#010b86;}
 #phy_dep_home p {color: #ffffff;font-weight: 600;font-size: 1.5em;}
 
 .department:hover {
@@ -656,6 +667,15 @@ a:focus {
     color: #000000;
     margin-bottom: 60px;
 }
+
+
+/**********************************************************************
+* Documents
+***********************************************************************/
+#docrepo {
+    margin: 0;
+}
+
 
 
 
@@ -811,6 +831,8 @@ PAGE CONFIGURATIONS
 #wrap {
     /*	background: #00b3fe;*/
     background: #333333;
+    display: inline-block;
+    width: 100%;
 }
 
 #wrap h3 {
@@ -958,6 +980,7 @@ a.anchor{
 
 
 /*************************************************************************************************
+/*************************************************************************************************
 * Custom Panels - Landing Page - News & Events
 *************************************************************************************************/
 .panel-news-events {
@@ -1075,48 +1098,6 @@ a.anchor{
     box-shadow: 0 1px 5px rgba(1, 0, 0, 0.55);
 }
 
-
-/*************************************************************************************************
-* Profile Styling
-*************************************************************************************************/
-#profile-name {
-    text-align: center;
-}
-
-.profile-header-block {
-    padding: 0 2em;
-    margin: 1em 4em;
-    height: auto;
-    width: auto;
-    /* text-align: center; */
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 1px 5px rgba(1, 0, 0, 0.55);
-}
-
-.profile-header-block h2 {
-    text-align: right;
-    margin-bottom: 40px;
-}
-
-.profile-header-left {
-    float: left;
-    margin-right: 1.5em;
-}
-
-.profile-proj-res-pub h3 {
-    text-align: center;
-}
-
-.profile-proj-res-pub {
-    padding: 2em;
-    margin: 2em;
-    min-height: auto;
-    width: auto;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 1px 5px rgba(1, 0, 0, 0.55);
-}
 
 
 

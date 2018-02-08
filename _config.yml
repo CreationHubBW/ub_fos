@@ -90,15 +90,15 @@ members:
         url: creationhub.github.io
     
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+partners:
+  - name: BITRI
+    img: bitri_logo.jpg
+  - name: Okavango Research Institute
+    img: ori_logo.png
+#  - name: Vimeo
+#    img: client03.png
+#  - name: VimeoPro
+#    img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "© 2017 University of Botswana"

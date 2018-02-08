@@ -8,7 +8,9 @@ department: Faculty of Science
 title: Faculty of Science - Staff
 position: Manager, HR
 subtitle: M. Segaetsho
-qualifications: BA (UB), MSc HRM (Salford University UK)
+qualifications:
+    - BA (UB).
+    - MSc HRM (Salford University UK).
 office: Block DNP, Office DNP
 email: DNP@mopipi.ub.bw
 phone: 355-DNP

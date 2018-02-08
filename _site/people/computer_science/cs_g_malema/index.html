@@ -18,7 +18,7 @@
     <link rel="stylesheet" href=/ub_fos/assets/css/bootstrap.css>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href=/ub_fos/assets/css/font-awesome.css>
+    <link rel="stylesheet" href=/ub_fos/assets/css/fa-svg-with-js.css>
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href=/ub_fos/assets/css/animate.css>
@@ -44,8 +44,16 @@
 
     <!-- Bootstrap JS -->
     <script src=/ub_fos/assets/js/bootstrap.min.js></script>
+    
+    <!-- Font-Awesome JS -->
+    <script src=/ub_fos/assets/js/fontawesome-all.js></script>
 </head>
 
+
+    <head>
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href=/ub_fos/assets/css/style.layout.profile.css>
+    </head>
 
     <body>
         <!-- Fixed navbar -->
@@ -142,17 +150,17 @@
                     <div class="row" id="social-row">
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-facebook-square fa-3x"></i>
+                                <a target="_blank" href="https://www.facebook.com/ubfos/"><i class="fab fa-facebook-square fa-3x"></i></a>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-linkedin-square fa-3x"></i>
+                                <i class="fab fa-twitter fa-3x"></i>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-google-plus-square fa-3x"></i>
+                                <i class="fab fa-google-plus-square fa-3x"></i>
                             </div>
                         </div>
                     </div>
@@ -171,104 +179,217 @@
 </div><!-- /headerwrap -->
 
         <div id="wrap">
-    <div class="row">
-        <div class="col-lg-12">
-            <h3><a href="/ub_fos/cs/cs-staff.html">Computer Science - Staff</a>&nbsp;-&nbsp;G. Malema</h3>
-        </div>
-    </div><!-- /row -->
+    <div class="col-lg-12">
+        <h3><a href="/ub_fos/cs/cs-staff.html">Computer Science - Staff</a>&nbsp;-&nbsp;G. Malema</h3>
+    </div>
 </div><!-- /blue -->
 
 
-        <div class="container mtb">
-
-            <div class="profile-header-block">
-                <div class="row">
-
-                    
-                    <div class="col-sm-3">
-                        
+        <!-- Start Container-->
+        <div class="container borderless-mtb">
+            <!-- row -->
+            <div class="row">
+                <!-- ========================================= SIDEBAR    ==========================================-->
+                <!-- Start Sidebar -->
+                <aside class="col-sm-3 sidebar profile-section" id="sidebar">             
+                    <!--  top section   -->
+                    <div class="heading">                            
+                        <!-- ==================== IMAGE    ==========================-->
+                        <div class="feature-img">
+                            
     <img class="img-responsive" src="/ub_fos/cs/img/staff/csteam_gma.png" alt=Dr. Gabofetswe Malema>
 
 
 
 
 
-                        <h4 id="profile-name">Dr. Gabofetswe Malema</h4>
-                    </div>
-                    <div class="col-sm-9">
-                        <h4>BIO</h4>
-                        <p>Senior Lecturer in the Department of Computer Science.</p>
-                        <p><strong>B.S Computer Engineering, M.S Computer Science and Engineering, PhD Computer Engineering</strong></p>
-                        <h4>CONTACT ME</h4>
-                        <h5>E-Mail: malemag@mopipi.ub.bw</h5>
-                        <h5>Phone: 355-4263</h5>
-                        <h5>Office: Block 232, Office 223</h5>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="profile-proj-res-pub">
-
-                <div class="row">
-
-
-
-                    <!-- Staff PROJECTS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Areas &amp; Projects</h3>
-                            </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>Computer Architecture, Programming and Algorithms </li>
-                                </ul>
-                                
-                                
-                                <ul>
-                                    <li>We have a team that is working on developing basic NLP tools for Setswana Language. Ongoing projects include Setswana verb and noun analyzer and generator, Setswana Spell Checker and rule based Setswana Part of Speech Tagger</li>
-                                </ul>
-                                
-                            </div>
+                        </div>                            
+                        <!-- ======================================== NAME AND TAGLINE ==========================================-->						
+                        <div class="title col-sm-12 center wow fadeIn animated">
+                            <h3 id="profile-name">Dr. Gabofetswe Malema</h3>
+                            <span>Senior Lecturer</span>  <!-- tagline -->
                         </div>
                     </div>
+                    <!-- sidebar info -->
 
-                    <!-- Staff RESEARCH -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Research</h3>
+                    <div class="col-xs-12 bio sidebar-item">
+                        <div class="row">                               
+                            <div class="col-sm-12 col-lg-3 icon"> <!-- icon -->
+                                <i class="fas fa-user fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info "> <!-- text -->
+                                <div class="section-item-details">
+                                    <p>Senior Lecturer in the Department of Computer Science.</p>
+                                </div>             
                             </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>Natural Language Processing, Algorithms</li>
-                                </ul>
-                                
+                        </div>         
+                    </div>
+                    <!-- MOBILE NUMBER -->
+                    <div class="col-xs-12 mobile sidebar-item">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4>355-4263</h4> <!-- Number -->             
+                                        <span>mobile</span> 
+                                    </div>
+                                    <div class="work">
+                                        <h4>355-4263</h4> <!-- Number -->
+                                        <span>work</span> 
+                                    </div>
+                                </div>
                             </div>
+                        </div>             
+                    </div>
+                    <!--  EMAIL -->
+                    <div class="col-xs-12 email sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4><a href="mailto:malemag@mopipi.ub.bw">malemag@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>personal</span> 
+                                    </div>
+                                    <div class="work">                                 
+                                        <h4><a href="mailto:malemag@mopipi.ub.bw">malemag@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>work</span> <br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>          
+                    </div>
+                    <!-- ADDRESS  -->
+                    <div class="col-xs-12 address sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3  s12 icon">
+                                <i class="far fa-building fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- address  -->
+                                        <h4>Block 232, Office 223</h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                    <!-- Linkedin -->
+                    <div class="col-xs-12 sidebar-item">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- linkedIn  -->
+                                        <h4><a href="">Linkedin Acc</a><br><span>Linkedin</span><br></h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+                </aside><!-- end sidebar -->
 
-                    <!-- Staff PUBLICATIONS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Publications</h3>
+
+
+                <section class="col-sm-8 col-sm-offset-1 profile-content">
+                    <div class="row">
+                        <!-- ========================================= QUALIFICATIONS ==========================================  -->
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-graduation-cap fa-3x"></i>
                             </div>
-                            <div class='card-text'>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Qualifications</h2>
+
                                 
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>B.S Computer Engineering.</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>M.S Computer Science and Engineering.</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>PhD Computer Engineering.</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
+                                   
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Publications ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Publications</h2>
+
+                                
+                                
+                                <a class="pull-right" href="#">Read More</a>
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Research and Teaching Areas ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Research &amp; Teaching Areas</h2>
+
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Computer Architecture, Programming and Algorithms</h5>
+                                </div>
+                                
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Natural Language Processing, Algorithms</h5>
+                                </div>
+                                 
+
+                            </div>                       
+                        </div>
+
+
+                        <!-- ======================================= Social media or other websites ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="row">
+                                <div class="col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+                                    </span>
+                                </div>
+                                <div class="col col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-
-            </div>
-
-        </div>
+                    </div><!-- end row -->
+                </section><!-- end section -->
+            </div> <!-- end row -->
+        </div>  <!-- end container -->
 
         <div id="footerwrap">
     <div class="container">
@@ -283,13 +404,13 @@
                 <div class="hline-w"></div>
                 <p>
                     
-                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fab fa-facebook fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-youtube fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-google-plus"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-google-plus fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-linkedin"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-linkedin fa-2x"></i></a>
                     
                 </p>
                 <p>

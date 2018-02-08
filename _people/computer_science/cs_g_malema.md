@@ -8,14 +8,17 @@ department: Computer Science
 title: Computer Science - Staff
 position: Senior Lecturer
 subtitle: G. Malema
-qualification: B.S Computer Engineering, M.S Computer Science and Engineering, PhD Computer Engineering 
+qualifications:
+    - B.S Computer Engineering.
+    - M.S Computer Science and Engineering.
+    - PhD Computer Engineering.
 office: Block 232, Office 223 
 email: malemag@mopipi.ub.bw
 phone: 355-4263
 img: csteam_gma.png
 bio: Senior Lecturer in the Department of Computer Science.
 
-areas: "Computer Architecture, Programming and Algorithms "
+areas: Computer Architecture, Programming and Algorithms
 
 research: Natural Language Processing, Algorithms
 
@@ -38,7 +41,8 @@ professional:
     - "Member of the Reviewers Board of Information Security South Africa - ISSA. Reviewed papers for the years 2005-Present."
 
 
-community: 
+community:
+
 projects: "We have a team that is working on developing basic NLP tools for Setswana Language. Ongoing projects include Setswana verb and noun analyzer and generator, Setswana Spell Checker and rule based Setswana Part of Speech Tagger"
 
 ---

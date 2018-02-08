@@ -8,7 +8,9 @@ department: Computer Science
 title: Computer Science - Staff
 position: Senior Lecturer
 subtitle: S. Asare
-qualification: BSc, MSc (Oslo) 
+qualifications:
+    - BSc, University of Oslo.
+    - MSc, (Oslo).
 office: Block 232, Office 218 
 email: asared@mopipi.ub.bw
 phone: 355-2868

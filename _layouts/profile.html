@@ -3,100 +3,210 @@
 
     {% include head.html %}
 
+    <head>
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href={{ "/assets/css/style.layout.profile.css" | prepend: site.baseurl }}>
+    </head>
+
     <body>
         {% include nav.html %}
         {% include header.html %}
         {% include profile-wrap.html %}
 
 
-        <div class="container mtb">
-
-            <div class="profile-header-block">
-                <div class="row">
-
-                    
-                    <div class="col-sm-3">
-                        {% include departments/profile-img-links.html %}
-                        <h4 id="profile-name">{{page.name}}</h4>
+        <!-- Start Container-->
+        <div class="container borderless-mtb">
+            <!-- row -->
+            <div class="row">
+                <!-- ========================================= SIDEBAR    ==========================================-->
+                <!-- Start Sidebar -->
+                <aside class="col-sm-3 sidebar profile-section" id="sidebar">             
+                    <!--  top section   -->
+                    <div class="heading">                            
+                        <!-- ==================== IMAGE    ==========================-->
+                        <div class="feature-img">
+                            {% include departments/profile-img-links.html %}
+                        </div>                            
+                        <!-- ======================================== NAME AND TAGLINE ==========================================-->						
+                        <div class="title col-sm-12 center wow fadeIn animated">
+                            <h3 id="profile-name">{{page.name}}</h3>
+                            <span>{{page.position}}</span>  <!-- tagline -->
+                        </div>
                     </div>
-                    <div class="col-sm-9">
-                        <h4>BIO</h4>
-                        <p>{{ page.bio }}</p>
-                        <p><strong>{{ page.qualification }}</strong></p>
-                        <h4>CONTACT ME</h4>
-                        <h5>E-Mail: {{page.email}}</h5>
-                        <h5>Phone: {{page.phone}}</h5>
-                        <h5>Office: {{page.office}}</h5>
-                    </div>
-                </div>
-            </div>
+                    <!-- sidebar info -->
 
-
-
-            <div class="profile-proj-res-pub">
-
-                <div class="row">
-
-
-
-                    <!-- Staff PROJECTS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Areas &amp; Projects</h3>
+                    <div class="col-xs-12 bio sidebar-item">
+                        <div class="row">                               
+                            <div class="col-sm-12 col-lg-3 icon"> <!-- icon -->
+                                <i class="fas fa-user fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info "> <!-- text -->
+                                <div class="section-item-details">
+                                    <p>{{ page.bio }}</p>
+                                </div>             
                             </div>
-                            <div class='card-text'>
+                        </div>         
+                    </div>
+                    <!-- MOBILE NUMBER -->
+                    <div class="col-xs-12 mobile sidebar-item">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4>{{page.phone}}</h4> <!-- Number -->             
+                                        <span>mobile</span> 
+                                    </div>
+                                    <div class="work">
+                                        <h4>{{page.phone}}</h4> <!-- Number -->
+                                        <span>work</span> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>             
+                    </div>
+                    <!--  EMAIL -->
+                    <div class="col-xs-12 email sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4><a href="mailto:{{page.email}}">{{page.email}}</a></h4> <!-- Email -->
+                                        <span>personal</span> 
+                                    </div>
+                                    <div class="work">                                 
+                                        <h4><a href="mailto:{{page.email}}">{{page.email}}</a></h4> <!-- Email -->
+                                        <span>work</span> <br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>          
+                    </div>
+                    <!-- ADDRESS  -->
+                    <div class="col-xs-12 address sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3  s12 icon">
+                                <i class="far fa-building fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- address  -->
+                                        <h4>{{page.office}}</h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                    <!-- Linkedin -->
+                    <div class="col-xs-12 sidebar-item">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- linkedIn  -->
+                                        <h4><a href="">Linkedin Acc</a><br><span>Linkedin</span><br></h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </aside><!-- end sidebar -->
+
+
+
+                <section class="col-sm-8 col-sm-offset-1 profile-content">
+                    <div class="row">
+                        <!-- ========================================= QUALIFICATIONS ==========================================  -->
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-graduation-cap fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Qualifications</h2>
+
+                                {% for qualification in page.qualifications %}
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>{{ qualification }}</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
+                                {% endfor %}   
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Publications ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Publications</h2>
+
+                                {% for publication in page.publications limit:5 %}
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>{{ publication }}</h5>
+                                </div>
+                                {% endfor %}
+                                
+                                <a class="pull-right" href="#">Read More</a>
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Research and Teaching Areas ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Research &amp; Teaching Areas</h2>
+
                                 {% for area in page.areas %}
-                                <ul>
-                                    <li>{{area}}</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>{{ area }}</h5>
+                                </div>
                                 {% endfor %}
-                                {% for project in page.projects %}
-                                <ul>
-                                    <li>{{project}}</li>
-                                </ul>
-                                {% endfor %}
+                                {% for research in page.research %}
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>{{ research }}</h5>
+                                </div>
+                                {% endfor %} 
+
+                            </div>                       
+                        </div>
+
+
+                        <!-- ======================================= Social media or other websites ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="row">
+                                <div class="col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+                                    </span>
+                                </div>
+                                <div class="col col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Staff RESEARCH -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Research</h3>
-                            </div>
-                            <div class='card-text'>
-                                {% for res in page.research %}
-                                <ul>
-                                    <li>{{res}}</li>
-                                </ul>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Staff PUBLICATIONS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Publications</h3>
-                            </div>
-                            <div class='card-text'>
-                                {% for pub in page.publications %}
-                                <ul>
-                                    <li>{{pub}}</li>
-                                </ul>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
+                    </div><!-- end row -->
+                </section><!-- end section -->
+            </div> <!-- end row -->
+        </div>  <!-- end container -->
 
         {% include footer.html %}
 

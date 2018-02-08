@@ -8,7 +8,9 @@ department: Faculty of Science
 title: Faculty of Science - Staff
 position: Faculty Administrator
 subtitle: L. M. Paledi
-qualifications: BA, MPA (UB)
+qualifications:
+    - BA, Universiity of Botswana.
+    - MPA, University of Botswana.
 office: Block DNP, Office DNP
 email: paledi@mopipi.ub.bw
 phone: 355-2460 | 355-2475

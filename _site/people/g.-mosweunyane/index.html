@@ -18,7 +18,7 @@
     <link rel="stylesheet" href=/ub_fos/assets/css/bootstrap.css>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href=/ub_fos/assets/css/font-awesome.css>
+    <link rel="stylesheet" href=/ub_fos/assets/css/fa-svg-with-js.css>
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href=/ub_fos/assets/css/animate.css>
@@ -44,8 +44,16 @@
 
     <!-- Bootstrap JS -->
     <script src=/ub_fos/assets/js/bootstrap.min.js></script>
+    
+    <!-- Font-Awesome JS -->
+    <script src=/ub_fos/assets/js/fontawesome-all.js></script>
 </head>
 
+
+    <head>
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href=/ub_fos/assets/css/style.layout.profile.css>
+    </head>
 
     <body>
         <!-- Fixed navbar -->
@@ -142,17 +150,17 @@
                     <div class="row" id="social-row">
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-facebook-square fa-3x"></i>
+                                <a target="_blank" href="https://www.facebook.com/ubfos/"><i class="fab fa-facebook-square fa-3x"></i></a>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-linkedin-square fa-3x"></i>
+                                <i class="fab fa-twitter fa-3x"></i>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-google-plus-square fa-3x"></i>
+                                <i class="fab fa-google-plus-square fa-3x"></i>
                             </div>
                         </div>
                     </div>
@@ -171,124 +179,222 @@
 </div><!-- /headerwrap -->
 
         <div id="wrap">
-    <div class="row">
-        <div class="col-lg-12">
-            <h3><a href="/ub_fos/cs/cs-staff.html">G. Mosweunyane</a>&nbsp;-&nbsp;</h3>
-        </div>
-    </div><!-- /row -->
+    <div class="col-lg-12">
+        <h3><a href="/ub_fos/cs/cs-staff.html">G. Mosweunyane</a>&nbsp;-&nbsp;</h3>
+    </div>
 </div><!-- /blue -->
 
 
-        <div class="container mtb">
-
-            <div class="profile-header-block">
-                <div class="row">
-
-                    
-                    <div class="col-sm-3">
-                        
+        <!-- Start Container-->
+        <div class="container borderless-mtb">
+            <!-- row -->
+            <div class="row">
+                <!-- ========================================= SIDEBAR    ==========================================-->
+                <!-- Start Sidebar -->
+                <aside class="col-sm-3 sidebar profile-section" id="sidebar">             
+                    <!--  top section   -->
+                    <div class="heading">                            
+                        <!-- ==================== IMAGE    ==========================-->
+                        <div class="feature-img">
+                            
     <img class="img-responsive" src="/ub_fos/cs/img/staff/csteam_gm.png" alt=index.html>
 
 
 
 
 
-                        <h4 id="profile-name">index.html</h4>
-                    </div>
-                    <div class="col-sm-9">
-                        <h4>BIO</h4>
-                        <p>Gontlafetse Mosweunyane is a lecturer in the Department of Computer Science, University of Botswana. She obtained her BSC (Computer Science) from the University of Botswana in 1999, MSc (Computing Science) from UMIST in 2001, and a PhD from the University of Southampton in 2010. </p>
-                        <p><strong>BSc (University of Botswana), Msc (UMIST),PhD (University of Southampton.)</strong></p>
-                        <h4>CONTACT ME</h4>
-                        <h5>E-Mail: mosweuny@mopipi.ub.bw</h5>
-                        <h5>Phone: 355-2133</h5>
-                        <h5>Office: Block 232, Office 224</h5>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="profile-proj-res-pub">
-
-                <div class="row">
-
-
-
-                    <!-- Staff PROJECTS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Areas &amp; Projects</h3>
-                            </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>She lecturers in Database Systems, Information Retrieval, Software Engineering and knowledge management systems to both undergraduate and graduate students. </li>
-                                </ul>
-                                
-                                
-                            </div>
+                        </div>                            
+                        <!-- ======================================== NAME AND TAGLINE ==========================================-->						
+                        <div class="title col-sm-12 center wow fadeIn animated">
+                            <h3 id="profile-name">index.html</h3>
+                            <span>Lecturer</span>  <!-- tagline -->
                         </div>
                     </div>
+                    <!-- sidebar info -->
 
-                    <!-- Staff RESEARCH -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Research</h3>
+                    <div class="col-xs-12 bio sidebar-item">
+                        <div class="row">                               
+                            <div class="col-sm-12 col-lg-3 icon"> <!-- icon -->
+                                <i class="fas fa-user fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info "> <!-- text -->
+                                <div class="section-item-details">
+                                    <p>Gontlafetse Mosweunyane is a lecturer in the Department of Computer Science, University of Botswana. She obtained her BSC (Computer Science) from the University of Botswana in 1999, MSc (Computing Science) from UMIST in 2001, and a PhD from the University of Southampton in 2010. </p>
+                                </div>             
                             </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology.</li>
-                                </ul>
-                                
+                        </div>         
+                    </div>
+                    <!-- MOBILE NUMBER -->
+                    <div class="col-xs-12 mobile sidebar-item">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4>355-2133</h4> <!-- Number -->             
+                                        <span>mobile</span> 
+                                    </div>
+                                    <div class="work">
+                                        <h4>355-2133</h4> <!-- Number -->
+                                        <span>work</span> 
+                                    </div>
+                                </div>
                             </div>
+                        </div>             
+                    </div>
+                    <!--  EMAIL -->
+                    <div class="col-xs-12 email sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4><a href="mailto:mosweuny@mopipi.ub.bw">mosweuny@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>personal</span> 
+                                    </div>
+                                    <div class="work">                                 
+                                        <h4><a href="mailto:mosweuny@mopipi.ub.bw">mosweuny@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>work</span> <br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>          
+                    </div>
+                    <!-- ADDRESS  -->
+                    <div class="col-xs-12 address sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3  s12 icon">
+                                <i class="far fa-building fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- address  -->
+                                        <h4>Block 232, Office 224</h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                    <!-- Linkedin -->
+                    <div class="col-xs-12 sidebar-item">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- linkedIn  -->
+                                        <h4><a href="">Linkedin Acc</a><br><span>Linkedin</span><br></h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+                </aside><!-- end sidebar -->
 
-                    <!-- Staff PUBLICATIONS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Publications</h3>
+
+
+                <section class="col-sm-8 col-sm-offset-1 profile-content">
+                    <div class="row">
+                        <!-- ========================================= QUALIFICATIONS ==========================================  -->
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-graduation-cap fa-3x"></i>
                             </div>
-                            <div class='card-text'>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Qualifications</h2>
+
+                                   
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Publications ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Publications</h2>
+
                                 
-                                <ul>
-                                    <li>Eyitayo A. O., Mokotedi P. A., Mosweunyane G. & Eyitayo O. T. (2000), 'The WEB as a Teaching and Courses Evaluation Tool'. SACLA 2000 Conference Proceedings, 29-30 June 2000, Strand Beach Hotel, Cape Town, South Africa, pp. 84-91.</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Eyitayo A. O., Mokotedi P. A., Mosweunyane G. & Eyitayo O. T. (2000), 'The WEB as a Teaching and Courses Evaluation Tool'. SACLA 2000 Conference Proceedings, 29-30 June 2000, Strand Beach Hotel, Cape Town, South Africa, pp. 84-91.</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>Eyitayo A. O., Mokotedi P. A., Mosweunyane G. & Eyitayo O. T. (2001), 'WEBSECAT: A Low-Overhead Internet-Based Teaching  and Course Evaluation System'. Botswana Journal of Technology, Vol. 10, No. 2, pp. 8-15. </li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Eyitayo A. O., Mokotedi P. A., Mosweunyane G. & Eyitayo O. T. (2001), 'WEBSECAT: A Low-Overhead Internet-Based Teaching  and Course Evaluation System'. Botswana Journal of Technology, Vol. 10, No. 2, pp. 8-15. </h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>T. Zuva, G. Mosweunyane and K.G. Dibetso (2005), ‘Using VLANS to Revolutionalize the Organizational Structure’. SACLA Conference 2005, 3-6 July, Kasane, Botswana, pp. 96-101. </li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>T. Zuva, G. Mosweunyane and K.G. Dibetso (2005), ‘Using VLANS to Revolutionalize the Organizational Structure’. SACLA Conference 2005, 3-6 July, Kasane, Botswana, pp. 96-101. </h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>Mosweunyane, Gontlafetse and Carr, Leslie (2008), 'Organizing and Integrating Knowledge on the Desktop with Repositories' (Poster).  In: Third International Conference on Open Repositories 2008, 1-4 April 2008, Southampton, United Kingdom.</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Mosweunyane, Gontlafetse and Carr, Leslie (2008), 'Organizing and Integrating Knowledge on the Desktop with Repositories' (Poster).  In: Third International Conference on Open Repositories 2008, 1-4 April 2008, Southampton, United Kingdom.</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>Masizana-Katongo, A.N, Anderson G., Mpoeleng, D., Taukobong, T., Mosweunyane, G., Eyitayo,O.T, Gopolang, B (2010). An SMS-based healthcare information storage and retrieval system. Proceedings of Third IASTED African Conference Modelling and Simulation (AfricaMS 2010) September 6-8, 2010, Gaborone Botswana, pp 217-222.</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Masizana-Katongo, A.N, Anderson G., Mpoeleng, D., Taukobong, T., Mosweunyane, G., Eyitayo,O.T, Gopolang, B (2010). An SMS-based healthcare information storage and retrieval system. Proceedings of Third IASTED African Conference Modelling and Simulation (AfricaMS 2010) September 6-8, 2010, Gaborone Botswana, pp 217-222.</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>Gontlafetse Mosweunyane, Leslie Carr, Nicholas Gibbins (2011). A Tag-Like, Linked Navigation Approach for Retrieval and Discovery of Desktop Documents.  DICTAP (2) '2011. pp.692-706 .  September 2015, pp. 304  </li>
-                                </ul>
                                 
+                                <a class="pull-right" href="#">Read More</a>
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Research and Teaching Areas ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Research &amp; Teaching Areas</h2>
+
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>She lecturers in Database Systems, Information Retrieval, Software Engineering and knowledge management systems to both undergraduate and graduate students. </h5>
+                                </div>
+                                
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology.</h5>
+                                </div>
+                                 
+
+                            </div>                       
+                        </div>
+
+
+                        <!-- ======================================= Social media or other websites ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="row">
+                                <div class="col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+                                    </span>
+                                </div>
+                                <div class="col col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-
-            </div>
-
-        </div>
+                    </div><!-- end row -->
+                </section><!-- end section -->
+            </div> <!-- end row -->
+        </div>  <!-- end container -->
 
         <div id="footerwrap">
     <div class="container">
@@ -303,13 +409,13 @@
                 <div class="hline-w"></div>
                 <p>
                     
-                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fab fa-facebook fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-youtube fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-google-plus"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-google-plus fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-linkedin"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-linkedin fa-2x"></i></a>
                     
                 </p>
                 <p>

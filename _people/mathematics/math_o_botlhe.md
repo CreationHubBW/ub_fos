@@ -8,7 +8,10 @@ department: Mathematics
 title: Mathematics - Staff
 position: Lecturer
 subtitle: O. Basimanebotlhe
-qualification: BSc (Mathematics), University of Botswana, 2005. MSc (Stochastic Processes & Mathematical Statistics), University of Botswana, 2007. PGDE , University of Botswana, 2009. PhD (Mathematics), Harbin Institute of Technology, China, 2015
+qualifications:
+    - BSc (Mathematics), University of Botswana, 2005.
+    - MSc (Stochastic Processes & Mathematical Statistics), University of Botswana, 2007.
+    - PGDE , University of Botswana, 2009. PhD (Mathematics), Harbin Institute of Technology, China, 2015
 office: Block 208, Office 210
 email: othusitse.basimanebotlhe@mopipi.ub.bw
 phone: 355-2125

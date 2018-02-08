@@ -8,7 +8,14 @@ department: Computer Science
 title: Computer Science - Staff
 position: Full Professor
 subtitle: L. Narasimhan
-qualification: B.Sc., B.E., M.E., Ph.D., GCM, CELD, P.E
+qualifications:
+    - B.Sc.,
+    - B.E.,
+    - M.E.,
+    - Ph.D.,
+    - GCM,
+    - CELD,
+    - P.E
 office: Block 232, Office XXX
 email: XXXX@mopipi.ub.bw
 phone: 355-XXXX
@@ -48,7 +55,8 @@ research:
 
 
 
-publications: ""
+publications:
+
 
 professional: 
 - "Conference Chair for the International Conference on Advances in Computing, Communication and Information Science (ACCIS-14), Cochin,India, 26-28, June 2014."

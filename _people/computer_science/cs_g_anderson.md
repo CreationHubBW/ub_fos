@@ -8,7 +8,10 @@ department: Computer Science
 title: Computer Science - Staff
 position: Senior Lecturer
 subtitle: G. Anderson
-qualification: Bsc (UB, Botswana), MS (Colorado State University, USA), PhD (University of Johannesburg, South Africa) 
+qualifications:
+    - Bsc (UB, Botswana),
+    - MS (Colorado State University, USA),
+    - PhD (University of Johannesburg, South Africa) 
 office: Block 247, Office 279 
 email: andersong@mopipi.ub.bw
 phone: 355-2133

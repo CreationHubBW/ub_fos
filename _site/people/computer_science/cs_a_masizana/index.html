@@ -18,7 +18,7 @@
     <link rel="stylesheet" href=/ub_fos/assets/css/bootstrap.css>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href=/ub_fos/assets/css/font-awesome.css>
+    <link rel="stylesheet" href=/ub_fos/assets/css/fa-svg-with-js.css>
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href=/ub_fos/assets/css/animate.css>
@@ -44,8 +44,16 @@
 
     <!-- Bootstrap JS -->
     <script src=/ub_fos/assets/js/bootstrap.min.js></script>
+    
+    <!-- Font-Awesome JS -->
+    <script src=/ub_fos/assets/js/fontawesome-all.js></script>
 </head>
 
+
+    <head>
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href=/ub_fos/assets/css/style.layout.profile.css>
+    </head>
 
     <body>
         <!-- Fixed navbar -->
@@ -142,17 +150,17 @@
                     <div class="row" id="social-row">
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-facebook-square fa-3x"></i>
+                                <a target="_blank" href="https://www.facebook.com/ubfos/"><i class="fab fa-facebook-square fa-3x"></i></a>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-linkedin-square fa-3x"></i>
+                                <i class="fab fa-twitter fa-3x"></i>
                             </div>
                         </div>
                         <div class="col-xs-4">
                             <div class="social">
-                                <i class="fa fa-google-plus-square fa-3x"></i>
+                                <i class="fab fa-google-plus-square fa-3x"></i>
                             </div>
                         </div>
                     </div>
@@ -171,136 +179,237 @@
 </div><!-- /headerwrap -->
 
         <div id="wrap">
-    <div class="row">
-        <div class="col-lg-12">
-            <h3><a href="/ub_fos/cs/cs-staff.html">Computer Science - Staff</a>&nbsp;-&nbsp;A.N Masizana</h3>
-        </div>
-    </div><!-- /row -->
+    <div class="col-lg-12">
+        <h3><a href="/ub_fos/cs/cs-staff.html">Computer Science - Staff</a>&nbsp;-&nbsp;A.N Masizana</h3>
+    </div>
 </div><!-- /blue -->
 
 
-        <div class="container mtb">
-
-            <div class="profile-header-block">
-                <div class="row">
-
-                    
-                    <div class="col-sm-3">
-                        
+        <!-- Start Container-->
+        <div class="container borderless-mtb">
+            <!-- row -->
+            <div class="row">
+                <!-- ========================================= SIDEBAR    ==========================================-->
+                <!-- Start Sidebar -->
+                <aside class="col-sm-3 sidebar profile-section" id="sidebar">             
+                    <!--  top section   -->
+                    <div class="heading">                            
+                        <!-- ==================== IMAGE    ==========================-->
+                        <div class="feature-img">
+                            
     <img class="img-responsive" src="/ub_fos/cs/img/staff/csteam_am.png" alt=Dr. Audrey N. Masizana>
 
 
 
 
 
-                        <h4 id="profile-name">Dr. Audrey N. Masizana</h4>
-                    </div>
-                    <div class="col-sm-9">
-                        <h4>BIO</h4>
-                        <p>Dr Audrey Naledi Masizana is a Senior Lecturer and Head of Department of Computer Science. She holds BSc Mathematics Modelling and Computing, DCP (Post Graduate Diploma in Advanced Computing, 1996) and MSc in Computer Science (1997) both from Oxford Brookes University and PhD in Computer Science from UMIST from UK. She has played a great role in the growth of the computer science department. Prior to being head she had a role of Departmental Consultancy Coordinator, liaising the department with other academies such as CISCO, Oracle, Industrial Attachment Coordinator, Advisory Board Chair, a member of Curriculum Development Committee (2007– 2010) where she played a major role in the re-alignment of the department’s curriculum. She has published in several international journals and presented at high reputable conferences such as IASTED, IADIS, ICT4D, IAENG and CIRN platforms. She provides service in international and national committees on behalf of the university. This includes organizing and chairing conferences such as the African International Association of Science and Technology for Development (IASTED) in 2014 and 2016, ICICIS Cyber-security Conference 2016, She is the founding chair of Computer Society of Botswana (2010), re-elected in 2015 and continues to passionately drive its mandate.</p>
-                        <p><strong>BSc (Kingston Uni), DCP, Msc (Oxford Brookes Uni), PhD, UMIST(Uni of Manchester Institute of Science and Tech.)</strong></p>
-                        <h4>CONTACT ME</h4>
-                        <h5>E-Mail: masizana@mopipi.ub.bw</h5>
-                        <h5>Phone: 355-2131</h5>
-                        <h5>Office: Block 232, Office 227</h5>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="profile-proj-res-pub">
-
-                <div class="row">
-
-
-
-                    <!-- Staff PROJECTS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Areas &amp; Projects</h3>
-                            </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>Dr Audrey Masizana has great experience and interest in the following teaching areas; Decision and Intelligent Support Systems, Expert Systems. She is recently focusing teaching on Business Intelligence of Data ware housing and Data Mining.</li>
-                                </ul>
-                                
-                                
-                            </div>
+                        </div>                            
+                        <!-- ======================================== NAME AND TAGLINE ==========================================-->						
+                        <div class="title col-sm-12 center wow fadeIn animated">
+                            <h3 id="profile-name">Dr. Audrey N. Masizana</h3>
+                            <span>Head of Department</span>  <!-- tagline -->
                         </div>
                     </div>
+                    <!-- sidebar info -->
 
-                    <!-- Staff RESEARCH -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Research</h3>
+                    <div class="col-xs-12 bio sidebar-item">
+                        <div class="row">                               
+                            <div class="col-sm-12 col-lg-3 icon"> <!-- icon -->
+                                <i class="fas fa-user fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info "> <!-- text -->
+                                <div class="section-item-details">
+                                    <p>Dr Audrey Naledi Masizana is a Senior Lecturer and Head of Department of Computer Science. She holds BSc Mathematics Modelling and Computing, DCP (Post Graduate Diploma in Advanced Computing, 1996) and MSc in Computer Science (1997) both from Oxford Brookes University and PhD in Computer Science from UMIST from UK. She has played a great role in the growth of the computer science department. Prior to being head she had a role of Departmental Consultancy Coordinator, liaising the department with other academies such as CISCO, Oracle, Industrial Attachment Coordinator, Advisory Board Chair, a member of Curriculum Development Committee (2007– 2010) where she played a major role in the re-alignment of the department’s curriculum. She has published in several international journals and presented at high reputable conferences such as IASTED, IADIS, ICT4D, IAENG and CIRN platforms. She provides service in international and national committees on behalf of the university. This includes organizing and chairing conferences such as the African International Association of Science and Technology for Development (IASTED) in 2014 and 2016, ICICIS Cyber-security Conference 2016, She is the founding chair of Computer Society of Botswana (2010), re-elected in 2015 and continues to passionately drive its mandate.</p>
+                                </div>             
                             </div>
-                            <div class='card-text'>
-                                
-                                <ul>
-                                    <li>She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology.</li>
-                                </ul>
-                                
+                        </div>         
+                    </div>
+                    <!-- MOBILE NUMBER -->
+                    <div class="col-xs-12 mobile sidebar-item">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4>355-2131</h4> <!-- Number -->             
+                                        <span>mobile</span> 
+                                    </div>
+                                    <div class="work">
+                                        <h4>355-2131</h4> <!-- Number -->
+                                        <span>work</span> 
+                                    </div>
+                                </div>
                             </div>
+                        </div>             
+                    </div>
+                    <!--  EMAIL -->
+                    <div class="col-xs-12 email sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info">
+                                <div class="section-item-details">
+                                    <div class="personal">
+                                        <h4><a href="mailto:masizana@mopipi.ub.bw">masizana@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>personal</span> 
+                                    </div>
+                                    <div class="work">                                 
+                                        <h4><a href="mailto:masizana@mopipi.ub.bw">masizana@mopipi.ub.bw</a></h4> <!-- Email -->
+                                        <span>work</span> <br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>          
+                    </div>
+                    <!-- ADDRESS  -->
+                    <div class="col-xs-12 address sidebar-item ">
+                        <div class="row">                                
+                            <div class="col-sm-12 col-lg-3  s12 icon">
+                                <i class="far fa-building fa-2x"></i>
+                            </div>                                
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- address  -->
+                                        <h4>Block 232, Office 227</h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                    <!-- Linkedin -->
+                    <div class="col-xs-12 sidebar-item">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-3 icon">
+                                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-sm-12 col-lg-9 info a4">
+                                <div class="section-item-details">
+                                    <div class="address-details"> <!-- linkedIn  -->
+                                        <h4><a href="">Linkedin Acc</a><br><span>Linkedin</span><br></h4> 
+                                    </div>                         
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+                </aside><!-- end sidebar -->
 
-                    <!-- Staff PUBLICATIONS -->
-                    <div class="card col-md-4">
-                        <div class='card-body'>
-                            <div class='card-title'>
-                                <h3>Publications</h3>
+
+
+                <section class="col-sm-8 col-sm-offset-1 profile-content">
+                    <div class="row">
+                        <!-- ========================================= QUALIFICATIONS ==========================================  -->
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-graduation-cap fa-3x"></i>
                             </div>
-                            <div class='card-text'>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Qualifications</h2>
+
                                 
-                                <ul>
-                                    <li>{"George Anderson, Audrey Masizana, Dimane Mpoeleng, Working with Data"=>"Important Cleaning Procedures, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), Vol. 6 No. 10, October 2016 pp. 35-42."}</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>BSc (Kingston Uni).</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
                                 
-                                <ul>
-                                    <li>George Anderson, Audrey Masizana, Dimane Mpoeleng, Optimal Resource Planning Based on Data Matching Performance and Monetary Cost, International Journal of Advanced Research in Computer Science and Software Engineering Volume 5- Issue 12, December 2015, Edition - ISSN 2277-129X page 65-70</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>DCP, Msc (Oxford Brookes Uni).</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
                                 
-                                <ul>
-                                    <li>Audrey Masizana, Gobusamang Oscar, Harriet Okatch, Barbara N. Ngwenya, Keitseng N. Monyatsi, Mbaki Muzila, Kerstin Andrae-Marobela, A Data Mining Process In An Indigenous Knowledge Ethno Medicinal Database, International Journal of Scientific & Technology ResearchVolume 3- Issue 3, March 2014, Edition - ISSN 2277-8616 page 113-121</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>PhD, UMIST(Uni of Manchester Institute of Science and Tech.)</h5>
+                                    <span>JAN 2016 - </span>
+                                </div>
+                                   
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Publications ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Publications</h2>
+
                                 
-                                <ul>
-                                    <li>George Anderson, Audrey Masizana, Dimane Mpoeleng, An Exact and Inexact Data Matching Approach for Saving Time and Preventing Errors in Processing of Student Exam Results at the University of Botswana , International Journal on Information Technology (IREIT), May 2013 (Vol. 1 N. 3)</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>{"George Anderson, Audrey Masizana, Dimane Mpoeleng, Working with Data"=>"Important Cleaning Procedures, International Journal of Advanced Research in Computer Science and Software Engineering (IJARCSSE), Vol. 6 No. 10, October 2016 pp. 35-42."}</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>George Anderson, Audrey N. Masizana-Katongo & Dimane Mpoeleng (2013) Understanding the Potential of Data Mining in Botswana, African  Journal of  Computing & ICTs. Vol 6, No. 1. pp 33-42.</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>George Anderson, Audrey Masizana, Dimane Mpoeleng, Optimal Resource Planning Based on Data Matching Performance and Monetary Cost, International Journal of Advanced Research in Computer Science and Software Engineering Volume 5- Issue 12, December 2015, Edition - ISSN 2277-129X page 65-70</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>Ngwenya B, Marobela Kirsten, Masizana-Katongo A.N, Okatch, Monyatsi K, Muzila Mbaki,  A globalized context of traditional healing practices in Botswana, Community views from Botswana, International Journal of Food, Nutrition and Public Health (IJFNPH), Vol. 5 No. 4, 2012, pp 307, 320.</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Audrey Masizana, Gobusamang Oscar, Harriet Okatch, Barbara N. Ngwenya, Keitseng N. Monyatsi, Mbaki Muzila, Kerstin Andrae-Marobela, A Data Mining Process In An Indigenous Knowledge Ethno Medicinal Database, International Journal of Scientific & Technology ResearchVolume 3- Issue 3, March 2014, Edition - ISSN 2277-8616 page 113-121</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>{"Marobela Kirsten, Masizana-Katongo A.N, Ngwenya B, Okatch, Monyatsi K, The dialectics of indigenous knowledge"=>"Community views from Botswana, Alternative - An International Journal of Indigenous Peoples, Vol8, July 2012, no2, pp 148:162."}</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>George Anderson, Audrey Masizana, Dimane Mpoeleng, An Exact and Inexact Data Matching Approach for Saving Time and Preventing Errors in Processing of Student Exam Results at the University of Botswana , International Journal on Information Technology (IREIT), May 2013 (Vol. 1 N. 3)</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>{"Audrey Masizana-Katongo, Torti Ama-Njoku, Example-Based Parsing Solution for a HIV and AIDS FAQ System, International Journal of Research and Reviews in Wireless Communications (IJRRWC), Vol. 1, No. 3, September 2011, ISSN"=>"2046-6447, pp 59 -65."}</li>
-                                </ul>
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>George Anderson, Audrey N. Masizana-Katongo & Dimane Mpoeleng (2013) Understanding the Potential of Data Mining in Botswana, African  Journal of  Computing & ICTs. Vol 6, No. 1. pp 33-42.</h5>
+                                </div>
                                 
-                                <ul>
-                                    <li>{"George Anderson,  A. Masizana-Katongo , A Mpoeleng, Towards an Automated Research Scientist at the University of Botswana, International Journal of Energy Systems, Computers and Control (IJESCC) \u00A9 International Science Press, Volume 2, No. 1, January-June 2011, pp. 1\u2013 10 ISSN"=>"0976-6782."}</li>
-                                </ul>
                                 
+                                <a class="pull-right" href="#">Read More</a>
+
+                            </div>                       
+                        </div>
+
+                        <!-- ======================================== Research and Teaching Areas ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="section-icon col-sm-12 col-lg-2 fadeIn animated">
+                                <i class="fa fa-book fa-3x"></i>
+                            </div>
+                            <div class="custom-content col-sm-12 col-lg-10 ">
+                                <h2>Research &amp; Teaching Areas</h2>
+
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>Dr Audrey Masizana has great experience and interest in the following teaching areas; Decision and Intelligent Support Systems, Expert Systems. She is recently focusing teaching on Business Intelligence of Data ware housing and Data Mining.</h5>
+                                </div>
+                                
+                                
+                                <div class="custom-content-wrapper fadeIn animated">
+                                    <h5>She is involved in a number of development research projects including, Health Care Research on development of HIV Aids Information portal sponsored by Microsoft in 2005, Digitizing Clinical Guidelines for Medical  Doctors, , Development of Medicinal Plant Database, Building Expert System for  Indigenous Knowledge Herbal medicine,  Decision Support Systems applied to  HIV and AIDS information together with several post graduate student projects aiming to provide solutions using datamining and warehousing technology.</h5>
+                                </div>
+                                 
+
+                            </div>                       
+                        </div>
+
+
+                        <!-- ======================================= Social media or other websites ==========================================  -->
+
+                        <div class="section-wrapper">
+                            <div class="row">
+                                <div class="col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-linkedin fa-4x"></i></a>
+                                    </span>
+                                </div>
+                                <div class="col col-sm-6 centered">
+                                    <span>
+                                        <a href="#"><i class="fab fa-facebook fa-4x"></i></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-
-            </div>
-
-        </div>
+                    </div><!-- end row -->
+                </section><!-- end section -->
+            </div> <!-- end row -->
+        </div>  <!-- end container -->
 
         <div id="footerwrap">
     <div class="container">
@@ -315,13 +424,13 @@
                 <div class="hline-w"></div>
                 <p>
                     
-                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/pages/University-of-Botswana/106350239395508" class="btn-social btn-outline"><i class="fab fa-facebook fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-youtube fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-google-plus"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-google-plus fa-2x"></i></a>
                     
-                        <a href="" class="btn-social btn-outline"><i class="fa fa-linkedin"></i></a>
+                        <a href="" class="btn-social btn-outline"><i class="fab fa-linkedin fa-2x"></i></a>
                     
                 </p>
                 <p>

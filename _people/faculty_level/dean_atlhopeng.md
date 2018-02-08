@@ -8,7 +8,10 @@ department: Faculty of Science
 title: Faculty of Science - Staff
 position: Faculty Dean
 subtitle: J. Atlhopeng
-qualifications: BSc (East Anglia, UK), MSc (London, Kings College, UK), PhD (Wollongong, Australia)
+qualifications:
+    - BSc (East Anglia, UK)
+    - MSc (London, Kings College, UK)
+    - PhD (Wollongong, Australia)
 office: Block DNP, Office DNP
 email: DNP@mopipi.ub.bw
 phone: 355-DNP

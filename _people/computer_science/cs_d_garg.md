@@ -8,7 +8,9 @@ department: Computer Science
 title: Computer Science - Staff
 position: Senior Lecturer
 subtitle: D. Garg
-qualification: BSc, MSc Computer Sicence (Banasthali Vidyapeeth, India)
+qualifications:
+    - BSc Computer Sicence, (Banasthali Vidyapeeth, India)
+    - MSc Computer Sicence, (Banasthali Vidyapeeth, India)
 office: Block 232, Office 244 
 email: deepti@mopipi.ub.bw
 phone: 355-2957
