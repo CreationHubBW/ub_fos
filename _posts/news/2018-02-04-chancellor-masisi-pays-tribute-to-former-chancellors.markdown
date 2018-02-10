@@ -7,6 +7,7 @@ categories:
 - news
 img: Graduation-2017.jpg@web.jpg
 thumb: thumb-Graduation-2017.jpg@web.jpg
+permalink: /news/Chancellor Masisi pays tribute to former chancellors
 ---
 
 The University of Botswana Chancellor who is also the Vice President of Botswana, Mr Mokgweetsi Masisi, has paid tribute to his predecessors, Sir Ketumile Masire and Dr Festus Mogae.<!--more-->

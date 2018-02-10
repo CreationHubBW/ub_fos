@@ -7,6 +7,7 @@ categories:
 - news
 img: UBBITRI@web2jpg-up.jpg
 thumb: thumb-UBBITRI@web2jpg-up.jpg
+permalink: /news/UB, BITRI commit to collaborative research
 ---
 
 The University of Botswana and Botswana Institute for Technology Research and Innovation (BITRI) have signed a five-year Memorandum of Understanding committing themselves to joint activities, among them collaborative research.<!--more-->

@@ -7,6 +7,7 @@ categories:
 - news
 img: Norris-Gauntlet@web-up.jpg
 thumb: thumb-Norris-Gauntlet@web-up.jpg
+permalink: /news/VC asks staff to turn challenges into opportunities
 ---
 
 The Vice Chancellor, Professor David Norris, has impressed upon the University of Botswana community the need to turn challenges into opportunities to enhance the image of the University as a premier institution of higher learning.<!--more-->

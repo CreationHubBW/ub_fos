@@ -7,6 +7,7 @@ categories:
 - news
 img: Norris-Staff@web.jpg
 thumb: thumb-Norris-Staff@web.jpg
+permalink: /news/Proliferation of education institutions great for UB
 ---
 
 The Vice Chancellor, Professor David Norris, says the proliferation of higher education institutions in the country must not be seen as a challenge to the University of Botswana but an opportunity to graduate from being a primarily undergraduate teaching university to a postgraduate teaching and research-intensive institution.<!--more-->

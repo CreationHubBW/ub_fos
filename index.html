@@ -270,7 +270,9 @@ tag: fos
                     </div>
                     <div class="panel-body">
                         {% for post in site.categories['documents'] limit:5 %}
-                        <p><a href="{{ "/assets/docs/" | prepend: site.baseurl | append: post.filename }}">{{ post.filename }}.</a></p>
+                        {% for file in post.filenames limit:5 %}
+                        <p><a href="{{ "/assets/docs/" | prepend: site.baseurl | append: file }}">{{ file }}</a></p>
+                        {% endfor %}
                         {% endfor %}
                     </div>  
                 </div>
